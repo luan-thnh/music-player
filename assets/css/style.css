@@ -82,8 +82,9 @@ body {
   width: 20%;
   height: 20%;
   border-radius: 50%;
-  box-shadow: var(--color-opacity) 0px 1px 4px, var(--color-opacity) 0px 0px 1px 2px;
-  background: #000;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(19, 13, 68, 0.4)), url("../img/background.jpg") center / cover;
+  box-shadow: var(--color-opacity) 0px 0px 0px, var(--color-opacity) 0px 0px 0px 2px;
+  /* background: rgba(0, 0, 0, 0.8); */
 }
 
 .cd-bgs {
