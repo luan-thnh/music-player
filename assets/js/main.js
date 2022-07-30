@@ -42,10 +42,10 @@ const app = {
       image: "./assets/img/di_ve_nha.jpg",
     },
     {
-      name: "Mơ Hồ",
-      singer: "DJChip x Nhism",
-      path: "./assets/audio/mo_ho.mp3",
-      image: "./assets/img/mo_ho.jpg",
+      name: "Ai Mang Cô Đơn Đi",
+      singer: "Huy Quần Hoa",
+      path: "./assets/audio/ai_mang_co_don_di.mp3",
+      image: "./assets/img/ai_mang_co_don_di.png",
     },
     {
       name: "At My Worst",

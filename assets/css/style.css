@@ -1,5 +1,5 @@
 :root {
-  --color-primary: #ff961e;
+  --color-primary: #e5810e;
   --color-shadow: rgba(0, 0, 0, 0.6);
   --color-opacity: rgba(195, 178, 253, 0.2);
   --value-thumb-bg: -38px;
@@ -51,7 +51,7 @@ body {
   max-width: 480px;
   border-radius: 35px;
   box-shadow: 1px 1px 5px var(--color-shadow);
-  background: linear-gradient(to bottom, rgba(5, 3, 22, 0.6), rgba(19, 13, 68, 0.8)), url("../img/background.jpg") center / cover;
+  /* background: linear-gradient(to bottom, rgba(5, 3, 22, 0.6), rgba(19, 13, 68, 0.8)), url("../img/background.jpg") center / cover; */
 }
 
 /* CD */
@@ -159,7 +159,7 @@ body {
 .btn-toggle-play {
   width: 64px;
   height: 64px;
-  background: var(--color-primary);
+  background: linear-gradient(-45deg, var(--color-primary), #faa441);
   border-bottom: 3px solid #cc6003;
   border-left: 3px solid #cc6003;
   font-size: 28px;
@@ -213,7 +213,7 @@ body {
 }
 
 .song.active {
-  background: linear-gradient(to top, rgba(5, 3, 22, 0.6), rgba(19, 13, 88, 0.6)), url("../img/background.jpg") center / cover;
+  background: linear-gradient(to bottom, rgba(5, 3, 22, 0.6), rgba(19, 13, 68, 0.8)), url("../img/background.jpg") center / cover;
   transform: translateY(-2px);
   box-shadow: 0 1px 3px var(--color-opacity);
 }
@@ -247,6 +247,14 @@ body {
 .song .body {
   flex: 1;
   padding: 0 16px;
+}
+
+.song .song-title,
+.song .song-author {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
 }
 
 .song .song-title {
