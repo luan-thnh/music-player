@@ -25,10 +25,17 @@ const app = {
   songs: [
     {
       name: "Độc Tộc 2",
-      singer: "Maseww x Phúc Du x Pháo x Độ Mixi",
+      singer: "Masew x Phúc Du x Pháo x Độ Mixi",
       path: "./assets/audio/do_toc_2.mp3",
       image: "./assets/img/do_toc_2.jpg",
     },
+    {
+      name: "Stream Đến Bao Giờ",
+      singer: "Độ Mixi",
+      path: "./assets/audio/stream_den_bao_gio.mp3",
+      image: "./assets/img/stream_den_bao_gio.jpg",
+    },
+    ,
     {
       name: "Độ Đúng Đời",
       singer: "Thiện Hưng x Độ Mixi",
@@ -45,7 +52,14 @@ const app = {
       name: "Ai Mang Cô Đơn Đi",
       singer: "Huy Quần Hoa",
       path: "./assets/audio/ai_mang_co_don_di.mp3",
-      image: "./assets/img/ai_mang_co_don_di.png",
+      image: "./assets/img/ai_mang_co_don_di.jpg",
+    },
+    ,
+    {
+      name: "Đâu Cần Một Bài Ca Tình Yêu",
+      singer: "Tiên Tiên x Trang",
+      path: "./assets/audio/dau_can_mot_ban_ca_tinh_yeu.mp3",
+      image: "./assets/img/dau_can_mot_ban_ca_tinh_yeu.jpg",
     },
     {
       name: "At My Worst",
@@ -63,13 +77,26 @@ const app = {
       name: "Rap Thập Cẩm",
       singer: "Tú Lee",
       path: "./assets/audio/rap_thap_cam.mp3",
-      image: "./assets/img/rap_thap_cam.png",
+      image: "./assets/img/rap_thap_cam.jpg",
+    },
+    {
+      name: "You Are The Reason",
+      singer: "Alexandra Porat",
+      path: "./assets/audio/you_are_the_reason.mp3",
+      image: "./assets/img/you_are_the_reason.jpg",
     },
     {
       name: "Mơ Hồ",
       singer: "DJChip x Nhism",
       path: "./assets/audio/mo_ho.mp3",
       image: "./assets/img/mo_ho.jpg",
+    },
+    ,
+    {
+      name: "Six Feet Under",
+      singer: "Billie Eilish",
+      path: "./assets/audio/six_feet_under.mp3",
+      image: "./assets/img/six_feet_under.jpg",
     },
   ],
 
@@ -285,7 +312,7 @@ const app = {
       newIndex = Math.floor(Math.random() * this.songs.length);
     } while (newIndex === this.currentIndex);
 
-    console.log(newIndex);
+    console.log(newIndex, this.currentIndex);
     this.currentIndex = newIndex;
     this.loadCurrentSong();
   },
@@ -298,8 +325,6 @@ const app = {
         block: "end",
         inline: "nearest",
       });
-
-      console.log($(".song.active"));
     }, 300);
   },
 
