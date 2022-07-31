@@ -455,7 +455,11 @@ const app = {
       }
 
       if (lyricsClickBtn) {
-        lyricsClick.children[3].offsetParent.classList.remove("active");
+        lyricsClick.lastElementChild.offsetParent.classList.remove("active");
+
+        songGroupClick.firstElementChild.lastElementChild.classList.remove(
+          "active"
+        );
       }
     };
   },
