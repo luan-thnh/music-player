@@ -155,7 +155,7 @@ const app = {
         <div class="lyrics" data-lyrics="${index}">
             <p class="lyrics-title">Lời Bài Hát</p>
             <h3 class="lyrics-name">${song.name}</h3>
-            <div class="lyrics-text">
+            <div class="lyrics-text noselect ">
             <p>${song.lyrics}</p>
             </div>
         </div>
