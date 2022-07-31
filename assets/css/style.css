@@ -23,7 +23,7 @@ body {
 }
 
 .player {
-  position: relative;
+  /* position: relative; */
   margin: auto;
   max-width: 480px;
   /* height: 1000px; */
@@ -45,7 +45,7 @@ body {
 .dashboard {
   padding: 24px;
   position: fixed;
-  z-index: 9999;
+  z-index: 1;
   top: 0px;
   width: 100%;
   max-width: 480px;
@@ -243,7 +243,7 @@ body {
   box-shadow: 0 1px 3px var(--color-opacity);
 }
 
-.song:hover,
+
 .song:active {
   opacity: 0.6;
 }
@@ -297,6 +297,55 @@ body {
   padding: 16px 8px;
   color: #999;
   font-size: 18px;
+}
+
+.lyrics {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 5%;
+  /* left: 0; */
+  padding: 16px;
+  width: 380px;
+  height: 90%;
+  border-radius: 25px;
+  background: rgba(19, 13, 88, 0.6);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 1px 3px var(--color-shadow);
+  overflow: hidden;
+}
+
+.lyrics.active {
+  display: block;
+}
+
+.lyrics .lyrics-title {
+  padding: 8px 0;
+  text-align: center;
+  color: var(--color-primary);
+  text-shadow: 1px 1px 3px var(--color-primary);
+  font-size: 14px;
+}
+
+.lyrics .lyrics-name {
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--color-primary);
+  text-align: center;
+  color: #eee;
+  font-size: 24px;
+}
+
+.lyrics .lyrics-text {
+  padding: 8px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.lyrics .lyrics-text p {
+  color: #eee;
+  font-size: 20px;
+  line-height: 1.6;
 }
 
 @keyframes ring {
