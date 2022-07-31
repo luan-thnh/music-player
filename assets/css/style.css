@@ -300,6 +300,13 @@ body {
   transition: all 0.5s linear;
 }
 
+/* .option:hover, */
+.song.active .option:hover,
+.option.active:hover {
+  opacity: 0.4;
+  transform: translateY(3px);
+}
+
 .song .thumb {
   width: 44px;
   height: 44px;
@@ -409,9 +416,11 @@ body {
   background: var(--color-primary);
   border-radius: 35px;
   font-size: 16px;
+  cursor: pointer;
   transition: all 0.5s linear;
 }
 
+.lyrics .lyrics-btn:hover,
 .lyrics .lyrics-btn:active {
   opacity: 0.4;
   transform: translateY(3px);
@@ -445,7 +454,11 @@ body {
 
 /* PC */
 @media (max-width: 739px) {
-  .btn:hover {
+
+  .btn:hover,
+  .lyrics .lyrics-btn:hover,
+  .song.active .option:hover,
+  .option.active:hover {
     box-shadow: none;
     opacity: 1;
     transform: translateY(0) scale(1);
