@@ -16,7 +16,8 @@ const prevBtn = $(".btn-prev");
 const repeatBtn = $(".btn-repeat");
 const randomBtn = $(".btn-random");
 const optionsBtn = $(".option");
-const songGroup = $("song-group");
+const lyrics = $(".lyrics");
+const lyricsBtn = $(".lyrics-btn");
 
 const app = {
   currentIndex: 0,
@@ -189,12 +190,13 @@ const app = {
           <i class="fa-solid fa-music"></i>
         </div>
         </div>
-        <div class="lyrics" data-lyrics="${index}">
+        <div class="lyrics">
             <p class="lyrics-title">Lời Bài Hát</p>
             <h3 class="lyrics-name">${song.name}</h3>
             <div class="lyrics-text">
             <p>${song.lyrics}</p>
             </div>
+          <button class="lyrics-btn" >Đóng</button>
         </div>
       
       </div>
@@ -283,8 +285,6 @@ const app = {
           (audio.currentTime / audio.duration) * 100
         );
         progress.value = progressPercent;
-
-        console.log(progress.value);
 
         const color =
           "linear-gradient(90deg, rgb(245, 135, 10)" +
@@ -377,6 +377,7 @@ const app = {
       const songClick = e.target.closest(".song:not(.active)");
       const optionClick = e.target.closest(".option");
       const songGroupClick = e.target.closest(".song-group");
+      const lyricsClick = e.target.closest(".lyrics");
 
       if (songClick || optionClick) {
         // Handle click song
@@ -391,6 +392,12 @@ const app = {
         optionClick.classList.toggle("active");
         songGroupClick.children[1].classList.toggle("active");
       }
+
+      // Note: Làm không đúm chuẩn
+      const lyricsClickBtn = lyricsClick.children[3];
+      lyricsClickBtn.onclick = function () {
+        lyricsClickBtn.offsetParent.classList.remove("active");
+      };
     };
   },
 
