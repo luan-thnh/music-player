@@ -431,11 +431,11 @@ const app = {
         songGroupClick.children[1].classList.toggle("active");
       }
 
-      // Note: Làm không đúm chuẩn
-      const lyricsClickBtn = lyricsClick.children[3];
-      lyricsClickBtn.onclick = function () {
-        lyricsClickBtn.offsetParent.classList.remove("active");
-      };
+      // // Note: Làm không đúm chuẩn
+      // const lyricsClickBtn = lyricsClick.children[3];
+      // lyricsClickBtn.onclick = function () {
+      //   lyricsClickBtn.offsetParent.classList.remove("active");
+      // };
     };
   },
 
@@ -468,7 +468,6 @@ const app = {
       newIndex = Math.floor(Math.random() * this.songs.length);
     } while (newIndex === this.currentIndex);
 
-    console.log(newIndex, this.currentIndex);
     this.currentIndex = newIndex;
     this.loadCurrentSong();
   },
