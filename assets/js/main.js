@@ -133,6 +133,43 @@ const app = {
       lyrics:
         "cóngqián de gēyáo<br>dōu zài zhǐ jiān rào<br>dé bùdào de měihǎo<br>zǒng zàixīn jiàn náo<br>bái fànlì wú chǔ pāo<br>wén·zi xiě yě mǒ bù diào<br>chù bùkě jí gānggāng hǎo<br>rìjiǔtiāncháng ràng rén nǎo<br>nà shí gǔntàng de xīntiào<br>yě céng wú chǔ dùntáo<br>xiàng yī tuán lièhuǒ ránshāo<br>shāo jìn kuà bùguò de qiáo<br>shíguāng cōngcōng de pǎo<br>huǒyàn huà zuò yuè yáoyáo<br>zài wú jīdàng de bōtāo<br>yě cóng bùzài mèng lǐ piāo yáo<br>bái yuèguāng zài zhàoyào<br>nǐ cái xiǎng qǐ tā de hǎo<br>zhūshā zhì jiǔ nán xiāo<br>chuāng qiān de míng yuè zhào<br>nǐ dúzì yī rén yuǎn tiào<br>bái yuèguāng shì nián shǎo<br>shì tā de xiào<br>nà shí gǔntàng de xīntiào<br>yě céng wú chǔ dùntáo<br>xiàng yī tuán lièhuǒ ránshāo<br>xeng i thoán liê hủa rán sao<br>shāo jìn kuà bùguò de qiáo<br>shíguāng cōngcōng de pǎo<br>huǒyàn huà zuò yuè yáoyáo<br>zài wú jīdàng de bōtāo<br>yě cóng bùzài mèng lǐ piāo yáo<br>bái yuèguāng zài zhàoyào<br>nǐ cái xiǎng qǐ tā de hǎo<br>zhūshā zhì jiǔ nán xiāo<br>nǐ shìfǒu néng zhīdào<br>chuāng qiān de míng yuè zhào<br>bái yuèguāng zài zhàoyào<br>nǐ cái xiǎng qǐ tā de hǎo<br>zhūshā zhì jiǔ nán xiāo<br>nǐ shìfǒu néng zhīdào<br>chuāng qiān de míng yuè zhào<br>troang tren tơ mính duê chao<br>nǐ dúzì yī rén yuǎn tiào<br>bái yuèguāng shì nián shǎo<br>shì tā de xiào",
     },
+    {
+      name: "Công Tử Đi Hướng Bắc",
+      singer: "Lý Xuân Hoa",
+      path: "https://stream.nixcdn.com/NhacCuaTui990/CongTuDiHuongBac-LyXuanHoaLiChunHua-6043504.mp3?st=Hub1WCUJJWWuDVTtWLI0UA&e=1659280486",
+      image: "https://img.wattpad.com/cover/193261581-288-k496780.jpg",
+      lyrics: "Lười Gõ Lyric!!",
+    },
+    {
+      name: "Cô Nương Xinh Đẹp Phải Đi Lấy Chồng Rồi",
+      singer: "Long Mai Tử",
+      path: "https://stream.nixcdn.com/NhacCuaTui928/CoNuongXinhDepPhaiDiLayChongRoi-VA-4588745.mp3?st=SosNHUjLzdj2pn6c2848Mg&e=1659281204",
+      image: "https://i1.sndcdn.com/artworks-000569147624-vjuarg-t500x500.jpg",
+      lyrics: "Lười Gõ Lyric!!",
+    },
+    {
+      name: "Em Bằng Lòng Làm Một Người Bình Thường Ở Bên Cạnh Anh",
+      singer: "Hoàng Y Nhung",
+      path: "https://stream.nixcdn.com/NhacCuaTui980/EmBangLongLamMotNguoiBinhThuongOBenCanhAnh-VuongThatThat-5923718.mp3?st=Kv19WZc6o6rojAaPKChsww&e=1659280191",
+      image: "https://i.ytimg.com/vi/O4K-xRUIQBg/maxresdefault.jpg",
+      lyrics: "Lười Gõ Lyric!!",
+    },
+    {
+      name: "Đường Nhân",
+      singer: "Tôn Tử Hàm",
+      path: "https://stream.nixcdn.com/NhacCuaTui951/DuongNhan-NikoSunTonTuHam-5237437.mp3?st=7Z9ZbHYsptwtQshmTNGXyA&e=1659281763",
+      image:
+        "https://webqinsmoon.files.wordpress.com/2016/05/8af12bd4gw1f3bld2nclrj20qh0odgod.jpg",
+      lyrics: "Lười Gõ Lyric!!",
+    },
+    {
+      name: "Nhất Lộ Sinh Hoa",
+      singer: "Ôn Dịch Tâm",
+      path: "https://f9-stream.nixcdn.com/NhacCuaTui2025/NhatLoSinhHoa--7613976.mp3?st=FojrJ9iagi880v2kAXKqBQ&e=1659281422",
+      image:
+        "https://i1.sndcdn.com/artworks-jXoil4qXpNLqzSi2-MzAkEg-t500x500.jpg",
+      lyrics: "Lười Gõ Lyric!!",
+    },
   ],
 
   render: function () {
@@ -155,7 +192,7 @@ const app = {
         <div class="lyrics" data-lyrics="${index}">
             <p class="lyrics-title">Lời Bài Hát</p>
             <h3 class="lyrics-name">${song.name}</h3>
-            <div class="lyrics-text noselect ">
+            <div class="lyrics-text">
             <p>${song.lyrics}</p>
             </div>
         </div>
@@ -202,7 +239,6 @@ const app = {
         iterations: Infinity,
       }
     );
-
     cdThumbAnimete.pause();
     cdBgsAnimete.pause();
 
@@ -241,13 +277,14 @@ const app = {
       cdBgsAnimete.pause();
     };
 
-    // Tiến độ audio
     audio.ontimeupdate = function () {
       if (audio.duration) {
         const progressPercent = Math.floor(
           (audio.currentTime / audio.duration) * 100
         );
         progress.value = progressPercent;
+
+        console.log(progress.value);
 
         const color =
           "linear-gradient(90deg, rgb(245, 135, 10)" +
@@ -265,6 +302,34 @@ const app = {
       const seekTime = Math.floor((audio.duration / 100) * e.target.value);
       audio.currentTime = seekTime;
     };
+
+    // Tiến độ audio
+    // audio.ontimeupdate = function () {
+    //   const { duration, currentTime } = audio;
+    //   progress.max = duration;
+    //   progress.value = currentTime;
+
+    //   console.log(progress.value);
+    //   // const progressPercent = Math.floor(
+    //   //   (audio.currentTime / audio.duration) * 100
+    //   // );
+    //   // progress.value = progressPercent;
+    //   // const color =
+    //   //   "linear-gradient(90deg, rgb(245, 135, 10)" +
+    //   //   progress.value +
+    //   //   "%, rgba(255, 255, 255, 0.2)" +
+    //   //   progress.value +
+    //   //   "%)";
+
+    //   // progress.style.background = color;
+    //   // }
+    // };
+
+    // Tua audio
+    // progress.onchange = function (e) {
+
+    //   audio.currentTime = progress.value;
+    // };
 
     // Next audio
     nextBtn.onclick = function () {

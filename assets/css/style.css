@@ -136,6 +136,33 @@ body {
   animation-delay: 3s;
 }
 
+/* .top-right {
+  top: var(--value-thumb-bg);
+  right: var(--value-thumb-bg);
+  animation: ring 2s linear alternate infinite;
+} */
+
+/* .top-left {
+  top: var(--value-thumb-bg);
+  left: var(--value-thumb-bg);
+  animation: ring 2s linear alternate infinite;
+  animation-delay: 3s;
+} */
+
+/* .bottom-right {
+  top: calc(var(--value-thumb-bg) * -1);
+  right: var(--value-thumb-bg);
+  animation: ring 2s linear alternate infinite;
+  animation-delay: 2s;
+} */
+
+/* .bottom-left {
+  top: calc(var(--value-thumb-bg) * -1);
+  left: var(--value-thumb-bg);
+  animation: ring 2s linear alternate infinite;
+  animation-delay: 1s;
+} */
+
 /* Title */
 .title-name {
   margin-top: 48px;
@@ -264,6 +291,7 @@ body {
 .song.active .song-author,
 .song.active .option {
   color: #eee;
+  transition: all 0.5s linear;
 }
 
 .option.active {
@@ -327,20 +355,21 @@ body {
   height: 70%;
   border-bottom-left-radius: 35px;
   border-bottom-right-radius: 35px;
-  background: rgba(19, 13, 88, 0.6);
+  background: rgba(19, 13, 88, 0.4);
   backdrop-filter: blur(10px);
   box-shadow: 0 1px 3px var(--color-shadow);
+  text-align: center;
   overflow: hidden;
   animation: ring 0.5s linear;
 }
 
 .lyrics.active {
   display: block;
+  animation: ring 0.5s linear;
 }
 
 .lyrics .lyrics-title {
   padding: 8px 0;
-  text-align: center;
   color: var(--color-primary);
   text-shadow: 1px 1px 3px var(--color-primary);
   font-size: 14px;
@@ -348,8 +377,7 @@ body {
 
 .lyrics .lyrics-name {
   padding-bottom: 16px;
-  border-bottom: 2px solid var(--color-primary);
-  text-align: center;
+  /* border-bottom: 2px solid var(--color-primary); */
   color: #eee;
   font-size: 24px;
   animation: growth 0.6s linear;
@@ -359,15 +387,17 @@ body {
   padding: 8px 16px;
   width: 100%;
   height: 80%;
-  border-bottom-left-radius: 35px;
-  border-bottom-right-radius: 35px;
+  border-top: 2px solid var(--color-primary);
+  border-bottom: 2px solid var(--color-primary);
+  border-radius: 35px;
+  /* border-bottom-right-radius: 35px; */
   overflow-y: scroll;
   animation: growth 0.7s linear;
 }
 
 .lyrics .lyrics-text p {
-  color: #eee;
-  font-size: 20px;
+  color: #ccc;
+  font-size: 22px;
   line-height: 1.6;
 }
 
