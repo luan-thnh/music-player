@@ -16,8 +16,6 @@ const prevBtn = $(".btn-prev");
 const repeatBtn = $(".btn-repeat");
 const randomBtn = $(".btn-random");
 const optionsBtn = $(".option");
-const lyrics = $(".lyrics");
-const lyricsBtn = $(".lyrics-btn");
 
 const app = {
   currentIndex: 0,
@@ -114,7 +112,6 @@ const app = {
       lyrics:
         "Ngồi nhìn xa xôi một mình trong bóng tối<br>Chỉ một mình tôi lạnh lùng co ro buốt<br>Bỗng nước mắt rơi nhẹ đắng khoé môi<br>Rồi một ngày nữa lại trôi<br>Ngồi tìm ai đây giật mình anh chưa biết<br>Mình tìm ai đây<br>Rồi vội vàng gom lấy chút ít bóng đêm<br>Tìm phút ấm êm<br>Một ngày đong đếm tìm ai<br>Chợt về giữa sương mờ<br>Loay hoay anh ngỡ như đang mơ em<br>Ngày nào vẫn hoang sơ<br>Ai biết cứ mong chờ (ai biết cứ mong chờ)<br>Rồi khi bóng đêm tàn<br>Hoang mang giữ lấy giấc mơ đang tan dần<br>Khi anh lang thang một mình bơ vơ<br>Tìm nỗi nhớ mơ hồ<br>Ngồi nhìn xa xôi một mình trong bóng tối<br>Chỉ một mình tôi lạnh lùng co ro buốt<br>Bỗng nước mắt rơi nhẹ đắng khoé môi<br>Rồi một ngày nữa lại trôi<br>Ngồi tìm ai đây (tìm ai đây)<br>Giật mình anh chưa biết<br>Mình tìm ai đây (đi tìm ai đấy)<br>Rồi vội vàng gom lấy chút ít bóng đêm<br>Tìm phút ấm êm<br>Một ngày đong đếm tìm ai<br>Chợt về giữa sương mờ<br>Loay hoay anh ngỡ như đang mơ em<br>Ngày nào vẫn hoang sơ<br>Ai biết cứ mong chờ (ai biết cứ mong chờ)<br>Rồi khi bóng đêm tàn<br>Hoang mang giữ lấy giấc mơ đang tan dần<br>Khi anh lang thang một mình bơ vơ<br>Tìm nỗi nhớ<br>Giữa sương mờ<br>Loay hoay anh ngỡ như đang mơ em<br>Ngày nào vẫn hoang sơ<br>Ai biết cứ mong chờ (ai không biết cứ mong chờ)<br>Rồi khi bóng đêm tàn<br>Hoang mang giữ lấy giấc mơ đang tan dần (và chỉ là giấc mơ)<br>Khi anh lang thang một mình bơ vơ<br>Tìm nỗi nhớ mơ hồ<br>Lang thang một mình bơ vơ tìm nỗi nhớ mơ hồ",
     },
-    ,
     {
       name: "Six Feet Under",
       singer: "Billie Eilish",
@@ -188,13 +185,13 @@ const app = {
           <i class="fa-solid fa-music"></i>
         </div>
         </div>
-        <div class="lyrics">
+        <div id="lyrics" class="lyrics">
             <p class="lyrics-title">Lời Bài Hát</p>
             <h3 class="lyrics-name">${song.name}</h3>
             <div class="lyrics-text">
             <p>${song.lyrics}</p>
             </div>
-          <button class="lyrics-btn" >Đóng</button>
+          <button class="lyrics-btn">Đóng</button>
         </div>
       
       </div>
