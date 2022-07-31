@@ -209,6 +209,23 @@ const app = {
         "https://i1.sndcdn.com/artworks-jXoil4qXpNLqzSi2-MzAkEg-t500x500.jpg",
       lyrics: "Lười Gõ Lyric!!",
     },
+    {
+      name: "Bài Ca Đảo Thiên Đường",
+      singer: "Châu Thâm",
+      path: "https://play.imusicvn.com/stream/TXkSUm7SlVqC",
+      image: "https://i.ytimg.com/vi/EhdTwa_Xjj0/maxresdefault.jpg",
+      lyrics:
+        "Dīng dōng wǒ yǒu yīgè mìmì<br>Qiāoqiāo gàosù nǐ<br>Huānyíng nǐ lái dào tiāntáng rùkǒu<br>Dīng dōng yǒurén zài àn ménlíng<br>Shì shuí zài wàimiàn<br>Bǎ èzuòjù dāng yīzhǒng yóuxì<br>Tīng a shuí zài kūqì<br>Kàn a shuí zài qièqiè sīyǔ<br>Chuāngwài yǒu shuāng yǎnjīng<br>Tā zài shíkè zhùshìzhe nǐ<br>Dīng dōng wǒ zài zhèlǐ děng nǐ<br>Nǐ zài děng wǒ ma<br>Shì shénme yuányīn ràng nǐ hàipà<br>Dīng dōng nǐ huì cáng zài nǎlǐ<br>Bié xiǎng yào táolí<br>Xiǎng táo chū shǒuxīn yǐ láibují<br>Bèi yíwàng de jìyì<br>Bèi nǐ cáng qǐlái de mìmì<br>Bùyào dà shēng hūxī<br>Nǐ yǐ bàolùle nǐ zìjǐ<br>Knock knock wàimiàn xià qǐle yǔ<br>Fàngqì zhēngzhá ba<br>Huǎngyán shuō duōle jiù huì fāxiàn<br>Knock knock shì shuí zài zuò huàishì jiǎzhuāng chéng xìngyùn<br>Wǒ zǒng huì zhǎodào nǐ zài chuáng dǐ<br>Tīng a nǐ zài kǒngjù<br>Kàn a nǐ zài xiēsīdǐlǐ<br>Chuāngwài yǒu shuāng yǎnjīng<br>Tā zài shíkè zhùshìzhe nǐ<br>Dīng dōng yǒurén zài kàn nǐ de guòqù<br>Dīng dōng yǒurén zài kàn nǐ de mìmì<br>Dīng dōng yǒurén zài kàn nǐ de guòqù<br>(Dīng dōng) wǒ táo bù chūqù",
+    },
+    {
+      name: "Con Đường Bình Phàm",
+      singer: "Hoa Thần Vũ",
+      path: "https://play.imusicvn.com/stream/xVs1XNDFpAY0",
+      image:
+        "https://lamhoang.vn/wp-content/uploads/2020/08/nhung-hinh-anh-buon-ve-tinh-yeu-cua-con-trai-1bai3.jpg",
+      lyrics:
+        "Páihuáizhe de zài lùshàng de<br>Nǐ yào zǒu ma via via<br>Yì suì de jiāo'àozhe<br>Nà yě céng shì wǒ de múyàng<br>Fèiténgzhe de bù'ānzhe de<br>Nǐ yào qù nǎ<br>Mí yīyàng de chénmòzhe de<br>Gùshì nǐ zhēn de zài tīng ma<br>Woo x3<br>Gùshì nǐ zhēn de zài tīng ma<br>Wǒ céngjīng kuàguò shān hé dàhǎi<br>Yě chuānguò rénshānrénhǎi<br>Wǒ céngjīng yǒngyǒuzhe yīqiè<br>Zhuǎnyǎn dōu piāosàn rú yān<br>Wǒ céngjīng shīluò shīwàng shīdiào suǒyǒu fāngxiàng<br>Zhídào kànjiàn píngfán cái shì wéiyī de dá'àn<br>Dāng nǐ réngrán hái zài huànxiǎng<br>Nǐ de míngtiān via via<br>Tā huì hǎo ma háishì gèng làn<br>Duì wǒ ér yán shì lìng yītiān<br>Wooo x3<br>Duì wǒ ér yán shì lìng yītiān<br>Wǒ céngjīng huǐle wǒ de yīqiè zhǐ xiǎng yǒngyuǎn dì líkāi<br>Wǒ céngjīng duò rù wúbiān hēi'àn xiǎng zhēngzhá wúfǎ zìbá<br>Wǒ céng jīng xiàng nǐ xiàng tā xiàng nà yěcǎo yěhuā<br>Juéwàngzhe yě kěwàngzhe yě kū yě xiào yě píngfánzhe<br>Woooo<br>Wǒ céngjīng kuàguò shān hé dàhǎi yě chuānguò rénshānrénhǎi<br>Wǒ céngjīng yǒngyǒuzhe yīqiè zhuǎnyǎn dōu piāosàn rú yān<br>Wǒ céngjīng shīluò shīwàng shīdiào suǒyǒu fāngxiàng<br>Zhídào kànjiàn píngfán cái shì wéiyī de dá'àn<br>Wǒ céngjīng huǐle wǒ de yīqiè zhǐ xiǎng yǒngyuǎn dì líkāi<br>Wǒ céngjīng duò rù wúbiān hēi'àn xiǎng zhēng zhá wúfǎ zìbá<br>Wǒ céngjīng xiàng nǐ xiàng tā xiàng nà yěcǎo yěhuā<br>Juéwàngzhe yě kěwàngzhe<br>Yě kū yě xiào yě píngfánzhe",
+    },
   ],
 
   render: function () {
@@ -416,6 +433,7 @@ const app = {
       const optionClick = e.target.closest(".option");
       const songGroupClick = e.target.closest(".song-group");
       const lyricsClick = e.target.closest(".lyrics");
+      const lyricsClickBtn = e.target.closest(".lyrics-btn");
 
       if (songClick || optionClick) {
         // Handle click song
@@ -427,15 +445,18 @@ const app = {
         }
 
         // Handle click option display lyrics
-        optionClick.classList.toggle("active");
-        songGroupClick.children[1].classList.toggle("active");
+        if (optionClick) {
+          optionClick.classList.toggle("active");
+        }
+
+        if (songGroupClick) {
+          songGroupClick.children[1].classList.toggle("active");
+        }
       }
 
-      // // Note: Làm không đúm chuẩn
-      // const lyricsClickBtn = lyricsClick.children[3];
-      // lyricsClickBtn.onclick = function () {
-      //   lyricsClickBtn.offsetParent.classList.remove("active");
-      // };
+      if (lyricsClickBtn) {
+        lyricsClick.children[3].offsetParent.classList.remove("active");
+      }
     };
   },
 
