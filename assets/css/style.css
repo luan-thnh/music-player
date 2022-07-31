@@ -300,18 +300,24 @@ body {
 }
 
 .lyrics {
+  --growth-from: 0;
+  --growth-to: 1;
   display: none;
   position: fixed;
   z-index: 9999;
-  top: 5%;
-  /* left: 0; */
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   padding: 16px;
-  width: 380px;
-  height: 90%;
-  border-radius: 25px;
+  width: 100%;
+  max-width: 480px;
+  height: 80%;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
   background: rgba(19, 13, 88, 0.6);
   backdrop-filter: blur(10px);
   box-shadow: 0 1px 3px var(--color-shadow);
+  animation: growth linear 0.4s;
   overflow: hidden;
 }
 
@@ -359,6 +365,18 @@ body {
 
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes growth {
+  from {
+    opacity: 0;
+    transform: scale(var(--growth-from));
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(var(--growth-to));
   }
 }
 

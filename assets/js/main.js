@@ -149,7 +149,7 @@ const app = {
           <p class="song-author">${song.singer}</p>
         </div>
         <div class="option">
-          <i class="fa-solid fa-ellipsis"></i>
+          <i class="fa-solid fa-music"></i>
         </div>
         </div>
         <div class="lyrics" data-lyrics="${index}">
