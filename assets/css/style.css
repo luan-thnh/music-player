@@ -266,6 +266,12 @@ body {
   color: #eee;
 }
 
+.option.active {
+  color: var(--color-primary) !important;
+  transform: scale(1.1);
+  transition: all 0.5s linear;
+}
+
 .song .thumb {
   width: 44px;
   height: 44px;

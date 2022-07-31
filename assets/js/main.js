@@ -139,7 +139,7 @@ const app = {
     const htmls = this.songs.map((song, index) => {
       return `
       <div class="song-group"> 
-      <div class="song ${
+      <div class="song${
         index === this.currentIndex ? " active" : " "
       }" data-song="${index}">
         <div class="thumb" style="background-image: url('${song.image}')">
@@ -323,6 +323,7 @@ const app = {
         }
 
         // Handle click option display lyrics
+        optionClick.classList.toggle("active");
         songGroupClick.children[1].classList.toggle("active");
       }
     };
