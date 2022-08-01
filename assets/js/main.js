@@ -182,6 +182,15 @@ const app = {
         "Take me to the rooftop<br>I wanna see the world when I stop breathing, turning blue<br>Tell me love is endless, don't be so pretentious<br>Leave me like you do<br>If you need me, wanna see me<br>Better hurry 'cause I'm leaving soon<br>Sorry can't save me now<br>Sorry I don't know how<br>Sorry there's no way out (Sorry)<br>But down<br>Hmm, down<br>Taste me, these salty tears on my cheeks<br>That's what a year-long headache does to you<br>I'm not okay, I feel so scattered<br>Don't say I'm all that matters<br>Leave me, déjà vu<br>If you need me, wanna see me<br>You better hurry, I'm leaving soon<br>Sorry can't save me now (Sorry)<br>Sorry I don't know how (Sorry)<br>Sorry there's no way out (Sorry)<br>But down<br>Hmm, down<br>Call my friends and tell them that I love them<br>And I'll miss them<br>But I'm not sorry<br>Call my friends and tell them that I love them<br>And I'll miss them<br>Sorry",
     },
     {
+      name: "Love Yourself",
+      singer: "Justin Bieber",
+      path: "https://tainhacmienphi.biz/get/song/api/3020",
+      image:
+        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/df230dd34d9894c3a0f30b9a4e6b7ebf~c5_720x720.jpeg?x-expires=1659366000&x-signature=HXCZRkuXJo%2FyH6ZToqXrKLPL6mQ%3D",
+      lyrics:
+        "For all the times that you rain on my parade<br>And all the clubs you get in using my name<br>You think you broke my heart, oh girl for goodness sake<br>You think I'm crying, oh my oh, well I ain't.<br>And I didn't wanna write a song<br>Cause I didn't want anyone thinking I still care<br>I don't but, you still hit my phone up<br>And baby I be movin' on and I think you should be somethin'<br>I don't wanna hold back, maybe you should know that.<br>My mama don't like you and she likes everyone<br>And I never like to admit that I was wrong<br>And I've been so caught up in my job, didn't see what's going on<br>And now I know, I'm better sleeping on my own.<br>Cause if you like the way you look that much<br>Oh baby you should go and love yourself<br>And if you think that I'm still holdin' on to somethin'<br>You should go and love yourself.<br>But when you told me that you hated my friends<br>The only problem was with you and not them<br>And every time you told me my opinion was wrong<br>And tried to make me forget where I came from.<br>And I didn't wanna write a song<br>Cause I didn't want anyone thinking I still care<br>I don't but, you still hit my phone up<br>And baby I be movin' on and I think you should be somethin'<br>I don't wanna hold back, maybe you should know that.<br>My mama don't like you and she likes everyone<br>And I never like to admit that I was wrong<br>And I've been so caught up in my job, didn't see what's going on<br>And now I know, I'm better sleeping on my own.<br>Cause if you like the way you look that much<br>Oh baby you should go and love yourself<br>And if you think that I'm still holdin' on to somethin'<br>You should go and love yourself.<br>For all the times you made me feel small<br>I fell in love, now I fear nothin' at all<br>I never felt so low when I was vulnerable<br>Was I a fool to let you break down my walls?<br>Cause if you like the way you look that much<br>Oh baby you should go and love yourself<br>And if you think that I'm still holdin' on to somethin'<br>You should go and love yourself.<br>Cause if you like the way you look that much<br>Oh baby you should go and love yourself<br>And if you think that I'm still holdin' on to somethin'<br>You should go and love yourself.",
+    },
+    {
       name: "The One That Got Away",
       singer: "Brielle Von Hugel",
       path: "https://play.imusicvn.com/stream/RGCpjZCccouF",
@@ -189,6 +198,14 @@ const app = {
         "https://pic-bstarstatic.akamaized.net/ugc/2a2fdab8fdffa4b7f7c76c39764488dd.jpeg",
       lyrics:
         "Summer after high school, when we first met<br>We make-out in your Mustang to Radiohead<br>And on my eighteenth birthday, we got matching tattoos<br>Used to steal your parents liquor and climb to the roof<br>Talk about our future like we had a clue<br>Never planned that one day I'd be losing you<br>In another life, I would be your girl<br>We keep all our promises, be us against the world<br>In another life, I would make you stay<br>So I don't have to say you were the one that got away<br>The one that got away<br>I was June and you were my Johnny Cash<br>Never one without the other, we made a pact<br>Sometimes when I miss you, I put those records on, whoa<br>Someone said you had your tattoo removed<br>Saw you downtown, singing the blues<br>It's time to face the music, I'm no longer your muse<br>In another life, I would be your girl<br>We keep all our promises, be us against the world<br>In another life, I would make you stay<br>So I don't have to say you were the one that got away<br>The one that got away<br>The one, the one, the one<br>The one that got away<br>All this money can't buy me a time machine, no<br>Can't replace you with a million rings, no<br>I should'a told you what you meant to me, whoa<br>Cause now I pay the price<br>In another life, I would be your girl<br>We keep all our promises, be us against the world<br>In another life, I would make you stay<br>So I don't have to say you were the one that got away<br>The one that got away<br>The one (the one)<br>The one (the one)<br>The one (the one)<br>In another life, I would make you stay<br>So I don't have to say you were the one that got away<br>The one that got away",
+    },
+    {
+      name: 'You Said You"d Grow Old With Me',
+      singer: "Michael Schulte",
+      path: "https://play.imusicvn.com/stream/GOW0RV4V3Dj6",
+      image: "https://i.ytimg.com/vi/gb2PjJSSyso/maxresdefault.jpg",
+      lyrics:
+        "I'd like<br>To say<br>I'm ok<br>But I'm not<br>I try<br>But I fall<br>Close my mind<br>Turn it off<br>I can't be sober<br>I cannot sleep<br>You've got your peace now<br>What about me?<br>Thought we had the time, had our lives<br>Now you'll never get older, older<br>Didn't say goodbye, now I'm frozen in time<br>Getting colder, colder<br>One last word<br>One last moment<br>To ask you why<br>You left me here behind<br>You said you'd grow old with me<br>We had plans<br>We had visions<br>Now I can't see ahead<br>We were one<br>We were golden<br>Forever you said<br>I can't be sober<br>I cannot sleep<br>You've got your peace now<br>What about me?<br>Thought we had the time, had our lives<br>Now you'll never get older, older<br>Didn't say goodbye, now I'm frozen in time<br>Getting colder, colder<br>One last word<br>One last moment<br>To ask you why<br>You left me here behind<br>You said you'd grow old with me",
     },
     {
       name: "Bạch Nguyệt Quang Và Nốt Chu Sa",
@@ -291,7 +308,7 @@ const app = {
           <div class="lyrics-text">
             <p>${song.lyrics}</p>
           </div>
-          <button class="lyrics-btn">Đóng</button>
+          <button class="lyrics-close">Đóng</button>
           <button class="lyrics-screen"> 
             <i class="fa-solid fa-expand icon-fullscreen"></i>
             <i class="fa-solid fa-compress icon-out-fullscreen"></i>
@@ -402,34 +419,6 @@ const app = {
       audio.currentTime = seekTime;
     };
 
-    // Tiến độ audio
-    // audio.ontimeupdate = function () {
-    //   const { duration, currentTime } = audio;
-    //   progress.max = duration;
-    //   progress.value = currentTime;
-
-    //   console.log(progress.value);
-    //   // const progressPercent = Math.floor(
-    //   //   (audio.currentTime / audio.duration) * 100
-    //   // );
-    //   // progress.value = progressPercent;
-    //   // const color =
-    //   //   "linear-gradient(90deg, rgb(245, 135, 10)" +
-    //   //   progress.value +
-    //   //   "%, rgba(255, 255, 255, 0.2)" +
-    //   //   progress.value +
-    //   //   "%)";
-
-    //   // progress.style.background = color;
-    //   // }
-    // };
-
-    // Tua audio
-    // progress.onchange = function (e) {
-
-    //   audio.currentTime = progress.value;
-    // };
-
     // Next audio
     nextBtn.onclick = function () {
       if (_this.isRandom) {
@@ -473,11 +462,11 @@ const app = {
     };
 
     playList.onclick = function (e) {
+      const songGroupClick = e.target.closest(".song-group");
       const songClick = e.target.closest(".song:not(.active)");
       const optionClick = e.target.closest(".option");
-      const songGroupClick = e.target.closest(".song-group");
       const lyricsClick = e.target.closest(".lyrics");
-      const lyricsClickBtn = e.target.closest(".lyrics-btn");
+      const lyricsClickClose = e.target.closest(".lyrics-close");
       const lyricsClickScreen = e.target.closest(".lyrics-screen");
 
       if (songClick || optionClick) {
@@ -499,7 +488,7 @@ const app = {
         }
       }
 
-      if (lyricsClickBtn) {
+      if (lyricsClickClose) {
         lyricsClick.children[3].offsetParent.classList.remove("active");
 
         songGroupClick.firstElementChild.lastElementChild.classList.remove(
