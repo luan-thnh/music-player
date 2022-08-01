@@ -486,12 +486,16 @@ body {
     transform: translateY(0) scale(1);
   }
 
+  .lyrics .lyrics-text p {
+    font-size: 18px;
+  }
+
   .lyrics .lyrics-close {
     margin-top: 4px;
   }
 
   .lyrics .lyrics-screen {
-    margin-top: 0px;
+    margin-top: 2px;
   }
 }
 
