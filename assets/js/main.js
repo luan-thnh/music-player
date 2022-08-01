@@ -164,6 +164,33 @@ const app = {
         "Help, I lost myself again<br>But I remember you<br>Don't come back, it won't end well<br>But I wish you'd tell me to<br>Our love is six feet under<br>I can't help but wonder<br>If our grave was watered by the rain<br>Would roses bloom?<br>Could roses bloom<br>Again?<br>Retrace my lips, erase your touch<br>It's all too much for me<br>Blow away like smoke in air<br>How can you die carelessly?<br>Our love is six feet under<br>I can't help but wonder<br>If our grave was watered by the rain<br>Would roses bloom?<br>Could roses bloom?<br>They're playin' our sound<br>Layin' us down tonight<br>And all of these clouds<br>Cryin' us back to life<br>But you're cold as a night<br>Six feet under<br>I can't help but wonder<br>If our grave was watered by the rain<br>Bloom<br>Bloom<br>Again<br>Help, I lost myself again<br>But I remember you",
     },
     {
+      name: "I Miss You",
+      singer: "Czarina",
+      path: "https://play.imusicvn.com/stream/g4d7T0YMl1ub",
+      image:
+        "https://is2-ssl.mzstatic.com/image/thumb/Music125/v4/e4/71/3b/e4713b69-5b4c-39ea-9a31-d19ab93c87cb/11371.jpg/1200x1200bf-60.jpg",
+      lyrics:
+        "The photos on my wall remind me<br>That you were once real<br>The pictures in my head are replay<br>Weren't allow my heart to hear<br>All the emptiness i feel without you in mylife<br>It's so hard to say goodbye<br>When i keep asking why<br>Why<br>Where did you go<br>Why were you taken from me<br>I'm still waiting for you<br>To show signs of your guilty<br>I want that at sky in pray<br>Though you might appear<br>Come by to me my dear<br>I miss you<br>Could hold you once more<br>Forever it will last<br>And spend another day beside you<br>Not allowing time to past<br>Every memory we shared<br>Will not fade away<br>In my heart you always be<br>Not too far away<br>Away<br>Where did you go<br>Why were you taken from me<br>I'm still waiting for you<br>To show your signs of your guilty<br>I want that at sky in pray.<br>Though you might appear<br>Come by to me my dear<br>I miss you<br>I miss you<br>I miss you<br>Everywhere I go<br>I miss you<br>I miss you<br>I'm minded of you<br>I miss you<br>I miss you<br>Though keeps on coming back<br>I miss you<br>I miss you<br>Back to me<br>Where did you go<br>Why were you taken from me<br>I'm still waiting for you<br>To show signs of your guilty<br>I want that at sky in pray<br>Though you might appear<br>Come by to me my dear<br>I miss you<br>Come by to me my dear<br>I miss you<br>Come by to me my dear<br>I miss you",
+    },
+    {
+      name: "Listen Before I Go",
+      singer: "Billie Eilish",
+      path: "https://play.imusicvn.com/stream/abdP4fdYudFG",
+      image:
+        "https://madnaija.com/wp-content/uploads/2021/01/Billie-Eilish-%E2%80%93-goodbye.png",
+      lyrics:
+        "Take me to the rooftop<br>I wanna see the world when I stop breathing, turning blue<br>Tell me love is endless, don't be so pretentious<br>Leave me like you do<br>If you need me, wanna see me<br>Better hurry 'cause I'm leaving soon<br>Sorry can't save me now<br>Sorry I don't know how<br>Sorry there's no way out (Sorry)<br>But down<br>Hmm, down<br>Taste me, these salty tears on my cheeks<br>That's what a year-long headache does to you<br>I'm not okay, I feel so scattered<br>Don't say I'm all that matters<br>Leave me, déjà vu<br>If you need me, wanna see me<br>You better hurry, I'm leaving soon<br>Sorry can't save me now (Sorry)<br>Sorry I don't know how (Sorry)<br>Sorry there's no way out (Sorry)<br>But down<br>Hmm, down<br>Call my friends and tell them that I love them<br>And I'll miss them<br>But I'm not sorry<br>Call my friends and tell them that I love them<br>And I'll miss them<br>Sorry",
+    },
+    {
+      name: "The One That Got Away",
+      singer: "Brielle Von Hugel",
+      path: "https://play.imusicvn.com/stream/RGCpjZCccouF",
+      image:
+        "https://pic-bstarstatic.akamaized.net/ugc/2a2fdab8fdffa4b7f7c76c39764488dd.jpeg",
+      lyrics:
+        "Summer after high school, when we first met<br>We make-out in your Mustang to Radiohead<br>And on my eighteenth birthday, we got matching tattoos<br>Used to steal your parents liquor and climb to the roof<br>Talk about our future like we had a clue<br>Never planned that one day I'd be losing you<br>In another life, I would be your girl<br>We keep all our promises, be us against the world<br>In another life, I would make you stay<br>So I don't have to say you were the one that got away<br>The one that got away<br>I was June and you were my Johnny Cash<br>Never one without the other, we made a pact<br>Sometimes when I miss you, I put those records on, whoa<br>Someone said you had your tattoo removed<br>Saw you downtown, singing the blues<br>It's time to face the music, I'm no longer your muse<br>In another life, I would be your girl<br>We keep all our promises, be us against the world<br>In another life, I would make you stay<br>So I don't have to say you were the one that got away<br>The one that got away<br>The one, the one, the one<br>The one that got away<br>All this money can't buy me a time machine, no<br>Can't replace you with a million rings, no<br>I should'a told you what you meant to me, whoa<br>Cause now I pay the price<br>In another life, I would be your girl<br>We keep all our promises, be us against the world<br>In another life, I would make you stay<br>So I don't have to say you were the one that got away<br>The one that got away<br>The one (the one)<br>The one (the one)<br>The one (the one)<br>In another life, I would make you stay<br>So I don't have to say you were the one that got away<br>The one that got away",
+    },
+    {
       name: "Bạch Nguyệt Quang Và Nốt Chu Sa",
       singer: "Min Hii",
       path: "https://stream.nixcdn.com/NhacCuaTui1009/BachNguyetQuangVaNotChuSa-DaiTuDaZi-6911991.mp3?st=1_xY5RguDCZEQIsn7MUkIA&e=1659281169",
@@ -177,21 +204,24 @@ const app = {
       singer: "Lý Xuân Hoa",
       path: "https://stream.nixcdn.com/NhacCuaTui990/CongTuDiHuongBac-LyXuanHoaLiChunHua-6043504.mp3?st=Hub1WCUJJWWuDVTtWLI0UA&e=1659280486",
       image: "https://img.wattpad.com/cover/193261581-288-k496780.jpg",
-      lyrics: "Lười Gõ Lyric!!",
+      lyrics:
+        "Xiǎo nǚzǐ bù cáiWèi dé gōngzǐ qīnglài<br>Rǎo gōngzǐ liángjiǔ<br>Gōngzǐ wùguài<br>Gōngzǐ xiàng běi zǒu<br>Xiǎo nǚzǐ xiàng nán qiáo<br>Cǐshēng jiùcǐ biéguòle<br>Nányǐ wànghuái<br>Yuàn nǐ sān dōng nuǎn<br>Yuàn nǐ chūn bù hán<br>Yuàn nǐ tiān hēi yǒu dēng<br>Xià yǔ yǒu sǎn<br>Yuàn nǐ shàn qí shēn<br>Yuàn nǐ yù liáng rén<br>Nuǎnsè fú yúshēng<br>Yǒu hǎorén xiāngbàn<br>Suǒyǒu àimù zhī yì<br>Zhǐ yú chúnchǐ jiān<br>Yǎn yú suìyuè<br>Nì yú jiānglái<br>Yǔ jūn jīnshēng wúyuán<br>Qǐng wúxū guàniàn<br>Yǔ dǎ bājiāo<br>Wú kě wúnài<br>Yuàn nǐ sān dōng nuǎn<br>Yuàn nǐ chūn bù hán<br>Yuàn nǐ tiān hēi yǒu dēng<br>Xià yǔ yǒu sǎn<br>Yuàn nǐ shàn qí shēn<br>Yuàn nǐ yù liáng rén<br>Nuǎnsè fú yúshēng<br>Yǒu hǎorén xiāngbàn<br>Yuàn nǐ sān dōng nuǎn<br>Yuàn nǐ chūn bù hán<br>Yuàn nǐ tiān hēi yǒu dēng<br>Xià yǔ yǒu sǎn<br>Yuàn nǐ shàn qí shēn<br>Yuàn nǐ yù liáng rén<br>Nuǎnsè fú yúshēng<br>Yǒu hǎorén xiāngbàn<br>Xiǎo nǚzǐ bù cái<br>Wèi dé gōngzǐ qīnglài<br>Rǎo gōngzǐ liángjiǔ<br>Gōngzǐ<br>Wùguài",
     },
     {
       name: "Cô Nương Xinh Đẹp Phải Đi Lấy Chồng Rồi",
       singer: "Long Mai Tử",
       path: "https://stream.nixcdn.com/NhacCuaTui928/CoNuongXinhDepPhaiDiLayChongRoi-VA-4588745.mp3?st=SosNHUjLzdj2pn6c2848Mg&e=1659281204",
       image: "https://i1.sndcdn.com/artworks-000569147624-vjuarg-t500x500.jpg",
-      lyrics: "Lười Gõ Lyric!!",
+      lyrics:
+        "Gu niang gu niang wo jiu yao jia ren laKe shi wo de xin li yi ran ai zhao ta<br>Ai shang ni wo liu xia yong yuan de shang ba<br>Kan kan wo de yan li han zhao lei hua<br>Gu niang gu niang wo jiu yao jia ren la<br>Wo ye ceng jing meng xiang ni ba wo qu hui jia<br>Dang chu wo men ai de wu fa zi ba<br>Ru jin ni yi bian cheng wo yong yuan de qian gua<br>Piao liang de gu niang jiu yao jia ren la<br>Wo shuang yan de lei shui hua hua de xia<br>Mei xiang dao wo zhen de hui shi qu ta ya<br>Cong ci ta zai bie ren de huai li la<br>Piao liang de gu niang jiu yao jia ren la<br>Shen me shi hou cai neng zai kan dao ta<br>Yi xiang dao wo jiang yong jiu de shi qu ta ya<br>Wo de xin li tong de xiang dao zai gua<br>Wo xin ai de gu niang xin ai de gu niang<br>Jin tian jiu yao jia ren la<br>Shou li peng zhao xian hua shen shang chuan zhuo jie bai de hun sha<br>Wo xin ai de gu niang xin ai de gu niang<br>Jin tian jiu yao jia ren la<br>Jia gei yi ge bie de ta wo de xin li jiu xiang dao zai gua<br>Wo xin ai de gu niang xin ai de gu niang<br>Jin tian jiu yao jia ren la<br>Nan dao ta zhen de bi wo hao ma wo yan li han zhao de shi lei hua<br>Wo xin ai de gu niang xin ai de gu niang<br>Jin tian jiu yao jia ren la<br>Wo xiang da sheng de *** su ta wo yong yuan yong yuan ai zhao ta<br>Gu niang gu niang wo jiu yao jia ren la<br>Wo ye ceng jing meng xiang ni ba wo qu hui jia<br>Dang chu wo men ai de wu fa zi ba<br>Ru jin ni yi bian cheng wo yong yuan de qian gua<br>Piao liang de gu niang jiu yao jia ren la<br>Xiang dao zhe li wo jiu lei ru yu xia<br>Hen wo bu gan zao yi dian qu biao da ya<br>Zhe jiu shi wo qie nuo fu chu de dai jia<br><br>Piao liang de gu niang jiu yao jia r<br>n laWo yao xiang ge ban fa qu zu zhi ta<br>Gan jin wei ta song qu mei gui hua ya<br>Gu niang gu niang ni yao leng jing yi xia<br>Piao liang de gu niang jiu yao jia ren la<br>Wo shuang yan de lei shui hua hua de xia<br>Mei xiang dao wo zhen de hui shi qu ta ya<br>Cong ci ta zai bie ren de huai li la<br>Piao liang de gu niang jiu yao jia ren la<br>Shen me shi hou cai neng zai kan dao ta<br>Yi xiang dao wo jiang yong jiu de shi qu ta ya<br>Wo de xin li tong de xiang dao zai gua<br>Piao liang de gu niang jiu yao jia ren la<br>Xiang dao zhe li wo jiu lei ru yu xia<br>Hen wo bu gan zao yi dian qu biao da ya<br>Zhe jiu shi wo qie nuo fu chu de dai jia<br>Piao liang de gu niang jiu yao jia ren la<br>Wo yao xiang ge ban fa qu zu zhi ta<br>Gan jin wei ta song qu mei gui hua ya<br>Gu niang gu niang ni yao leng jing yi xia<br>Gan jin wei ta song qu mei gui hua ya<br>Gu niang gu niang ni yao leng jing yi xia",
     },
     {
       name: "Em Bằng Lòng Làm Một Người Bình Thường Ở Bên Cạnh Anh",
-      singer: "Hoàng Y Nhung",
+      singer: "Vương Thất Thất",
       path: "https://stream.nixcdn.com/NhacCuaTui980/EmBangLongLamMotNguoiBinhThuongOBenCanhAnh-VuongThatThat-5923718.mp3?st=Kv19WZc6o6rojAaPKChsww&e=1659280191",
       image: "https://i.ytimg.com/vi/O4K-xRUIQBg/maxresdefault.jpg",
-      lyrics: "Lười Gõ Lyric!!",
+      lyrics:
+        "Zhǎng dé chǒu huó de jiǔ<br>Zhǎng dé shuài lǎo de kuài<br>Wǒ nìngyuàn dāng yīgè chǒubāguài<br>Jījí yòu kě'ài<br>Zhǎng dé chǒu huó de jiǔ<br>Zhǎng dé pàng rìzi wàng<br>Wǒ nìngyuàn zuò yīgè píngfán de rén<br>Péi zài nǐ shēn páng<br>Wǒ nìngyuàn zuò yīgè píngfán de rén<br>Péi zài nǐ shēn páng<br>Dà xīnwén yòu bàozhàle<br>Shéi yòu dēng shàng dà yǎzhī táng<br>Māmā chǎo de fàn zhēnxiāng<br>Guǎn tā chī wán huì bù huì pàng<br>Wǒ zhàn zài shānpō shàng<br>Yōuzāi yōuzāi xiàng xià wàng<br>Wǒ shì zuìdà de tàiyáng<br>Zhǐguǎn bǎ nǐ zhào liàng<br>Zhǎng dé chǒu huó de jiǔ<br>Zhǎng dé shuài lǎo de kuài<br>Wǒ nìngyuàn dāng yīgè chǒubāguài<br>Jījí yòu kě'ài<br>Zhǎng dé chǒu huó de jiǔ<br>Zhǎng dé pàng rìzi wàng<br>Wǒ nìngyuàn zuò yīgè píngfán de rén<br>Péi zài nǐ shēn páng<br>Wǒ nìngyuàn zuò yīgè píngfán de rén<br>Péi zài nǐ shēn páng<br>Wū dá dá dá dá dá dá dá dá dá dá<br>Wū dá dá dá dá dá dá dá dá dá dá<br>Wū dá dá dá dá dá dá dá dá dá dá<br>Wū dá dá dá dá dá dá dá dá dá dá<br>Wǒ bùshì méiyǒu mèngxiǎng<br>Zhǐshì mèngxiǎng tài kuángwàng<br>Nà jiùhuó zài dāngxià<br>Yī diǎndiǎn biàn dé qiángdà<br>Nǐ zhù zài wǒ xīn shàng<br>Zhǐ shǔyú nǐ de bìfēnggǎng<br>Nǐ shì dúyīwú'èr de rén<br>Zhēnguì qiě shànliáng<br>Zhǎng dé chǒu huó de jiǔ<br>Zhǎng dé shuài lǎo de kuài<br>Wǒ nìngyuàn dāng yīgè chǒubāguài<br>Jījí yòu kě'ài<br>Zhǎng dé chǒu huó de jiǔ<br>Zhǎng dé pàng rìzi wàng<br>Wǒ nìngyuàn zuò yīgè píngfán de rén<br>Péi zài nǐ shēn páng<br>Wǒ nìngyuàn zuò yīgè píngfán de rén<br>Péi zài nǐ shēn páng<br>Nà hū kě'ài de rén<br>Hū wū píngfán de rén<br>Hū wū dúyīwú'èr de rén<br>Hū wū ài nǐ de rén",
     },
     {
       name: "Đường Nhân",
@@ -199,7 +229,8 @@ const app = {
       path: "https://stream.nixcdn.com/NhacCuaTui951/DuongNhan-NikoSunTonTuHam-5237437.mp3?st=7Z9ZbHYsptwtQshmTNGXyA&e=1659281763",
       image:
         "https://webqinsmoon.files.wordpress.com/2016/05/8af12bd4gw1f3bld2nclrj20qh0odgod.jpg",
-      lyrics: "Lười Gõ Lyric!!",
+      lyrics:
+        "Yī rú zuó rì zhú huǒ bàn biǎn zhōu xiàng suíNǎ yǒu táng rén bú dǒng dé táo zuì<br>Wǒ gū zhōu nǐ yǎo tiǎo àn shàng yǒu yǐn huì<br>Yī tà wàn lǐ yǔ shuí xiàng suí<br>Nǐ chuān cuò le jià zhuāng zěn néng yǒu kuài lè<br>Zài shàng yī céng yān zhī yě bāo měi<br>Yī shēng jiá rán ér zhǐ tíng qián de biān pào<br>Wàng xiǎng tóng nǐ huá fā de xīn zuò fèi<br>Nǐ shuō bú yào zì zuò zì shòu zì jǐ chuàng zào shāng bēi<br>Shuí dōu kě yǐ chè dǐ wàng jì shuí<br>Nǐ shuō guò wǎng bú jí huí shǒu bié hòu huǐ le cái huì<br>Xiǎng fāng shè fǎ de bǎ nǐ zhuī huí<br>Nǐ shuō gū dú shì shī rén yīng gāi jù yǒu de tǐ huì<br>Xiě gē de rén jiù gāi yǒu shāng bēi<br>Wǒ diǎn yī sī zhú huǒ yī shí fàn làn le sī niàn<br>Xiě shǒu xiǎo diào míng zì jiào hòu huǐ<br>Nǐ chuān cuò le jià zhuāng zěn néng yǒu kuài lè<br>Zài shàng yī céng yān zhī yě bāo měi<br>Yī shēng jiá rán ér zhǐ tíng qián de biān pào<br>Wàng xiǎng tóng nǐ huá fā de xīn zuò fèi<br>Nǐ shuō bú yào zì zuò zì shòu zì jǐ chuàng zào shāng bēi<br>Shuí dōu kě yǐ chè dǐ wàng jì shuí<br>Nǐ shuō guò wǎng bú jí huí shǒu bié hòu huǐ le cái huì<br>Xiǎng fāng shè fǎ de bǎ nǐ zhuī huí<br>Nǐ shuō gū dú shì shī rén yīng gāi jù yǒu de tǐ huì<br>Xiě gē de rén jiù gāi yǒu shāng bēi<br>Wǒ diǎn yī sī zhú huǒ yī shí fàn làn le sī niàn<br>Xiě shǒu xiǎo diào míng zì jiào hòu huǐ<br>Nǐ shuō bú yào zì zuò zì shòu zì jǐ chuàng zào shāng bēi<br>Shuí dōu kě yǐ chè dǐ wàng jì shuí<br>Nǐ shuō guò wǎng bú jí huí shǒu bié hòu huǐ le cái huì<br>Xiǎng fāng shè fǎ de bǎ nǐ zhuī huí<br>Nǐ shuō gū dú shì shī rén yīng gāi jù yǒu de tǐ huì<br>Xiě gē de rén jiù gāi yǒu shāng bēi<br>Wǒ diǎn yī sī zhú huǒ yī shí fàn làn le sī niàn<br>Xiě shǒu xiǎo diào míng zì jiào hòu huǐ",
     },
     {
       name: "Nhất Lộ Sinh Hoa",
@@ -226,6 +257,15 @@ const app = {
       lyrics:
         "Páihuáizhe de zài lùshàng de<br>Nǐ yào zǒu ma via via<br>Yì suì de jiāo'àozhe<br>Nà yě céng shì wǒ de múyàng<br>Fèiténgzhe de bù'ānzhe de<br>Nǐ yào qù nǎ<br>Mí yīyàng de chénmòzhe de<br>Gùshì nǐ zhēn de zài tīng ma<br>Woo x3<br>Gùshì nǐ zhēn de zài tīng ma<br>Wǒ céngjīng kuàguò shān hé dàhǎi<br>Yě chuānguò rénshānrénhǎi<br>Wǒ céngjīng yǒngyǒuzhe yīqiè<br>Zhuǎnyǎn dōu piāosàn rú yān<br>Wǒ céngjīng shīluò shīwàng shīdiào suǒyǒu fāngxiàng<br>Zhídào kànjiàn píngfán cái shì wéiyī de dá'àn<br>Dāng nǐ réngrán hái zài huànxiǎng<br>Nǐ de míngtiān via via<br>Tā huì hǎo ma háishì gèng làn<br>Duì wǒ ér yán shì lìng yītiān<br>Wooo x3<br>Duì wǒ ér yán shì lìng yītiān<br>Wǒ céngjīng huǐle wǒ de yīqiè zhǐ xiǎng yǒngyuǎn dì líkāi<br>Wǒ céngjīng duò rù wúbiān hēi'àn xiǎng zhēngzhá wúfǎ zìbá<br>Wǒ céng jīng xiàng nǐ xiàng tā xiàng nà yěcǎo yěhuā<br>Juéwàngzhe yě kěwàngzhe yě kū yě xiào yě píngfánzhe<br>Woooo<br>Wǒ céngjīng kuàguò shān hé dàhǎi yě chuānguò rénshānrénhǎi<br>Wǒ céngjīng yǒngyǒuzhe yīqiè zhuǎnyǎn dōu piāosàn rú yān<br>Wǒ céngjīng shīluò shīwàng shīdiào suǒyǒu fāngxiàng<br>Zhídào kànjiàn píngfán cái shì wéiyī de dá'àn<br>Wǒ céngjīng huǐle wǒ de yīqiè zhǐ xiǎng yǒngyuǎn dì líkāi<br>Wǒ céngjīng duò rù wúbiān hēi'àn xiǎng zhēng zhá wúfǎ zìbá<br>Wǒ céngjīng xiàng nǐ xiàng tā xiàng nà yěcǎo yěhuā<br>Juéwàngzhe yě kěwàngzhe<br>Yě kū yě xiào yě píngfánzhe",
     },
+    {
+      name: "Đúng Lúc Gặp Gỡ Người",
+      singer: "Lý Ngọc Cương",
+      path: "https://play.imusicvn.com/stream/AUK8DXfIfxGQ",
+      image:
+        "https://avatar-ex-swe.nixcdn.com/song/2019/04/25/5/c/d/b/1556183057419_640.jpg",
+      lyrics:
+        "Wǒmen kūle wǒmen xìaozhe<br>Wǒmen táitóu wàng tiānkōng<br>Xīngxīng hái lìangzhe jǐ kē<br>Wǒmen chàngzhe shíjiān de gē<br>Cái dǒngde xiānghù yǒngbào<br>Dàodǐ shì wèile shénme<br>Yīnwèi wǒ gānghǎo ỳujìan nǐ<br>Líu xìa zújì cái měilì<br>Fēng chuī huā lùo lèi rú yǔ<br>Yīn wéi bùxiǎng fēnlí<br>Yīnwèi gānghǎo ỳujìan nǐ<br>Líu xìa shí nían de qíxǔ<br>Rúguǒ zài xiāngỳu<br>Wǒ xiǎng wǒ hùi jìde nǐ<br>Yīnwèi gānghǎo ỳujìan nǐ<br>Líu xìa zújì cái měilì<br>Fēng chuī huā lùo lèi rú yǔ<br>Yīn wéi bùxiǎng fēnlí<br>Yīnwèi gānghǎo ỳujìan nǐ<br>Líu xìa shí nían de qíxǔ<br>Rúguǒ zài xiāngỳu<br>Wǒ xiǎng wǒ hùi jìde nǐ<br>Yīnwèi wǒ gānghǎo ỳujìan nǐ<br>Líu xìa zújì cái měilì<br>Fēng chuī huā lùo lèi rú yǔ<br>Yīn wéi bùxiǎng fēnlí<br>Yīnwèi gāng hǎo ỳujìan nǐ<br>Líu xìa shí nían de qíxǔ<br>Rúguǒ zài xiāngỳu<br>Wǒ xiǎng wǒ hùi jìde nǐ",
+    },
   ],
 
   render: function () {
@@ -248,10 +288,14 @@ const app = {
         <div id="lyrics" class="lyrics">
             <p class="lyrics-title">Lời Bài Hát</p>
             <h3 class="lyrics-name">${song.name}</h3>
-            <div class="lyrics-text">
+          <div class="lyrics-text">
             <p>${song.lyrics}</p>
-            </div>
+          </div>
           <button class="lyrics-btn">Đóng</button>
+          <button class="lyrics-screen"> 
+            <i class="fa-solid fa-expand icon-fullscreen"></i>
+            <i class="fa-solid fa-compress icon-out-fullscreen"></i>
+          </button>
         </div>
       
       </div>
@@ -434,6 +478,7 @@ const app = {
       const songGroupClick = e.target.closest(".song-group");
       const lyricsClick = e.target.closest(".lyrics");
       const lyricsClickBtn = e.target.closest(".lyrics-btn");
+      const lyricsClickScreen = e.target.closest(".lyrics-screen");
 
       if (songClick || optionClick) {
         // Handle click song
@@ -455,11 +500,17 @@ const app = {
       }
 
       if (lyricsClickBtn) {
-        lyricsClick.lastElementChild.offsetParent.classList.remove("active");
+        lyricsClick.children[3].offsetParent.classList.remove("active");
 
         songGroupClick.firstElementChild.lastElementChild.classList.remove(
           "active"
         );
+      }
+
+      if (lyricsClickScreen) {
+        const lyricsActiveScreen = lyricsClick.lastElementChild;
+        lyricsActiveScreen.classList.toggle("active");
+        lyricsActiveScreen.offsetParent.classList.toggle("fullscreen");
       }
     };
   },

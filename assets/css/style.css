@@ -311,12 +311,14 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  box-shadow: 0 1px 3px var(--color-shadow);
   background-size: cover;
   margin: 0 8px;
 }
 
 .song.active .thumb {
-  transform: scale(1.2);
+  transform: scale(1.1);
+  box-shadow: 0 1px 3px var(--color-opacity);
 }
 
 .song .body {
@@ -367,6 +369,7 @@ body {
   box-shadow: 0 1px 3px var(--color-shadow);
   text-align: center;
   overflow: hidden;
+  transition: all 0.5s linear;
   animation: ring 0.5s linear;
 }
 
@@ -398,8 +401,11 @@ body {
   border-bottom: 2px solid var(--color-primary);
   border-radius: 35px;
   overflow-y: scroll;
+  transition: all 0.5s linear;
   animation: growth 0.7s linear;
 }
+
+.lyrics .lyrics-text.active {}
 
 .lyrics .lyrics-text p {
   color: #eee;
@@ -408,6 +414,7 @@ body {
 }
 
 .lyrics .lyrics-btn {
+  position: relative;
   margin-top: 16px;
   padding: 12px 54px;
   border: none;
@@ -416,6 +423,7 @@ body {
   box-shadow: 0 1px 3px var(--color-shadow);
   background: var(--color-primary);
   font-size: 18px;
+  font-family: inherit;
   cursor: pointer;
   transition: all 0.5s linear;
 }
@@ -424,6 +432,55 @@ body {
 .lyrics .lyrics-btn:active {
   opacity: 0.6;
   transform: translateY(3px);
+}
+
+.lyrics .lyrics-screen {
+  position: absolute;
+  margin-top: 12px;
+  right: 48px;
+  padding: 16px;
+  border: none;
+  color: #eee;
+  border-radius: 50%;
+  background: transparent;
+  width: 56px;
+  height: 56px;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.lyrics-screen .icon-out-fullscreen {
+  display: none;
+}
+
+.lyrics-screen.active {
+  color: var(--color-primary);
+  transition: all 0.5s linear;
+}
+
+.lyrics-screen:hover,
+.lyrics-screen:active,
+.lyrics-screen.active:hover,
+.lyrics-screen.active:active {
+  opacity: 0.6;
+  transform: translateY(3px);
+}
+
+.lyrics-screen.active .icon-fullscreen {
+  display: none;
+}
+
+.lyrics-screen.active .icon-out-fullscreen {
+  display: block;
+}
+
+.fullscreen {
+  max-height: 100%;
+}
+
+.fullscreen .lyrics-text {
+  height: 78%
 }
 
 @keyframes ring {
@@ -452,6 +509,19 @@ body {
   }
 }
 
+@keyframes fading {
+  from {
+
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
 /* PC */
 @media (max-width: 739px) {
 
@@ -462,6 +532,10 @@ body {
     box-shadow: none;
     opacity: 1;
     transform: translateY(0) scale(1);
+  }
+
+  .fullscreen .lyrics-text {
+    height: 80%
   }
 
   /* .lyrics {
