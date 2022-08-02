@@ -1,6 +1,8 @@
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
+const PLAYER_STORAGE_KEY = "MUSIC_PLAER";
+
 const playList = $(".playlist");
 const cd = $(".cd");
 const cdBgs = $(".cd-bgs");
@@ -23,6 +25,7 @@ const app = {
   isRandom: false,
   isRepeat: false,
   isSong: false,
+  config: JSON.parse(localStorage.getItem(PLAYER_STORAGE_KEY)) || {},
   songs: [
     {
       name: "Độc Tộc 2",
@@ -285,6 +288,11 @@ const app = {
     },
   ],
 
+  setConfig: function (key, value) {
+    this.config[key] = value;
+    localStorage.setItem(PLAYER_STORAGE_KEY, JSON.stringify(this.config));
+  },
+
   render: function () {
     const htmls = this.songs.map((song, index) => {
       return `
@@ -446,12 +454,14 @@ const app = {
     // Random audio
     randomBtn.onclick = function () {
       _this.isRandom = !_this.isRandom;
+      _this.setConfig("isRandom", _this.isRandom);
       randomBtn.classList.toggle("active", _this.isRandom); // Nếu true thì add class còn false thì remove class
     };
 
     // Repeat audio
     repeatBtn.onclick = function () {
       _this.isRepeat = !_this.isRepeat;
+      _this.setConfig("isRepeat", _this.isRepeat);
       repeatBtn.classList.toggle("active", _this.isRepeat);
       audio.loop = _this.isRepeat;
     };
@@ -511,6 +521,11 @@ const app = {
     audio.src = this.currentSong.path;
   },
 
+  loadConfig: function () {
+    this.isRandom = this.config.isRandom;
+    this.isRepeat = this.config.isRepeat;
+  },
+
   nextSong: function () {
     this.currentIndex++;
     if (this.currentIndex >= this.songs.length) {
@@ -553,6 +568,8 @@ const app = {
   },
 
   start: function () {
+    this.loadConfig();
+
     this.defineProperties();
 
     this.handleEvent();
@@ -560,6 +577,9 @@ const app = {
     this.loadCurrentSong();
 
     this.render();
+
+    randomBtn.classList.toggle("active", this.isRandom);
+    repeatBtn.classList.toggle("active", this.isRepeat);
   },
 };
 
