@@ -512,6 +512,8 @@ const app = {
         lyricsActiveScreen.offsetParent.classList.toggle("fullscreen");
       }
     };
+
+    this.sort(this.songs);
   },
 
   loadCurrentSong: function () {
@@ -567,6 +569,9 @@ const app = {
     this.loadCurrentSong();
   },
 
+  sort: function (obj) {
+    obj.sort((a, b) => a.name.localeCompare(b.name));
+  },
   start: function () {
     // this.loadConfig();
 
