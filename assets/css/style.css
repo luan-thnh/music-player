@@ -110,24 +110,24 @@ body {
 
 .top {
   top: var(--value-thumb-bg);
-  animation: fadeIn 2s linear infinite;
+  animation: fadeIn 2s linear alternate infinite;
 }
 
 .right {
   right: var(--value-thumb-bg);
-  animation: fadeIn 2s linear infinite;
+  animation: fadeIn 2s linear alternate infinite;
   animation-delay: 2s;
 }
 
 .bottom {
   top: calc(var(--value-thumb-bg) * -1);
-  animation: fadeIn 2s linear infinite;
+  animation: fadeIn 2s linear alternate infinite;
   animation-delay: 1s;
 }
 
 .left {
   left: var(--value-thumb-bg);
-  animation: fadeIn 2s linear infinite;
+  animation: fadeIn 2s linear alternate infinite;
   animation-delay: 3s;
 }
 
