@@ -306,7 +306,7 @@ body {
   width: 0px;
   height: 0px;
   border-radius: 100%;
-  border: 3px solid var(--text-color);
+  border: 1px solid var(--text-color);
   position: absolute;
   z-index: -1;
   top: 50%;
@@ -320,7 +320,7 @@ body {
   width: 0px;
   height: 0px;
   border-radius: 100%;
-  border: 3px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
   position: absolute;
   z-index: -1;
   top: 50%;
