@@ -454,14 +454,14 @@ const app = {
     // Random audio
     randomBtn.onclick = function () {
       _this.isRandom = !_this.isRandom;
-      _this.setConfig("isRandom", _this.isRandom);
+      // _this.setConfig("isRandom", _this.isRandom);
       randomBtn.classList.toggle("active", _this.isRandom); // Nếu true thì add class còn false thì remove class
     };
 
     // Repeat audio
     repeatBtn.onclick = function () {
       _this.isRepeat = !_this.isRepeat;
-      _this.setConfig("isRepeat", _this.isRepeat);
+      // _this.setConfig("isRepeat", _this.isRepeat);
       repeatBtn.classList.toggle("active", _this.isRepeat);
       audio.loop = _this.isRepeat;
     };
@@ -568,7 +568,7 @@ const app = {
   },
 
   start: function () {
-    this.loadConfig();
+    // this.loadConfig();
 
     this.defineProperties();
 
@@ -577,9 +577,6 @@ const app = {
     this.loadCurrentSong();
 
     this.render();
-
-    randomBtn.classList.toggle("active", this.isRandom);
-    repeatBtn.classList.toggle("active", this.isRepeat);
   },
 };
 

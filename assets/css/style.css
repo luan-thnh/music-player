@@ -384,8 +384,11 @@ body {
 .lyrics .lyrics-name {
   padding: 16px 0;
   color: var(--text-color);
+  line-height: 28px;
   font-size: 28px;
-  animation: growth 0.6s linear;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .lyrics .lyrics-text {
