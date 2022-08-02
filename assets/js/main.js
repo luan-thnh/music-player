@@ -126,7 +126,7 @@ const app = {
     {
       name: "Don't Watch Me Cry",
       singer: "Alexandra Porat",
-      path: "https://stream.nixcdn.com/NhacCuaTui1002/DontWatchMeCryCover-AlexandraPorat-6316751.mp3?st=eFSl5dMveqKHvljc8cnq4w&e=1659350668&t=1659264290951",
+      path: "https://play.imusicvn.com/stream/JUKZOE1CsQaA",
       image: "https://images-na.ssl-images-amazon.com/images/I/71vKKrtUh8L.jpg",
       lyrics:
         "Oh, it hurts the most 'cause I don't know the cause<br>Maybe I shouldn't have cried when you left and told me not to wait<br>Oh, it kills the most to say that I still care<br>Now I'm left tryna rewind the times you held and kissed me back<br>I wonder if you're thinkin' 'Is she alright all alone?'<br>I wonder if you tried to call, but couldn't find your phone<br>Have I ever crossed your thoughts because your name's all over mine<br>A moment in time, don't watch me cry<br>A moment in time, don't watch me cry<br>I'm not crying 'cause you left me on my own<br>I'm not crying 'cause you left me with no warning<br>I'm just crying 'cause I can't escape what could've been<br>Are you aware when you set me free?<br>All I can do is let my heart bleed<br>Oh, it's harder when you can't see through the thoughts<br>Not that I wanna get in, but I want to see how your mind works<br>No, it's harder when they don't know what they've done<br>Thinking it's better they leave, meaning that I'll have to move on<br>Oh, I wonder if you're thinkin' 'Is she alright all alone?'<br>I wonder if you tried to call, but couldn't find your phone<br>Have I ever crossed your thoughts because your name's all over mine<br>A moment in time, don't watch me cry<br>A moment in time, don't watch me cry<br>I'm not crying 'cause you left me on my own<br>I'm not crying 'cause you left me with no warning<br>I'm just crying 'cause I can't escape what could've been<br>Are you aware when you set me free?<br>All I can do is let my heart bleed",
@@ -212,8 +212,8 @@ const app = {
     },
     {
       name: "Bạch Nguyệt Quang Và Nốt Chu Sa",
-      singer: "Min Hii",
-      path: "https://stream.nixcdn.com/NhacCuaTui1009/BachNguyetQuangVaNotChuSa-DaiTuDaZi-6911991.mp3?st=1_xY5RguDCZEQIsn7MUkIA&e=1659281169",
+      singer: "Đại Tử",
+      path: "https://play.imusicvn.com/stream/pyGiSgdzeMW0",
       image:
         "https://images.chesscomfiles.com/uploads/v1/blog/502764.37e87846.5000x5000o.2328fab70671.jpeg",
       lyrics:
@@ -222,7 +222,7 @@ const app = {
     {
       name: "Công Tử Đi Hướng Bắc",
       singer: "Lý Xuân Hoa",
-      path: "https://stream.nixcdn.com/NhacCuaTui990/CongTuDiHuongBac-LyXuanHoaLiChunHua-6043504.mp3?st=Hub1WCUJJWWuDVTtWLI0UA&e=1659280486",
+      path: "https://play.imusicvn.com/stream/SXAJkwJSvcCi",
       image: "https://img.wattpad.com/cover/193261581-288-k496780.jpg",
       lyrics:
         "Xiǎo nǚzǐ bù cáiWèi dé gōngzǐ qīnglài<br>Rǎo gōngzǐ liángjiǔ<br>Gōngzǐ wùguài<br>Gōngzǐ xiàng běi zǒu<br>Xiǎo nǚzǐ xiàng nán qiáo<br>Cǐshēng jiùcǐ biéguòle<br>Nányǐ wànghuái<br>Yuàn nǐ sān dōng nuǎn<br>Yuàn nǐ chūn bù hán<br>Yuàn nǐ tiān hēi yǒu dēng<br>Xià yǔ yǒu sǎn<br>Yuàn nǐ shàn qí shēn<br>Yuàn nǐ yù liáng rén<br>Nuǎnsè fú yúshēng<br>Yǒu hǎorén xiāngbàn<br>Suǒyǒu àimù zhī yì<br>Zhǐ yú chúnchǐ jiān<br>Yǎn yú suìyuè<br>Nì yú jiānglái<br>Yǔ jūn jīnshēng wúyuán<br>Qǐng wúxū guàniàn<br>Yǔ dǎ bājiāo<br>Wú kě wúnài<br>Yuàn nǐ sān dōng nuǎn<br>Yuàn nǐ chūn bù hán<br>Yuàn nǐ tiān hēi yǒu dēng<br>Xià yǔ yǒu sǎn<br>Yuàn nǐ shàn qí shēn<br>Yuàn nǐ yù liáng rén<br>Nuǎnsè fú yúshēng<br>Yǒu hǎorén xiāngbàn<br>Yuàn nǐ sān dōng nuǎn<br>Yuàn nǐ chūn bù hán<br>Yuàn nǐ tiān hēi yǒu dēng<br>Xià yǔ yǒu sǎn<br>Yuàn nǐ shàn qí shēn<br>Yuàn nǐ yù liáng rén<br>Nuǎnsè fú yúshēng<br>Yǒu hǎorén xiāngbàn<br>Xiǎo nǚzǐ bù cái<br>Wèi dé gōngzǐ qīnglài<br>Rǎo gōngzǐ liángjiǔ<br>Gōngzǐ<br>Wùguài",
@@ -230,7 +230,7 @@ const app = {
     {
       name: "Cô Nương Xinh Đẹp Phải Đi Lấy Chồng Rồi",
       singer: "Long Mai Tử",
-      path: "https://stream.nixcdn.com/NhacCuaTui928/CoNuongXinhDepPhaiDiLayChongRoi-VA-4588745.mp3?st=SosNHUjLzdj2pn6c2848Mg&e=1659281204",
+      path: "https://play.imusicvn.com/stream/blnLEXbnE71n",
       image: "https://i1.sndcdn.com/artworks-000569147624-vjuarg-t500x500.jpg",
       lyrics:
         "Gu niang gu niang wo jiu yao jia ren laKe shi wo de xin li yi ran ai zhao ta<br>Ai shang ni wo liu xia yong yuan de shang ba<br>Kan kan wo de yan li han zhao lei hua<br>Gu niang gu niang wo jiu yao jia ren la<br>Wo ye ceng jing meng xiang ni ba wo qu hui jia<br>Dang chu wo men ai de wu fa zi ba<br>Ru jin ni yi bian cheng wo yong yuan de qian gua<br>Piao liang de gu niang jiu yao jia ren la<br>Wo shuang yan de lei shui hua hua de xia<br>Mei xiang dao wo zhen de hui shi qu ta ya<br>Cong ci ta zai bie ren de huai li la<br>Piao liang de gu niang jiu yao jia ren la<br>Shen me shi hou cai neng zai kan dao ta<br>Yi xiang dao wo jiang yong jiu de shi qu ta ya<br>Wo de xin li tong de xiang dao zai gua<br>Wo xin ai de gu niang xin ai de gu niang<br>Jin tian jiu yao jia ren la<br>Shou li peng zhao xian hua shen shang chuan zhuo jie bai de hun sha<br>Wo xin ai de gu niang xin ai de gu niang<br>Jin tian jiu yao jia ren la<br>Jia gei yi ge bie de ta wo de xin li jiu xiang dao zai gua<br>Wo xin ai de gu niang xin ai de gu niang<br>Jin tian jiu yao jia ren la<br>Nan dao ta zhen de bi wo hao ma wo yan li han zhao de shi lei hua<br>Wo xin ai de gu niang xin ai de gu niang<br>Jin tian jiu yao jia ren la<br>Wo xiang da sheng de *** su ta wo yong yuan yong yuan ai zhao ta<br>Gu niang gu niang wo jiu yao jia ren la<br>Wo ye ceng jing meng xiang ni ba wo qu hui jia<br>Dang chu wo men ai de wu fa zi ba<br>Ru jin ni yi bian cheng wo yong yuan de qian gua<br>Piao liang de gu niang jiu yao jia ren la<br>Xiang dao zhe li wo jiu lei ru yu xia<br>Hen wo bu gan zao yi dian qu biao da ya<br>Zhe jiu shi wo qie nuo fu chu de dai jia<br><br>Piao liang de gu niang jiu yao jia r<br>n laWo yao xiang ge ban fa qu zu zhi ta<br>Gan jin wei ta song qu mei gui hua ya<br>Gu niang gu niang ni yao leng jing yi xia<br>Piao liang de gu niang jiu yao jia ren la<br>Wo shuang yan de lei shui hua hua de xia<br>Mei xiang dao wo zhen de hui shi qu ta ya<br>Cong ci ta zai bie ren de huai li la<br>Piao liang de gu niang jiu yao jia ren la<br>Shen me shi hou cai neng zai kan dao ta<br>Yi xiang dao wo jiang yong jiu de shi qu ta ya<br>Wo de xin li tong de xiang dao zai gua<br>Piao liang de gu niang jiu yao jia ren la<br>Xiang dao zhe li wo jiu lei ru yu xia<br>Hen wo bu gan zao yi dian qu biao da ya<br>Zhe jiu shi wo qie nuo fu chu de dai jia<br>Piao liang de gu niang jiu yao jia ren la<br>Wo yao xiang ge ban fa qu zu zhi ta<br>Gan jin wei ta song qu mei gui hua ya<br>Gu niang gu niang ni yao leng jing yi xia<br>Gan jin wei ta song qu mei gui hua ya<br>Gu niang gu niang ni yao leng jing yi xia",
@@ -246,7 +246,7 @@ const app = {
     {
       name: "Đường Nhân",
       singer: "Tôn Tử Hàm",
-      path: "https://stream.nixcdn.com/NhacCuaTui951/DuongNhan-NikoSunTonTuHam-5237437.mp3?st=7Z9ZbHYsptwtQshmTNGXyA&e=1659281763",
+      path: "https://play.imusicvn.com/stream/TZkMFgY3wvNX",
       image:
         "https://webqinsmoon.files.wordpress.com/2016/05/8af12bd4gw1f3bld2nclrj20qh0odgod.jpg",
       lyrics:
