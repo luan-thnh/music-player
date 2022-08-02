@@ -238,7 +238,7 @@ const app = {
     {
       name: "Em Bằng Lòng Làm Một Người Bình Thường Ở Bên Cạnh Anh",
       singer: "Vương Thất Thất",
-      path: "https://stream.nixcdn.com/NhacCuaTui980/EmBangLongLamMotNguoiBinhThuongOBenCanhAnh-VuongThatThat-5923718.mp3?st=Kv19WZc6o6rojAaPKChsww&e=1659280191",
+      path: "https://play.imusicvn.com/stream/NLhMFRdqoy9n",
       image: "https://i.ytimg.com/vi/O4K-xRUIQBg/maxresdefault.jpg",
       lyrics:
         "Zhǎng dé chǒu huó de jiǔ<br>Zhǎng dé shuài lǎo de kuài<br>Wǒ nìngyuàn dāng yīgè chǒubāguài<br>Jījí yòu kě'ài<br>Zhǎng dé chǒu huó de jiǔ<br>Zhǎng dé pàng rìzi wàng<br>Wǒ nìngyuàn zuò yīgè píngfán de rén<br>Péi zài nǐ shēn páng<br>Wǒ nìngyuàn zuò yīgè píngfán de rén<br>Péi zài nǐ shēn páng<br>Dà xīnwén yòu bàozhàle<br>Shéi yòu dēng shàng dà yǎzhī táng<br>Māmā chǎo de fàn zhēnxiāng<br>Guǎn tā chī wán huì bù huì pàng<br>Wǒ zhàn zài shānpō shàng<br>Yōuzāi yōuzāi xiàng xià wàng<br>Wǒ shì zuìdà de tàiyáng<br>Zhǐguǎn bǎ nǐ zhào liàng<br>Zhǎng dé chǒu huó de jiǔ<br>Zhǎng dé shuài lǎo de kuài<br>Wǒ nìngyuàn dāng yīgè chǒubāguài<br>Jījí yòu kě'ài<br>Zhǎng dé chǒu huó de jiǔ<br>Zhǎng dé pàng rìzi wàng<br>Wǒ nìngyuàn zuò yīgè píngfán de rén<br>Péi zài nǐ shēn páng<br>Wǒ nìngyuàn zuò yīgè píngfán de rén<br>Péi zài nǐ shēn páng<br>Wū dá dá dá dá dá dá dá dá dá dá<br>Wū dá dá dá dá dá dá dá dá dá dá<br>Wū dá dá dá dá dá dá dá dá dá dá<br>Wū dá dá dá dá dá dá dá dá dá dá<br>Wǒ bùshì méiyǒu mèngxiǎng<br>Zhǐshì mèngxiǎng tài kuángwàng<br>Nà jiùhuó zài dāngxià<br>Yī diǎndiǎn biàn dé qiángdà<br>Nǐ zhù zài wǒ xīn shàng<br>Zhǐ shǔyú nǐ de bìfēnggǎng<br>Nǐ shì dúyīwú'èr de rén<br>Zhēnguì qiě shànliáng<br>Zhǎng dé chǒu huó de jiǔ<br>Zhǎng dé shuài lǎo de kuài<br>Wǒ nìngyuàn dāng yīgè chǒubāguài<br>Jījí yòu kě'ài<br>Zhǎng dé chǒu huó de jiǔ<br>Zhǎng dé pàng rìzi wàng<br>Wǒ nìngyuàn zuò yīgè píngfán de rén<br>Péi zài nǐ shēn páng<br>Wǒ nìngyuàn zuò yīgè píngfán de rén<br>Péi zài nǐ shēn páng<br>Nà hū kě'ài de rén<br>Hū wū píngfán de rén<br>Hū wū dúyīwú'èr de rén<br>Hū wū ài nǐ de rén",
@@ -285,6 +285,94 @@ const app = {
         "https://avatar-ex-swe.nixcdn.com/song/2019/04/25/5/c/d/b/1556183057419_640.jpg",
       lyrics:
         "Wǒmen kūle wǒmen xìaozhe<br>Wǒmen táitóu wàng tiānkōng<br>Xīngxīng hái lìangzhe jǐ kē<br>Wǒmen chàngzhe shíjiān de gē<br>Cái dǒngde xiānghù yǒngbào<br>Dàodǐ shì wèile shénme<br>Yīnwèi wǒ gānghǎo ỳujìan nǐ<br>Líu xìa zújì cái měilì<br>Fēng chuī huā lùo lèi rú yǔ<br>Yīn wéi bùxiǎng fēnlí<br>Yīnwèi gānghǎo ỳujìan nǐ<br>Líu xìa shí nían de qíxǔ<br>Rúguǒ zài xiāngỳu<br>Wǒ xiǎng wǒ hùi jìde nǐ<br>Yīnwèi gānghǎo ỳujìan nǐ<br>Líu xìa zújì cái měilì<br>Fēng chuī huā lùo lèi rú yǔ<br>Yīn wéi bùxiǎng fēnlí<br>Yīnwèi gānghǎo ỳujìan nǐ<br>Líu xìa shí nían de qíxǔ<br>Rúguǒ zài xiāngỳu<br>Wǒ xiǎng wǒ hùi jìde nǐ<br>Yīnwèi wǒ gānghǎo ỳujìan nǐ<br>Líu xìa zújì cái měilì<br>Fēng chuī huā lùo lèi rú yǔ<br>Yīn wéi bùxiǎng fēnlí<br>Yīnwèi gāng hǎo ỳujìan nǐ<br>Líu xìa shí nían de qíxǔ<br>Rúguǒ zài xiāngỳu<br>Wǒ xiǎng wǒ hùi jìde nǐ",
+    },
+    {
+      name: "Wish You Were Gay",
+      singer: "Billie Eilish",
+      path: "https://play.imusicvn.com/stream/0hy0Piu0j9z9",
+      image:
+        "https://billboardvn.vn/wp-content/uploads/2019/03/Billie-Eilish-press-by-Kenneth-Cappello-2019-billboard-1548-e1551776796620.jpg",
+      lyrics:
+        "Baby, I don't feel so good<br>Six words you never understood<br>I'll never let you go<br>Five words you never say (Aww)<br>I laugh alone like nothing's wrong<br>Four days has never felt so long<br>If three's a crowd and two was us<br>One slipped away (Hahahahahahahaha)<br>I just wanna make you feel okay<br>But all you do is look the other way<br>I can't tell you how much I wish I didn't wanna stay<br>I just kinda wish you were gay<br>Is there a reason we're not through?<br>Is there a 12 step just for you?<br>Our conversation's all in blue<br>11 \"heys\" (Hey, hey, hey, hey)<br>Ten fingers tearing out my hair<br>Nine times you never made it there<br>I ate alone at 7, you were six minutes away (Yay)<br>How am I supposed to make you feel okay<br>When all you do is walk the other way?<br>I can't tell you how much I wish I didn't wanna stay<br>I just kinda wish you were gay<br>To spare my pride<br>To give your lack of interest an explanation<br>Don't say I'm not your type<br>Just say that I'm not your preferred sexual orientation<br>I'm so selfish<br>But you make me feel helpless, yeah<br>And I can't stand another day<br>Stand another day<br>I just wanna make you feel okay<br>But all you do is look the other way<br>I can't tell you how much I wish I didn't wanna stay<br>I just kinda wish you were gay<br>I just kinda wish you were gay<br>I just kinda wish you were gay",
+    },
+    {
+      name: "I Love You 3000",
+      singer: "Stephanie Poetri",
+      path: "https://play.imusicvn.com/stream/huj1DjYvp91w",
+      image:
+        "https://media.vov.vn/sites/default/files/styles/large/public/2020-11/1-1605511846508372305113.jpg",
+      lyrics:
+        "Baby, take my hand<br>I want you to be my husband<br>'Cause you're my Iron Man<br>And I love you 3000<br>Baby, take a chance<br>'Cause I want this to be something<br>Straight out of a Hollywood movie<br>I see you standing there<br>In your hulk outerwear<br>And all I can think<br>Is where is the ring<br>'Cause I know you wanna ask<br>Scared the moment will pass<br>I can see it in your eyes<br>Just take me by surprise<br>And all my friends they tell me they see<br>You planning to get on one knee<br>But I want it to be out of the blue<br>So make sure I have no clues<br>When you ask<br>Baby, take my hand<br>I want you to be my husband<br>'Cause you're my Iron Man<br>And I love you 3000<br>Baby, take a chance<br>'Cause I want this to be something<br>Straight out of a Hollywood movie<br>Now we're having dinner<br>And baby you're my winner<br>I see the way you smile<br>You're thinking about the aisle<br>You reach in your pocket<br>Emotion unlocking<br>And before you could ask<br>I answer too fast<br>And all my friends they tell me they see<br>You planing to get on one knee<br>So now I can't stop thinking about you<br>I figured out all the clues<br>So now I ask<br>Baby, take my hand<br>I want you to be my husband<br>'Cause you're my Iron Man<br>And I love you 3000<br>Baby, take a chance<br>'Cause I want this to be something<br>Straight out of a Hollywood movie<br>No spoilers please<br>No spoilers please<br>Baby, take my hand<br>I want you to be my husband<br>'Cause you're my Iron Man<br>And I love you 3000<br>Baby, take a chance<br>'Cause I want this to be something<br>Straight out of a Hollywood movie, Baby<br>No spoilers please<br>No spoilers please<br>No spoilers please<br>And I love you 3000",
+    },
+    {
+      name: "All I Want",
+      singer: "Alexandra Porat",
+      path: "https://play.imusicvn.com/stream/LVWbRCjrbHSC",
+      image:
+        "https://media.vov.vn/sites/default/files/styles/large/public/2020-11/1-1605511846508372305113.jpg",
+      lyrics:
+        "All I want is nothing more<br>To hear you knocking at my door<br>'Cause if I could see your face once more<br>I could die as a happy man I'm sure<br>When you said your last goodbye<br>I died a little bit inside<br>I lay in tears in bed all night<br>Alone without you by my side<br>But If you loved me<br>Why did you leave me<br>Take my body<br>Take my body<br>All I want is<br>All I need is<br>To find somebody<br>I'll find somebody<br>'Cause you brought out the best of me<br>A part of me I'd never seen<br>You took my soul wiped it clean<br>Our love was made for movie screens<br>But If you loved me<br>Why did you leave me<br>Take my body<br>Take my body<br>All I want is<br>All I need is<br>To find somebody<br>I'll find somebody",
+    },
+    {
+      name: "Sài Gòn Hôm Nay Mưa",
+      singer: "JSOL & Hoàng Duyên",
+      path: "https://play.imusicvn.com/stream/EZwfyBx9IT1N",
+      image:
+        "https://cdnmedia.thethaovanhoa.vn/Upload/qPf4BjfjvkrFearu8hrw/files/2021/05/MV%20SGHNM%202K00_03_25_10Still039.jpg",
+      lyrics:
+        "Từ lâu ta chẳng cho nhau<br>Một câu hỏi chào<br>Ngày ngày em nhắn cho anh<br>Dạo này anh thế nào<br>Vài dòng tin nhắn đã lâu<br>Chẳng hồi đáp lại<br>Chờ anh đến mắt ướt nhòe<br>Mà sao anh im lặng đến thế<br>Mưa nắng của trời, ai lại oán trách<br>Ai hãy mách cho tôi cách chữa lành nỗi buồn này<br>Đi đến khắp nơi đâu cũng là đôi ta<br>Hạnh phúc đôi khi để lại thương đau<br>Sài Gòn hôm nay mưa<br>Dường như có ai bật khóc<br>Vì nhớ người nơi chốn nào<br>Chờ một ngày người ta<br>Trở về để nói lời hứa<br>Từ lâu mà ai nỡ quên<br>Chỉ cầu mong cho mưa ngừng rơi<br>Mưa ngừng rơi anh sẽ quay về<br>Mà dường như khi mưa ngừng rơi<br>Anh cũng tan mất<br>Ngày nắng, ngày mưa mà ta cùng nhau bước qua<br>Bây giờ không còn lại gì em à<br>Đành chôn vùi những tổn thương<br>Vào sâu tận đáy lòng<br>Chẳng muốn ai đào lên<br>Tự mình đào lên thôi, tự mình đào lên thôi<br>Những vết thương em tạo ra<br>Tự mình tạo ra thôi tự mình tạo ra thôi<br>Đau đớn chỉ mình em nhận<br>Nhắn ai kia nhớ ngủ sớm<br>Làm việc nhiều quá chẳng tốt đâu anh à<br>Nhớ ăn no nhớ mặc ấm<br>Đừng để đau ốm ai sẽ lo cho anh<br>Nếu mai đây không về nữa<br>Thì người phải nhớ hạnh phúc dẫu thế nào<br>Nhớ hay quên em tùy anh chỉ cần là anh bình yên<br>Sài Gòn hôm nay mưa<br>Dường như có ai bật khóc<br>Vì nhớ người nơi chốn nào<br>Chờ một ngày người ta<br>Trở về để nói lời hứa<br>Từ lâu mà ai nỡ quên<br>Chỉ cầu mong cho mưa ngừng rơi<br>Mưa ngừng rơi anh sẽ quay về<br>Mà dường như khi mưa ngừng rơi<br>Anh cũng tan mất<br>Sài Gòn hôm nay mưa<br>Dường như có ai bật khóc<br>Vì nhớ người nơi chốn nào<br>Chờ một ngày người ta<br>Trở về để nói lời hứa<br>Từ lâu mà ai nỡ quên<br>Chỉ cầu mong cho mưa ngừng rơi<br>Mưa ngừng rơi anh sẽ quay về<br>Mà dường như khi mưa ngừng rơi<br>Anh cũng tan mất",
+    },
+    {
+      name: "To The Moon",
+      singer: "hooligan",
+      path: "https://play.imusicvn.com/stream/zO62A4FQmH79",
+      image:
+        "https://games.mail.ru/hotbox/content_files/news/2021/10/25/4c46629369414e58930c2ea72a4810c7.jpg",
+      lyrics:
+        "Wise man call me a crazy<br>Loving foolishly<br>Dream about you all the time<br>Everynight I fall asleep<br>Chasing and dreaming<br>Looking for your eyes Daisy!<br>I am the foolish Gatsby who's found drown in love<br>Can't you see my heart burning right through my hands?<br>Cos your smile lifts me above and beyond the blue sky<br>In the darkest moments here I still can see your eyes<br>Love you to the moon and back<br>I can't let you know this fact<br>Love you to the moon and back<br>I'm so freaking missing you<br>Aim for the moon yet so far<br>I can't land among the stars<br>Love you to the moon and back<br>I'm so freaking missing you<br>I'll never let my love get so close to you cos it hurts<br>Swear to God!<br>I wish I could<br>I am the foolish Gatsby who's found drown in love<br>Can't you see my heart burning right through my hands?<br>Cos your smile lifts me above and beyond the blue sky<br>In the darkest moments here I still can see your eyes<br>Love you to the moon and back<br>I can't let you know this fact<br>Love you to the moon and back<br>I'm so freaking missing you<br>Aim for the moon yet so far<br>I can't land among the stars<br>Love you to the moon and back<br>I'm so freaking missing you<br>Love you to the moon and back<br>I can't let you know this fact<br>Love you to the moon and back<br>I'm so freaking missing you<br>Aim for the moon yet so far<br>I can't land among the stars<br>Love you to the moon and back<br>I'm so freaking missing you",
+    },
+    {
+      name: "Love Me Like You Do",
+      singer: "Ellie Goulding",
+      path: "https://play.imusicvn.com/stream/M1DVLlecibs8",
+      image:
+        "https://linkstorage.linkfire.com/medialinks/images/8b27ba0e-911c-400e-89b4-4572bc024a87/artwork-440x440.jpg",
+      lyrics:
+        "You're the light, you're the night<br>You're the colour of my blood<br>You're the cure, you're the pain<br>You're the only thing I wanna touch<br>Never knew that it could mean so much, so much<br>You're the fear, I don't care<br>'Cause I've never been so high<br>Follow me to the dark<br>Let me take you past our satellites<br>You can see the world you brought to life, to life<br>So love me like you do, la-la-love me like you do<br>Love me like you do, la-la-love me like you do<br>Touch me like you do, ta-ta-touch me like you do<br>What are you waiting for?<br>Fading in, fading out<br>On the edge of paradise<br>Every inch of your skin is a holy grail I've got to find<br>Only you can set my heart on fire, on fire<br>Yeah, I'll let you set the pace<br>'Cause I'm not thinking straight<br>My head's spinning around I can't see clear no more<br>What are you waiting for?<br>Love me like you do, la-la-love me like you do (like you do)<br>Love me like you do, la-la-love me like you do<br>Touch me like you do, ta-ta-touch me like you do<br>What are you waiting for?<br>Love me like you do, la-la-love me like you do (like you do)<br>Love me like you do, la-la-love me like you do (yeah)<br>Touch me like you do, ta-ta-touch me like you do<br>What are you waiting for?<br>I'll let you set the pace<br>'Cause I'm not thinking straight<br>My head's spinning around I can't see clear no more<br>What are you waiting for?<br>Love me like you do, la-la-love me like you do (like you do)<br>Love me like you do, la-la-love me like you do (yeah)<br>Touch me like you do, ta-ta-touch me like you do<br>What are you waiting for?<br>Love me like you do, la-la-love me like you do (like you do)<br>Love me like you do, la-la-love me like you do (oh)<br>Touch me like you do, ta-ta-touch me like you do<br>What are you waiting for?",
+    },
+    {
+      name: "Học Mèo Kêu",
+      singer: "Tiểu Phan Phan ft.Tiểu Phong Phong",
+      path: "https://play.imusicvn.com/stream/n0wP1Ge9poDY",
+      image: "https://i1.sndcdn.com/artworks-000401697837-wa12uy-t500x500.jpg",
+      lyrics:
+        "Women yiqi xue mao xiao, yiqi miao miao miao miao miao<br>Zai ni mian qian sa ge jiao, ai you miao miao miao miao miao<br>Wo de xin zang peng peng tiao, mi lian shang ni de huai xiao<br>Ni bu shuo ai wo wo jiu miao miao miao<br>Mei tian du xu yao ni de yongbao<br>Zhenxi zai yiqi de mei fen mei miao<br>Ni dui wo duo chongyao, wo xiang ni bi wo geng zhidao<br>Ni jiu shi wo de nv zhujiao<br>You shihou wo lan de xiang zhi mao<br>Pi qi bu hao shi you zhang ya wu zhao<br>Ni zong shi wen rou de, neng ba wo de xin rong hua diao<br>Wo xiang yao dang ni de xiao mao mao<br>Women yiqi xue mao xiao, yiqi miao miao miao miao miao<br>Wo yao chuan ni de wai tao, wen ni shang shang de wei dao<br>Xiang yao bian cheng ni de mao, lai zai ni huai li shui de<br>Mei tian du tan lian zhe ni de hao",
+    },
+    {
+      name: "Inner Demons",
+      singer: "Julia Brennan",
+      path: "https://play.imusicvn.com/stream/feBuYFrUoaoo",
+      image: "https://i.scdn.co/image/ab67616d0000b2738a5944320cb971ccfc228d37",
+      lyrics:
+        "They say don't let them in<br>Close your eyes and clear your thoughts again<br>When I'm all alone, they show up on their own<br>Cause inner demons fight their battles with fire<br>Inner demons don't play by the rules<br>They say \"Just push them down, just fight them harder<br>Why would you give up on it so soon?\"<br>So angels, angels please just keep on fightingAngels don't give up on me today<br>The demons they are there; they keep on fighting<br>Cause inner demons just won't go away<br>So angels please, hear my prayer<br>Life is pain, lifes not fair<br>So angels please; please stay here<br>Take the pain; take the fear<br>They say it won't be hard; they can't see the battles in my heartBut when I turn away<br>The demons seem to stay<br>Cause inner demons don't play well with angels<br>They cheat and lie and steal and break and bruise<br>Angels please protect me from these rebels<br>This is a battle I don't want to lose<br><br>So angels, angels please just keep on fightingAngels don't give up on me today<br>Cause the demons they are there; they keep on fighting<br>Cause inner demons just won't go away<br><br>Angels, angels please keep on fightingAngels don't give up on me today<br>Cause the demons; they are there<br>They keep on fighting<br>Inner demons just won't go away<br><br>So angels please, hear my prayerLife is pain; life's not fair<br>So angels please; please stay here<br>Take the pain; take the fear",
+    },
+    {
+      name: "Querry",
+      singer: "QNT x Trung Trần ft.MCK",
+      path: "https://play.imusicvn.com/stream/3cVHUeSeJM3l",
+      image:
+        "https://avatar-ex-swe.nixcdn.com/mv/2022/06/01/2/1/7/5/1654090711149_640.jpg",
+      lyrics:
+        "Hàng ngày anh vẫn chọn cách dậy sớm, cùng một ly cafe bên đường<br>Lặng nhìn từng đàn chim đang sải cánh bay đi<br>Lựa chọn outfit ra đón ngày mới, tâm hồn ta như lạc vô chốn thiên đường<br>Và nụ cười của em đẹp như là hoa đó baby<br>Em đang dạo bước trên con đường dài<br>Anh không còn thấy ưu phiền trên vai<br>Em không còn giống trông như thường ngày<br>Không ưa lời nói mật ngọt bên tai<br>So, baby I love it !<br>Baby follow me, follow me....<br>Ngọt ngào vị cherry, đôi môi của em tỏa ra mùi hương thú vị<br>You sweet like berry nhưng anh vẫn luôn gọi em là baby Jully<br>Nàng đẹp tựa là Kathy anh vẫn thường hay được xem ở trên tivi<br>Như Playboy Carti khi bên cạnh anh thì em chẳng cần phải nghĩ suy<br>Anh không cần biết cho dù ngày hay là canh đêm, anh vẫn sống trọn vẹn đến từng giờ<br>Anh mong được viết cho bạn bè cho cả anh em, nhưng em khiến anh không thể ngừng mơ, về em<br>Nỗi nhớ cứ kéo đến hàng đêm<br>outside rollin with my gang<br>Nhưng trong tim anh vẫn hướng về em, em, em<br>I’m in love, love, love<br>baby skz skz skz<br>You leaving in my mind !<br>Ngoài trời rớt rơi mưa mưa<br>Nhẹ nhàng phất phơ lưa thưa<br>Baby gotta feel my vibe !!<br>Ngọt ngào vị cherry, đôi môi của em tỏa ra mùi hương thú vị<br>You sweet like berry nhưng anh vẫn luôn gọi em là baby Jully<br>Nàng đẹp tựa là Kathy anh vẫn thường hay được xem ở trên tivi<br>Như Playboy Carti khi bên cạnh anh thì em chẳng cần phải nghĩ suy<br>Vì sao nhờ ? Cứ tình hình này ôi thôi chết dở<br>Anh như chú cá mắc cạn trên bờ<br>Nghĩ về em lại tức khẩu thành thơ<br>Và điều đó giúp anh miệt mài hàng giờ<br>Và mỗi khi em buồn<br>Anh thức hết đêm muộn<br>Để kể cho em<br>Và vẽ thêm môi em cười<br>Như mùa xuân đến<br>Chiều nay em ghé chơi<br>Và đó là tất cả những điều anh muốn<br>Yeah đó là tất cả những gì anh muốn<br>Có lẽ anh sẽ cho anh thời gian, tận hưởng niềm vui bên em hàng ngày<br>Mặt trời ngủ quên, ánh chiều muộn màng chiếu xuống dưới những tán cây<br>Ngày mai dậy sớm với những giấc mộng tuyệt vời và lồng ngực em sẽ luôn tràn đầy<br>Hận thù khổ đau với ghen tuông gì tầm này !!<br>Ngọt ngào vị cherry đôi môi của em tại sao lại cong thế nhờ<br>yeah bọn họ tripping nghĩ đến em, nên là lòng dễ mơ<br>Chỉ cần biết là em ở đây, chẳng còn thêm nghi ngờ<br>Để vệt son đó nó sẽ đưa anh, tan vào trong từng ý thơ",
+    },
+    {
+      name: "Bước Qua Nhau",
+      singer: "Vũ",
+      path: "https://play.imusicvn.com/stream/EdENCgJm9dAa",
+      image:
+        "https://static2.yan.vn/YanNews/2167221/202112/screen-shot-20211204-at-102329-ed04bb62.jpg",
+      lyrics:
+        "Cuộc đời cứ trôi<br>Ta nhìn lại ngày tháng còn bên nhau<br>Cùng những thăng trầm<br>Tại sao không vẫy tay chào nơi ta đứng bây giờ<br>Hai nơi hai người dưng<br>Đợi em bước qua<br>Để khiến anh nhận ra là đôi mắt em còn đang buồn<br>Màu hoa cài áo vẫn còn như lời hứa đã từng<br>Giờ đây còn như xưa<br>Dòng người vội vàng bước qua<br>Chợt như chiếc hôn thế thôi<br>Đôi môi chia làm đôi<br>Như ta đang mong vậy thôi<br>Người nghẹn ngào bước đi<br>Chợt như chúng ta quay về<br>Giấu trái tim mình và đừng thổn thức khi thấy nhau oh<br>Đoàn tàu kia dừng lại<br>Còn hai ta bước qua nhau<br>Cuộc đời cứ trôi<br>Ta nhìn lại ngày tháng còn bên nhau<br>Cùng những thăng trầm<br>Và tại sao không vẫy tay chào nơi ta đứng bây giờ<br>Hai nơi hai người dưng<br>Đợi em bước qua<br>Để khiến anh nhận ra là đôi mắt em còn đang buồn<br>Và màu hoa cài áo vẫn còn như lời hứa đã từng<br>Giờ đây còn như xưa<br>Dòng người vội vàng bước qua<br>Chợt như chiếc hôn thế thôi<br>Đôi môi chia làm đôi<br>Như ta đang mong vậy thôi<br>Người nghẹn ngào bước đi<br>Chợt như chúng ta quay về<br>Giấu trái tim mình và đừng thổn thức khi thấy nhau oh<br>Đoàn tàu kia dừng lại (đoàn tàu kia)<br>Còn hai ta trôi đi theo mây trời<br>Từng cảm xúc trong tim anh đang cô đơn cùng với ngàn lời<br>Viết riêng cho bài ca tình đầu<br>Chỉ còn lại một thói quen từ lâu woh<br>Dòng người vội vàng bước qua<br>Chợt như chiếc hôn thế thôi<br>Đôi môi chia làm đôi<br>Như ta đang mong vậy thôi oh oh",
     },
   ],
 
