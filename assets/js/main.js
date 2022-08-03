@@ -255,7 +255,7 @@ const app = {
     {
       name: "Nhất Lộ Sinh Hoa",
       singer: "Ôn Dịch Tâm",
-      path: "https://play.imusicvn.com/stream/opyzasTkeycc",
+      path: "https://tainhacmienphi.biz/get/song/api/348747",
       image:
         "https://i1.sndcdn.com/artworks-jXoil4qXpNLqzSi2-MzAkEg-t500x500.jpg",
       lyrics: "Lười Gõ Lyric!!",
