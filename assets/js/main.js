@@ -198,7 +198,7 @@ const app = {
     {
       name: 'You Said You"d Grow Old With Me',
       singer: "Michael Schulte",
-      ath: "./assets/audio/you_said_youd_grow_old_with_me.mp3",
+      path: "./assets/audio/you_said_youd_grow_old_with_me.mp3",
       image: "./assets/img/you_said_youd_grow_old_with_me.jpg",
       lyrics:
         "I'd like<br>To say<br>I'm ok<br>But I'm not<br>I try<br>But I fall<br>Close my mind<br>Turn it off<br>I can't be sober<br>I cannot sleep<br>You've got your peace now<br>What about me?<br>Thought we had the time, had our lives<br>Now you'll never get older, older<br>Didn't say goodbye, now I'm frozen in time<br>Getting colder, colder<br>One last word<br>One last moment<br>To ask you why<br>You left me here behind<br>You said you'd grow old with me<br>We had plans<br>We had visions<br>Now I can't see ahead<br>We were one<br>We were golden<br>Forever you said<br>I can't be sober<br>I cannot sleep<br>You've got your peace now<br>What about me?<br>Thought we had the time, had our lives<br>Now you'll never get older, older<br>Didn't say goodbye, now I'm frozen in time<br>Getting colder, colder<br>One last word<br>One last moment<br>To ask you why<br>You left me here behind<br>You said you'd grow old with me",
