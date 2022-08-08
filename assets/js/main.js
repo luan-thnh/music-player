@@ -68,12 +68,12 @@ const app = {
         "… Đường về nhà là vào tim ta<br>Dẫu nắng mưa gần xa<br>Thất bát vang danh<br>Nhà vẫn luôn chờ ta<br>Đường về nhà là vào tim ta<br>Dẫu có muôn trùng qua<br>Vật đổi sao dời<br>Nhà vẫn luôn là nhà (đi về nhà)<br>… Ya lao vào đời và kiếm cơm lao vào đời tìm cơ hội<br>Những thành thị thường lấp lánh còn đêm thành thị thường trơ trọi<br>Như mọi đứa trẻ khác lớn lên muốn đi xa hoài (xa hoài)<br>Nhà thì vẫn ở yên đó đợi những đứa con đang ra ngoài<br>… Bước ra ngoài mới biết không ở đâu bằng ở nhà (ở nhà)<br>Biết có gì để mất trước khi sẵn sàng mở quà (mở quà)<br>Không phải là võ sĩ nhưng mà phải giỏi đấu đá<br>Nhiều khi kiệt sức chỉ vì gắng giữ mình không xấu xa<br>… Đôi lúc bỗng thấy đồng cảm với Mai An Tiêm<br>Bước chân ra là sóng gió chỉ có nhà mãi an yên<br>Ngoài kia phức tạp như rễ má và dây mơ (dây mơ)<br>Về nhà để có lúc cho phép mình được ngây thơ<br>… Mang theo bao náo nức lên chiếc xe này<br>Trọn một niềm thao thức xuân níu đêm ngày<br>Cùng dòng người trên phố mang sắc mai hương đào<br>Tìm về nơi ấm êm<br>… Đường về nhà là vào tim ta<br>Dẫu nắng mưa gần xa<br>Thất bát vang danh<br>Nhà vẫn luôn chờ ta<br>Đường về nhà là vào tim ta<br>Dẫu có muôn trùng qua (dẫu muôn trùng qua)<br>Vật đổi sao dời (vật đổi sao dời)<br>Nhà vẫn luôn là nhà<br>… Về ngôi nhà có góc vườn nhiều chó nhiều gà<br>Đám bạn nói con khó chiều<br>Mà lại thích gió trời hơn gió điều hoà ah<br>Về ăn cơm mẹ nấu về mặc áo mẹ may<br>Về đưa ba ra chợ mua cây đào cây mai về bày<br>… Cả năm trời làm việc nhiều khi rã rời như cái máy oh<br>Về nhà thấy áp lực nhẹ như bấc thổi cái là bay (thổi cái là bay)<br>Ấm êm hơn bếp lửa ngọt bùi hơn lúa non<br>Nhà vẫn luôn ở đó mong chờ những đứa con<br>… Dẫu cho mưa cho nắng vẫn không bao giờ nề hà<br>Hạnh phúc chỉ đơn giản là còn được về nhà oh<br>Hạnh phúc đi về nhà<br>Cô đơn đi về nhà<br>Thành công đi về nhà<br>Thất bại đi về nhà<br>… Mệt quá đi về nhà<br>Mông lung đi về nhà<br>Chênh vênh đi về nhà<br>Không có việc gì vậy thì đi về nhà<br>Không có việc gì vậy thì đi về nhà<br>Đi về nhà đi về nhà<br>… Đường về nhà là vào tim ta<br>Dẫu nắng mưa gần xa<br>Thất bát vang danh<br>Nhà vẫn luôn chờ ta<br>Đường về nhà là vào tim ta<br>Dẫu có muôn trùng qua<br>Vật đổi sao dời<br>Nhà vẫn luôn là nhà<br>… Nhà có thể lớn có thể nhỏ có thể không khang trang<br>Cha mẹ nào cũng muốn con được sống đàng hoàng<br>Lớn lên làm người mong một tương lai sáng lạng<br>Cặm cụi cả đời không bao giờ thấy than vãn<br>… Đường về nhà là vào tim ta<br>Dẫu nắng mưa gần xa<br>Thất bát vang danh<br>Nhà vẫn luôn chờ ta<br>Đường về nhà là vào tim ta<br>Dẫu có muôn trùng qua<br>Vật đổi sao dời<br>Nhà vẫn luôn là nhà",
     },
     {
-      name: "Ai Mang Cô Đơn Đi",
-      singer: "Huy Quần Hoa",
-      path: "./assets/audio/ai_mang_co_don_di.mp3",
-      image: "./assets/img/ai_mang_co_don_di.jpg",
+      name: "Someone To You",
+      singer: "Shalom Margaret",
+      path: "./assets/audio/someone_to_you.mp3",
+      image: "./assets/img/someone_to_you.jpg",
       lyrics:
-        "Ánh trăng lạc lối gieo phù hoa duyên hoá thành tro<br>Mặt hồ rung lên mang hạt mưa xuyên nát lòng ta<br>Trái tim rộng lớn thu nhân gian trong đôi mắt sầu lo<br>Bầu trời riêng ta ru lời ca nhắn ai đừng xa<br>Hah hah nhắn ai đừng xa<br>Nhìn từng chiếc lá úa phai màu rụng rời ngoài hiên<br>Hah hah mình ta với ta thôi mà<br>Tấm thân này chịu nhiều đớn đau lưu luyến<br>Gió lung lay bàn tay nâng cánh hoa tình<br>Dẫu trăm năm người thương vẫn cách xa mình<br>Thuyền mãi ra khơi đi về nơi con sóng vô hình<br>Chốn xa xăm trùng dương muôn hướng vạn lý<br>Và đêm tối bên trong tâm hồn từng dòng suy nghĩ ta xa nhau vì<br>Bình minh giấu đi cô đơn ngày dài ta mong quên đi<br>Ai ai mang cô đơn đi<br>Ai ai mang cô đơn đi<br>Ai ai mang cô đơn đi<br>Và ai uh hoh<br>Hoh nhắn ai đừng xa<br>Nhìn từng chiếc lá úa phai màu rụng rời ngoài hiên (rớt rơi qua rồi)<br>Hah hah mình ta với ta thôi mà<br>Tấm thân này chịu nhiều đớn đau lưu luyến<br>Gió lung lay bàn tay nâng cánh hoa tình (cánh hoa tình ta)<br>Dẫu trăm năm người thương vẫn cách xa mình (cách xa mình)<br>Thuyền mãi ra khơi đi về nơi con sóng vô hình<br>Chốn xa xăm trùng dương muôn hướng vạn lý<br>Hah hah<br>Hah hah<br>Hah hah<br>Hah hah",
+        "I just wanna be somebody to someone, oh<br>I wanna be somebody to someone, oh<br>I never had nobody and no road home<br>I wanna be somebody to someone.",
     },
     {
       name: "Đâu Cần Một Bài Ca Tình Yêu",
@@ -126,35 +126,32 @@ const app = {
     {
       name: "Don't Watch Me Cry",
       singer: "Alexandra Porat",
-      path: "https://play.imusicvn.com/stream/JUKZOE1CsQaA",
-      image: "https://images-na.ssl-images-amazon.com/images/I/71vKKrtUh8L.jpg",
+      path: "./assets/audio/dont_watch_me_cry.mp3",
+      image: "./assets/img/dont_watch_me_cry.jpg",
       lyrics:
         "Oh, it hurts the most 'cause I don't know the cause<br>Maybe I shouldn't have cried when you left and told me not to wait<br>Oh, it kills the most to say that I still care<br>Now I'm left tryna rewind the times you held and kissed me back<br>I wonder if you're thinkin' 'Is she alright all alone?'<br>I wonder if you tried to call, but couldn't find your phone<br>Have I ever crossed your thoughts because your name's all over mine<br>A moment in time, don't watch me cry<br>A moment in time, don't watch me cry<br>I'm not crying 'cause you left me on my own<br>I'm not crying 'cause you left me with no warning<br>I'm just crying 'cause I can't escape what could've been<br>Are you aware when you set me free?<br>All I can do is let my heart bleed<br>Oh, it's harder when you can't see through the thoughts<br>Not that I wanna get in, but I want to see how your mind works<br>No, it's harder when they don't know what they've done<br>Thinking it's better they leave, meaning that I'll have to move on<br>Oh, I wonder if you're thinkin' 'Is she alright all alone?'<br>I wonder if you tried to call, but couldn't find your phone<br>Have I ever crossed your thoughts because your name's all over mine<br>A moment in time, don't watch me cry<br>A moment in time, don't watch me cry<br>I'm not crying 'cause you left me on my own<br>I'm not crying 'cause you left me with no warning<br>I'm just crying 'cause I can't escape what could've been<br>Are you aware when you set me free?<br>All I can do is let my heart bleed",
     },
     {
       name: "Lift Me Up",
       singer: "Christina Aguilera",
-      path: "https://play.imusicvn.com/stream/s0vGXlVRUmaw",
-      image:
-        "https://images.genius.com/3980ca142d4d62dcefe81a57b3102d28.1000x1000x1.jpg",
+      path: "./assets/audio/lift_me_up.mp3",
+      image: "./assets/img/lift_me_up.jpg",
       lyrics:
         "So the pain begins<br>As the music fades<br>And I’m left here with<br>With more than I can take<br>If you lift me up<br>Just get me through this night<br>I know I'll rest tomorrow<br>And I'll be strong enough to try<br>When the sky clears<br>And all is said and done<br>I will realize<br>That we all need someone<br>If you lift me up<br>Just get me through this night<br>I know I'll rest tomorrow<br>And I’ll be strong enough to try<br>So when you see me crashing<br>And there’s nowhere left to fall<br>Will you lift me even higher<br>To rise above this all<br>If you lift me up<br>If you lift me up<br>Said if you lift me up<br>Will it be higher<br>When you see me crashing<br>Will it be higher<br>When you see me crashing<br>And there’s nowhere left to fall<br>Will you lift me even higher<br>To rise above this all<br>If you lift me up<br>Said if you lift me up<br>If you lift me up<br>Just get me through this night",
     },
     {
       name: "True Love Is Violent",
       singer: "Allie X",
-      path: "https://play.imusicvn.com/stream/1XJCda2DKpNC",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe5jCwGif9Za6E2FOml_YGTDuG1F9m09QE416oyofeoWHsEBbKhg40oqMicd2mDP9joiY&usqp=CAU",
+      path: "./assets/audio/true_love_is_violent.mp3",
+      image: "./assets/img/true_love_is_violent.jpg",
       lyrics:
         "The surface of the water is serene<br>But what goes on below?<br>Hungry current sucking at your feet<br>It won't let go<br>Tossed 'til we capsized<br>Battered and bruised<br>Say it's the last time<br>We know the truth<br>Don't know what you got until it's gone<br>Don't know what is right until it's wrong<br>Heaven could fall and angels swarm<br>But hell is ours to face<br>True love is violent<br>True love is violent, violent<br>Stirring in the sugar cubes of salt<br>Pollute to purify<br>Drowning in my body, mind, and thoughts<br>My mouth is dry<br>Tossed 'til we capsized<br>Battered and bruised<br>Say it's the last time<br>We know the truth<br>Don't know what you got until it's gone<br>Don't know what is right until it's wrong<br>Heaven could fall and angels swarm<br>But hell is ours to face<br>True love is violent<br>True love is violent, violent<br>After the storm<br>After the rain<br>I'm juvenile<br>I'm born again<br>Don't know what you got until it's gone<br>Don't know what is right until it's wrong<br>Heaven could fall and angels swarm<br>But hell is ours to face<br>True love is violent<br>True love is violent, violent",
     },
     {
       name: "A Thousand Years",
       singer: "Christina Perri",
-      path: "https://play.imusicvn.com/stream/vZ7MQlwJbC",
-      image:
-        "https://images.genius.com/da9d6785d3a8d6ae3e096e5aba47c834.1000x1000x1.jpg",
+      path: "./assets/audio/a_thousand_years.mp3",
+      image: "./assets/img/a_thousand_years.jpg",
       lyrics:
         "(Verse 1)<br>Heart beats fast<br>Colors and promises<br>How do be brave<br>How can I love when I'm afraid<br>To fall<br>But watching you stand alone<br>All of my doubt<br>Suddenly goes away somehow<br>(Pre-chorus)<br>One step closer<br>(Chorus)<br>I have died everyday<br>waiting for you<br>Darling, don't be afraid<br>I have loved you for a<br>Thousand years<br>I'll love you for a<br>Thousand more<br>(Verse 2)<br>Time stands still<br>Beauty in all she is<br>I will be brave<br>I will not let anything<br>Take away<br>What's standing in front of me<br>Every breath,<br>Every hour has come to this<br>(Pre-chorus)<br>One step closer<br>(Chorus)<br>I have died everyday<br>Waiting for you<br>Darling, don't be afraid<br>I have loved you for a<br>Thousand years<br>I'll love you for a<br>Thousand more<br>And all along I believed<br>I would find you<br>Time has brought<br>Your heart to me<br>I have loved you for a<br>Thousand years<br>I'll love you for a<br>Thousand more<br>(Pre-chorus x2)<br>One step closer<br>One step closer<br>(Chorus)<br>I have died everyday<br>Waiting for you<br>Darling, don't be afraid,<br>I have loved you for a<br>Thousand years<br>I'll love you for a<br>Thousand more<br>And all along I believed<br>I would find you<br>Time has brought<br>Your heart to me<br>I have loved you for a<br>Thousand years<br>I'll love you for a<br>Thousand more",
     },
@@ -169,283 +166,264 @@ const app = {
     {
       name: "I Miss You",
       singer: "Czarina",
-      path: "https://play.imusicvn.com/stream/g4d7T0YMl1ub",
-      image:
-        "https://is2-ssl.mzstatic.com/image/thumb/Music125/v4/e4/71/3b/e4713b69-5b4c-39ea-9a31-d19ab93c87cb/11371.jpg/1200x1200bf-60.jpg",
+      path: "./assets/audio/i_miss_you.mp3",
+      image: "./assets/img/i_miss_you.jpg",
       lyrics:
         "The photos on my wall remind me<br>That you were once real<br>The pictures in my head are replay<br>Weren't allow my heart to hear<br>All the emptiness i feel without you in mylife<br>It's so hard to say goodbye<br>When i keep asking why<br>Why<br>Where did you go<br>Why were you taken from me<br>I'm still waiting for you<br>To show signs of your guilty<br>I want that at sky in pray<br>Though you might appear<br>Come by to me my dear<br>I miss you<br>Could hold you once more<br>Forever it will last<br>And spend another day beside you<br>Not allowing time to past<br>Every memory we shared<br>Will not fade away<br>In my heart you always be<br>Not too far away<br>Away<br>Where did you go<br>Why were you taken from me<br>I'm still waiting for you<br>To show your signs of your guilty<br>I want that at sky in pray.<br>Though you might appear<br>Come by to me my dear<br>I miss you<br>I miss you<br>I miss you<br>Everywhere I go<br>I miss you<br>I miss you<br>I'm minded of you<br>I miss you<br>I miss you<br>Though keeps on coming back<br>I miss you<br>I miss you<br>Back to me<br>Where did you go<br>Why were you taken from me<br>I'm still waiting for you<br>To show signs of your guilty<br>I want that at sky in pray<br>Though you might appear<br>Come by to me my dear<br>I miss you<br>Come by to me my dear<br>I miss you<br>Come by to me my dear<br>I miss you",
     },
     {
       name: "Listen Before I Go",
       singer: "Billie Eilish",
-      path: "https://play.imusicvn.com/stream/abdP4fdYudFG",
-      image:
-        "https://madnaija.com/wp-content/uploads/2021/01/Billie-Eilish-%E2%80%93-goodbye.png",
+      path: "./assets/audio/listen_before_i_go.mp3",
+      image: "./assets/img/listen_before_i_go.jpg",
       lyrics:
         "Take me to the rooftop<br>I wanna see the world when I stop breathing, turning blue<br>Tell me love is endless, don't be so pretentious<br>Leave me like you do<br>If you need me, wanna see me<br>Better hurry 'cause I'm leaving soon<br>Sorry can't save me now<br>Sorry I don't know how<br>Sorry there's no way out (Sorry)<br>But down<br>Hmm, down<br>Taste me, these salty tears on my cheeks<br>That's what a year-long headache does to you<br>I'm not okay, I feel so scattered<br>Don't say I'm all that matters<br>Leave me, déjà vu<br>If you need me, wanna see me<br>You better hurry, I'm leaving soon<br>Sorry can't save me now (Sorry)<br>Sorry I don't know how (Sorry)<br>Sorry there's no way out (Sorry)<br>But down<br>Hmm, down<br>Call my friends and tell them that I love them<br>And I'll miss them<br>But I'm not sorry<br>Call my friends and tell them that I love them<br>And I'll miss them<br>Sorry",
     },
     {
       name: "Love Yourself",
       singer: "Justin Bieber",
-      path: "https://tainhacmienphi.biz/get/song/api/3020",
-      image:
-        "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/df230dd34d9894c3a0f30b9a4e6b7ebf~c5_720x720.jpeg?x-expires=1659366000&x-signature=HXCZRkuXJo%2FyH6ZToqXrKLPL6mQ%3D",
+      path: "./assets/audio/love_yourself.mp3",
+      image: "./assets/img/love_yourself.jpg",
       lyrics:
         "For all the times that you rain on my parade<br>And all the clubs you get in using my name<br>You think you broke my heart, oh girl for goodness sake<br>You think I'm crying, oh my oh, well I ain't.<br>And I didn't wanna write a song<br>Cause I didn't want anyone thinking I still care<br>I don't but, you still hit my phone up<br>And baby I be movin' on and I think you should be somethin'<br>I don't wanna hold back, maybe you should know that.<br>My mama don't like you and she likes everyone<br>And I never like to admit that I was wrong<br>And I've been so caught up in my job, didn't see what's going on<br>And now I know, I'm better sleeping on my own.<br>Cause if you like the way you look that much<br>Oh baby you should go and love yourself<br>And if you think that I'm still holdin' on to somethin'<br>You should go and love yourself.<br>But when you told me that you hated my friends<br>The only problem was with you and not them<br>And every time you told me my opinion was wrong<br>And tried to make me forget where I came from.<br>And I didn't wanna write a song<br>Cause I didn't want anyone thinking I still care<br>I don't but, you still hit my phone up<br>And baby I be movin' on and I think you should be somethin'<br>I don't wanna hold back, maybe you should know that.<br>My mama don't like you and she likes everyone<br>And I never like to admit that I was wrong<br>And I've been so caught up in my job, didn't see what's going on<br>And now I know, I'm better sleeping on my own.<br>Cause if you like the way you look that much<br>Oh baby you should go and love yourself<br>And if you think that I'm still holdin' on to somethin'<br>You should go and love yourself.<br>For all the times you made me feel small<br>I fell in love, now I fear nothin' at all<br>I never felt so low when I was vulnerable<br>Was I a fool to let you break down my walls?<br>Cause if you like the way you look that much<br>Oh baby you should go and love yourself<br>And if you think that I'm still holdin' on to somethin'<br>You should go and love yourself.<br>Cause if you like the way you look that much<br>Oh baby you should go and love yourself<br>And if you think that I'm still holdin' on to somethin'<br>You should go and love yourself.",
     },
     {
       name: "The One That Got Away",
       singer: "Brielle Von Hugel",
-      path: "https://play.imusicvn.com/stream/RGCpjZCccouF",
-      image:
-        "https://pic-bstarstatic.akamaized.net/ugc/2a2fdab8fdffa4b7f7c76c39764488dd.jpeg",
+      path: "./assets/audio/the_one_that_got_away.mp3",
+      image: "./assets/img/the_one_that_got_away.jpg",
       lyrics:
         "Summer after high school, when we first met<br>We make-out in your Mustang to Radiohead<br>And on my eighteenth birthday, we got matching tattoos<br>Used to steal your parents liquor and climb to the roof<br>Talk about our future like we had a clue<br>Never planned that one day I'd be losing you<br>In another life, I would be your girl<br>We keep all our promises, be us against the world<br>In another life, I would make you stay<br>So I don't have to say you were the one that got away<br>The one that got away<br>I was June and you were my Johnny Cash<br>Never one without the other, we made a pact<br>Sometimes when I miss you, I put those records on, whoa<br>Someone said you had your tattoo removed<br>Saw you downtown, singing the blues<br>It's time to face the music, I'm no longer your muse<br>In another life, I would be your girl<br>We keep all our promises, be us against the world<br>In another life, I would make you stay<br>So I don't have to say you were the one that got away<br>The one that got away<br>The one, the one, the one<br>The one that got away<br>All this money can't buy me a time machine, no<br>Can't replace you with a million rings, no<br>I should'a told you what you meant to me, whoa<br>Cause now I pay the price<br>In another life, I would be your girl<br>We keep all our promises, be us against the world<br>In another life, I would make you stay<br>So I don't have to say you were the one that got away<br>The one that got away<br>The one (the one)<br>The one (the one)<br>The one (the one)<br>In another life, I would make you stay<br>So I don't have to say you were the one that got away<br>The one that got away",
     },
     {
       name: 'You Said You"d Grow Old With Me',
       singer: "Michael Schulte",
-      path: "https://play.imusicvn.com/stream/GOW0RV4V3Dj6",
-      image: "https://i.ytimg.com/vi/gb2PjJSSyso/maxresdefault.jpg",
+      ath: "./assets/audio/you_said_youd_grow_old_with_me.mp3",
+      image: "./assets/img/you_said_youd_grow_old_with_me.jpg",
       lyrics:
         "I'd like<br>To say<br>I'm ok<br>But I'm not<br>I try<br>But I fall<br>Close my mind<br>Turn it off<br>I can't be sober<br>I cannot sleep<br>You've got your peace now<br>What about me?<br>Thought we had the time, had our lives<br>Now you'll never get older, older<br>Didn't say goodbye, now I'm frozen in time<br>Getting colder, colder<br>One last word<br>One last moment<br>To ask you why<br>You left me here behind<br>You said you'd grow old with me<br>We had plans<br>We had visions<br>Now I can't see ahead<br>We were one<br>We were golden<br>Forever you said<br>I can't be sober<br>I cannot sleep<br>You've got your peace now<br>What about me?<br>Thought we had the time, had our lives<br>Now you'll never get older, older<br>Didn't say goodbye, now I'm frozen in time<br>Getting colder, colder<br>One last word<br>One last moment<br>To ask you why<br>You left me here behind<br>You said you'd grow old with me",
     },
     {
       name: "Bạch Nguyệt Quang Và Nốt Chu Sa",
       singer: "Đại Tử",
-      path: "https://play.imusicvn.com/stream/pyGiSgdzeMW0",
-      image:
-        "https://images.chesscomfiles.com/uploads/v1/blog/502764.37e87846.5000x5000o.2328fab70671.jpeg",
+      path: "./assets/audio/bach_nguyet_quang_va_not_chu_sa.mp3",
+      image: "./assets/img/bach_nguyet_quang_va_not_chu_sa.jpg",
       lyrics:
         "cóngqián de gēyáo<br>dōu zài zhǐ jiān rào<br>dé bùdào de měihǎo<br>zǒng zàixīn jiàn náo<br>bái fànlì wú chǔ pāo<br>wén·zi xiě yě mǒ bù diào<br>chù bùkě jí gānggāng hǎo<br>rìjiǔtiāncháng ràng rén nǎo<br>nà shí gǔntàng de xīntiào<br>yě céng wú chǔ dùntáo<br>xiàng yī tuán lièhuǒ ránshāo<br>shāo jìn kuà bùguò de qiáo<br>shíguāng cōngcōng de pǎo<br>huǒyàn huà zuò yuè yáoyáo<br>zài wú jīdàng de bōtāo<br>yě cóng bùzài mèng lǐ piāo yáo<br>bái yuèguāng zài zhàoyào<br>nǐ cái xiǎng qǐ tā de hǎo<br>zhūshā zhì jiǔ nán xiāo<br>chuāng qiān de míng yuè zhào<br>nǐ dúzì yī rén yuǎn tiào<br>bái yuèguāng shì nián shǎo<br>shì tā de xiào<br>nà shí gǔntàng de xīntiào<br>yě céng wú chǔ dùntáo<br>xiàng yī tuán lièhuǒ ránshāo<br>xeng i thoán liê hủa rán sao<br>shāo jìn kuà bùguò de qiáo<br>shíguāng cōngcōng de pǎo<br>huǒyàn huà zuò yuè yáoyáo<br>zài wú jīdàng de bōtāo<br>yě cóng bùzài mèng lǐ piāo yáo<br>bái yuèguāng zài zhàoyào<br>nǐ cái xiǎng qǐ tā de hǎo<br>zhūshā zhì jiǔ nán xiāo<br>nǐ shìfǒu néng zhīdào<br>chuāng qiān de míng yuè zhào<br>bái yuèguāng zài zhàoyào<br>nǐ cái xiǎng qǐ tā de hǎo<br>zhūshā zhì jiǔ nán xiāo<br>nǐ shìfǒu néng zhīdào<br>chuāng qiān de míng yuè zhào<br>troang tren tơ mính duê chao<br>nǐ dúzì yī rén yuǎn tiào<br>bái yuèguāng shì nián shǎo<br>shì tā de xiào",
     },
     {
       name: "Công Tử Đi Hướng Bắc",
       singer: "Lý Xuân Hoa",
-      path: "https://play.imusicvn.com/stream/SXAJkwJSvcCi",
-      image: "https://img.wattpad.com/cover/193261581-288-k496780.jpg",
+      path: "./assets/audio/cong_tu_di_huong_bac.mp3",
+      image: "./assets/img/cong_tu_di_huong_bac.jpg",
       lyrics:
         "Xiǎo nǚzǐ bù cáiWèi dé gōngzǐ qīnglài<br>Rǎo gōngzǐ liángjiǔ<br>Gōngzǐ wùguài<br>Gōngzǐ xiàng běi zǒu<br>Xiǎo nǚzǐ xiàng nán qiáo<br>Cǐshēng jiùcǐ biéguòle<br>Nányǐ wànghuái<br>Yuàn nǐ sān dōng nuǎn<br>Yuàn nǐ chūn bù hán<br>Yuàn nǐ tiān hēi yǒu dēng<br>Xià yǔ yǒu sǎn<br>Yuàn nǐ shàn qí shēn<br>Yuàn nǐ yù liáng rén<br>Nuǎnsè fú yúshēng<br>Yǒu hǎorén xiāngbàn<br>Suǒyǒu àimù zhī yì<br>Zhǐ yú chúnchǐ jiān<br>Yǎn yú suìyuè<br>Nì yú jiānglái<br>Yǔ jūn jīnshēng wúyuán<br>Qǐng wúxū guàniàn<br>Yǔ dǎ bājiāo<br>Wú kě wúnài<br>Yuàn nǐ sān dōng nuǎn<br>Yuàn nǐ chūn bù hán<br>Yuàn nǐ tiān hēi yǒu dēng<br>Xià yǔ yǒu sǎn<br>Yuàn nǐ shàn qí shēn<br>Yuàn nǐ yù liáng rén<br>Nuǎnsè fú yúshēng<br>Yǒu hǎorén xiāngbàn<br>Yuàn nǐ sān dōng nuǎn<br>Yuàn nǐ chūn bù hán<br>Yuàn nǐ tiān hēi yǒu dēng<br>Xià yǔ yǒu sǎn<br>Yuàn nǐ shàn qí shēn<br>Yuàn nǐ yù liáng rén<br>Nuǎnsè fú yúshēng<br>Yǒu hǎorén xiāngbàn<br>Xiǎo nǚzǐ bù cái<br>Wèi dé gōngzǐ qīnglài<br>Rǎo gōngzǐ liángjiǔ<br>Gōngzǐ<br>Wùguài",
     },
     {
       name: "Cô Nương Xinh Đẹp Phải Đi Lấy Chồng Rồi",
       singer: "Long Mai Tử",
-      path: "https://play.imusicvn.com/stream/blnLEXbnE71n",
-      image: "https://i1.sndcdn.com/artworks-000569147624-vjuarg-t500x500.jpg",
+      path: "./assets/audio/co_nuong_xinh_dep_phai_di_lay_chong_roi.mp3",
+      image: "./assets/img/co_nuong_xinh_dep_phai_di_lay_chong_roi.jpg",
       lyrics:
         "Gu niang gu niang wo jiu yao jia ren laKe shi wo de xin li yi ran ai zhao ta<br>Ai shang ni wo liu xia yong yuan de shang ba<br>Kan kan wo de yan li han zhao lei hua<br>Gu niang gu niang wo jiu yao jia ren la<br>Wo ye ceng jing meng xiang ni ba wo qu hui jia<br>Dang chu wo men ai de wu fa zi ba<br>Ru jin ni yi bian cheng wo yong yuan de qian gua<br>Piao liang de gu niang jiu yao jia ren la<br>Wo shuang yan de lei shui hua hua de xia<br>Mei xiang dao wo zhen de hui shi qu ta ya<br>Cong ci ta zai bie ren de huai li la<br>Piao liang de gu niang jiu yao jia ren la<br>Shen me shi hou cai neng zai kan dao ta<br>Yi xiang dao wo jiang yong jiu de shi qu ta ya<br>Wo de xin li tong de xiang dao zai gua<br>Wo xin ai de gu niang xin ai de gu niang<br>Jin tian jiu yao jia ren la<br>Shou li peng zhao xian hua shen shang chuan zhuo jie bai de hun sha<br>Wo xin ai de gu niang xin ai de gu niang<br>Jin tian jiu yao jia ren la<br>Jia gei yi ge bie de ta wo de xin li jiu xiang dao zai gua<br>Wo xin ai de gu niang xin ai de gu niang<br>Jin tian jiu yao jia ren la<br>Nan dao ta zhen de bi wo hao ma wo yan li han zhao de shi lei hua<br>Wo xin ai de gu niang xin ai de gu niang<br>Jin tian jiu yao jia ren la<br>Wo xiang da sheng de *** su ta wo yong yuan yong yuan ai zhao ta<br>Gu niang gu niang wo jiu yao jia ren la<br>Wo ye ceng jing meng xiang ni ba wo qu hui jia<br>Dang chu wo men ai de wu fa zi ba<br>Ru jin ni yi bian cheng wo yong yuan de qian gua<br>Piao liang de gu niang jiu yao jia ren la<br>Xiang dao zhe li wo jiu lei ru yu xia<br>Hen wo bu gan zao yi dian qu biao da ya<br>Zhe jiu shi wo qie nuo fu chu de dai jia<br><br>Piao liang de gu niang jiu yao jia r<br>n laWo yao xiang ge ban fa qu zu zhi ta<br>Gan jin wei ta song qu mei gui hua ya<br>Gu niang gu niang ni yao leng jing yi xia<br>Piao liang de gu niang jiu yao jia ren la<br>Wo shuang yan de lei shui hua hua de xia<br>Mei xiang dao wo zhen de hui shi qu ta ya<br>Cong ci ta zai bie ren de huai li la<br>Piao liang de gu niang jiu yao jia ren la<br>Shen me shi hou cai neng zai kan dao ta<br>Yi xiang dao wo jiang yong jiu de shi qu ta ya<br>Wo de xin li tong de xiang dao zai gua<br>Piao liang de gu niang jiu yao jia ren la<br>Xiang dao zhe li wo jiu lei ru yu xia<br>Hen wo bu gan zao yi dian qu biao da ya<br>Zhe jiu shi wo qie nuo fu chu de dai jia<br>Piao liang de gu niang jiu yao jia ren la<br>Wo yao xiang ge ban fa qu zu zhi ta<br>Gan jin wei ta song qu mei gui hua ya<br>Gu niang gu niang ni yao leng jing yi xia<br>Gan jin wei ta song qu mei gui hua ya<br>Gu niang gu niang ni yao leng jing yi xia",
     },
     {
       name: "Em Bằng Lòng Làm Một Người Bình Thường Ở Bên Cạnh Anh",
       singer: "Vương Thất Thất",
-      path: "https://play.imusicvn.com/stream/NLhMFRdqoy9n",
-      image: "https://i.ytimg.com/vi/O4K-xRUIQBg/maxresdefault.jpg",
+      path: "./assets/audio/em_bang_long_lam_mot_nguoi_binh_thuong_o_ben_canh_anh.mp3",
+      image:
+        "./assets/img/em_bang_long_lam_mot_nguoi_binh_thuong_o_ben_canh_anh.jpg",
       lyrics:
         "Zhǎng dé chǒu huó de jiǔ<br>Zhǎng dé shuài lǎo de kuài<br>Wǒ nìngyuàn dāng yīgè chǒubāguài<br>Jījí yòu kě'ài<br>Zhǎng dé chǒu huó de jiǔ<br>Zhǎng dé pàng rìzi wàng<br>Wǒ nìngyuàn zuò yīgè píngfán de rén<br>Péi zài nǐ shēn páng<br>Wǒ nìngyuàn zuò yīgè píngfán de rén<br>Péi zài nǐ shēn páng<br>Dà xīnwén yòu bàozhàle<br>Shéi yòu dēng shàng dà yǎzhī táng<br>Māmā chǎo de fàn zhēnxiāng<br>Guǎn tā chī wán huì bù huì pàng<br>Wǒ zhàn zài shānpō shàng<br>Yōuzāi yōuzāi xiàng xià wàng<br>Wǒ shì zuìdà de tàiyáng<br>Zhǐguǎn bǎ nǐ zhào liàng<br>Zhǎng dé chǒu huó de jiǔ<br>Zhǎng dé shuài lǎo de kuài<br>Wǒ nìngyuàn dāng yīgè chǒubāguài<br>Jījí yòu kě'ài<br>Zhǎng dé chǒu huó de jiǔ<br>Zhǎng dé pàng rìzi wàng<br>Wǒ nìngyuàn zuò yīgè píngfán de rén<br>Péi zài nǐ shēn páng<br>Wǒ nìngyuàn zuò yīgè píngfán de rén<br>Péi zài nǐ shēn páng<br>Wū dá dá dá dá dá dá dá dá dá dá<br>Wū dá dá dá dá dá dá dá dá dá dá<br>Wū dá dá dá dá dá dá dá dá dá dá<br>Wū dá dá dá dá dá dá dá dá dá dá<br>Wǒ bùshì méiyǒu mèngxiǎng<br>Zhǐshì mèngxiǎng tài kuángwàng<br>Nà jiùhuó zài dāngxià<br>Yī diǎndiǎn biàn dé qiángdà<br>Nǐ zhù zài wǒ xīn shàng<br>Zhǐ shǔyú nǐ de bìfēnggǎng<br>Nǐ shì dúyīwú'èr de rén<br>Zhēnguì qiě shànliáng<br>Zhǎng dé chǒu huó de jiǔ<br>Zhǎng dé shuài lǎo de kuài<br>Wǒ nìngyuàn dāng yīgè chǒubāguài<br>Jījí yòu kě'ài<br>Zhǎng dé chǒu huó de jiǔ<br>Zhǎng dé pàng rìzi wàng<br>Wǒ nìngyuàn zuò yīgè píngfán de rén<br>Péi zài nǐ shēn páng<br>Wǒ nìngyuàn zuò yīgè píngfán de rén<br>Péi zài nǐ shēn páng<br>Nà hū kě'ài de rén<br>Hū wū píngfán de rén<br>Hū wū dúyīwú'èr de rén<br>Hū wū ài nǐ de rén",
     },
     {
       name: "Đường Nhân",
       singer: "Tôn Tử Hàm",
-      path: "https://play.imusicvn.com/stream/TZkMFgY3wvNX",
-      image:
-        "https://webqinsmoon.files.wordpress.com/2016/05/8af12bd4gw1f3bld2nclrj20qh0odgod.jpg",
+      path: "./assets/audio/duong_nhan.mp3",
+      image: "./assets/img/duong_nhan.jpg",
       lyrics:
         "Yī rú zuó rì zhú huǒ bàn biǎn zhōu xiàng suíNǎ yǒu táng rén bú dǒng dé táo zuì<br>Wǒ gū zhōu nǐ yǎo tiǎo àn shàng yǒu yǐn huì<br>Yī tà wàn lǐ yǔ shuí xiàng suí<br>Nǐ chuān cuò le jià zhuāng zěn néng yǒu kuài lè<br>Zài shàng yī céng yān zhī yě bāo měi<br>Yī shēng jiá rán ér zhǐ tíng qián de biān pào<br>Wàng xiǎng tóng nǐ huá fā de xīn zuò fèi<br>Nǐ shuō bú yào zì zuò zì shòu zì jǐ chuàng zào shāng bēi<br>Shuí dōu kě yǐ chè dǐ wàng jì shuí<br>Nǐ shuō guò wǎng bú jí huí shǒu bié hòu huǐ le cái huì<br>Xiǎng fāng shè fǎ de bǎ nǐ zhuī huí<br>Nǐ shuō gū dú shì shī rén yīng gāi jù yǒu de tǐ huì<br>Xiě gē de rén jiù gāi yǒu shāng bēi<br>Wǒ diǎn yī sī zhú huǒ yī shí fàn làn le sī niàn<br>Xiě shǒu xiǎo diào míng zì jiào hòu huǐ<br>Nǐ chuān cuò le jià zhuāng zěn néng yǒu kuài lè<br>Zài shàng yī céng yān zhī yě bāo měi<br>Yī shēng jiá rán ér zhǐ tíng qián de biān pào<br>Wàng xiǎng tóng nǐ huá fā de xīn zuò fèi<br>Nǐ shuō bú yào zì zuò zì shòu zì jǐ chuàng zào shāng bēi<br>Shuí dōu kě yǐ chè dǐ wàng jì shuí<br>Nǐ shuō guò wǎng bú jí huí shǒu bié hòu huǐ le cái huì<br>Xiǎng fāng shè fǎ de bǎ nǐ zhuī huí<br>Nǐ shuō gū dú shì shī rén yīng gāi jù yǒu de tǐ huì<br>Xiě gē de rén jiù gāi yǒu shāng bēi<br>Wǒ diǎn yī sī zhú huǒ yī shí fàn làn le sī niàn<br>Xiě shǒu xiǎo diào míng zì jiào hòu huǐ<br>Nǐ shuō bú yào zì zuò zì shòu zì jǐ chuàng zào shāng bēi<br>Shuí dōu kě yǐ chè dǐ wàng jì shuí<br>Nǐ shuō guò wǎng bú jí huí shǒu bié hòu huǐ le cái huì<br>Xiǎng fāng shè fǎ de bǎ nǐ zhuī huí<br>Nǐ shuō gū dú shì shī rén yīng gāi jù yǒu de tǐ huì<br>Xiě gē de rén jiù gāi yǒu shāng bēi<br>Wǒ diǎn yī sī zhú huǒ yī shí fàn làn le sī niàn<br>Xiě shǒu xiǎo diào míng zì jiào hòu huǐ",
     },
     {
       name: "Nhất Lộ Sinh Hoa",
       singer: "Ôn Dịch Tâm",
-      path: "https://tainhacmienphi.biz/get/song/api/348747",
-      image:
-        "https://i1.sndcdn.com/artworks-jXoil4qXpNLqzSi2-MzAkEg-t500x500.jpg",
+      path: "./assets/audio/mot_duong_sinh_hoa.mp3",
+      image: "./assets/img/mot_duong_sinh_hoa.jpg",
       lyrics: "Lười Gõ Lyric!!",
     },
     {
       name: "Bài Ca Đảo Thiên Đường",
       singer: "Châu Thâm",
-      path: "https://play.imusicvn.com/stream/TXkSUm7SlVqC",
-      image: "https://i.ytimg.com/vi/EhdTwa_Xjj0/maxresdefault.jpg",
+      path: "./assets/audio/bai_ca_dao_thien_duong.mp3",
+      image: "./assets/img/bai_ca_dao_thien_duong.jpg",
       lyrics:
         "Dīng dōng wǒ yǒu yīgè mìmì<br>Qiāoqiāo gàosù nǐ<br>Huānyíng nǐ lái dào tiāntáng rùkǒu<br>Dīng dōng yǒurén zài àn ménlíng<br>Shì shuí zài wàimiàn<br>Bǎ èzuòjù dāng yīzhǒng yóuxì<br>Tīng a shuí zài kūqì<br>Kàn a shuí zài qièqiè sīyǔ<br>Chuāngwài yǒu shuāng yǎnjīng<br>Tā zài shíkè zhùshìzhe nǐ<br>Dīng dōng wǒ zài zhèlǐ děng nǐ<br>Nǐ zài děng wǒ ma<br>Shì shénme yuányīn ràng nǐ hàipà<br>Dīng dōng nǐ huì cáng zài nǎlǐ<br>Bié xiǎng yào táolí<br>Xiǎng táo chū shǒuxīn yǐ láibují<br>Bèi yíwàng de jìyì<br>Bèi nǐ cáng qǐlái de mìmì<br>Bùyào dà shēng hūxī<br>Nǐ yǐ bàolùle nǐ zìjǐ<br>Knock knock wàimiàn xià qǐle yǔ<br>Fàngqì zhēngzhá ba<br>Huǎngyán shuō duōle jiù huì fāxiàn<br>Knock knock shì shuí zài zuò huàishì jiǎzhuāng chéng xìngyùn<br>Wǒ zǒng huì zhǎodào nǐ zài chuáng dǐ<br>Tīng a nǐ zài kǒngjù<br>Kàn a nǐ zài xiēsīdǐlǐ<br>Chuāngwài yǒu shuāng yǎnjīng<br>Tā zài shíkè zhùshìzhe nǐ<br>Dīng dōng yǒurén zài kàn nǐ de guòqù<br>Dīng dōng yǒurén zài kàn nǐ de mìmì<br>Dīng dōng yǒurén zài kàn nǐ de guòqù<br>(Dīng dōng) wǒ táo bù chūqù",
     },
     {
       name: "Con Đường Bình Phàm",
       singer: "Hoa Thần Vũ",
-      path: "https://play.imusicvn.com/stream/xVs1XNDFpAY0",
-      image:
-        "https://lamhoang.vn/wp-content/uploads/2020/08/nhung-hinh-anh-buon-ve-tinh-yeu-cua-con-trai-1bai3.jpg",
+      path: "./assets/audio/con_duong_binh_pham.mp3",
+      image: "./assets/img/con_duong_binh_pham.jpg",
       lyrics:
         "Páihuáizhe de zài lùshàng de<br>Nǐ yào zǒu ma via via<br>Yì suì de jiāo'àozhe<br>Nà yě céng shì wǒ de múyàng<br>Fèiténgzhe de bù'ānzhe de<br>Nǐ yào qù nǎ<br>Mí yīyàng de chénmòzhe de<br>Gùshì nǐ zhēn de zài tīng ma<br>Woo x3<br>Gùshì nǐ zhēn de zài tīng ma<br>Wǒ céngjīng kuàguò shān hé dàhǎi<br>Yě chuānguò rénshānrénhǎi<br>Wǒ céngjīng yǒngyǒuzhe yīqiè<br>Zhuǎnyǎn dōu piāosàn rú yān<br>Wǒ céngjīng shīluò shīwàng shīdiào suǒyǒu fāngxiàng<br>Zhídào kànjiàn píngfán cái shì wéiyī de dá'àn<br>Dāng nǐ réngrán hái zài huànxiǎng<br>Nǐ de míngtiān via via<br>Tā huì hǎo ma háishì gèng làn<br>Duì wǒ ér yán shì lìng yītiān<br>Wooo x3<br>Duì wǒ ér yán shì lìng yītiān<br>Wǒ céngjīng huǐle wǒ de yīqiè zhǐ xiǎng yǒngyuǎn dì líkāi<br>Wǒ céngjīng duò rù wúbiān hēi'àn xiǎng zhēngzhá wúfǎ zìbá<br>Wǒ céng jīng xiàng nǐ xiàng tā xiàng nà yěcǎo yěhuā<br>Juéwàngzhe yě kěwàngzhe yě kū yě xiào yě píngfánzhe<br>Woooo<br>Wǒ céngjīng kuàguò shān hé dàhǎi yě chuānguò rénshānrénhǎi<br>Wǒ céngjīng yǒngyǒuzhe yīqiè zhuǎnyǎn dōu piāosàn rú yān<br>Wǒ céngjīng shīluò shīwàng shīdiào suǒyǒu fāngxiàng<br>Zhídào kànjiàn píngfán cái shì wéiyī de dá'àn<br>Wǒ céngjīng huǐle wǒ de yīqiè zhǐ xiǎng yǒngyuǎn dì líkāi<br>Wǒ céngjīng duò rù wúbiān hēi'àn xiǎng zhēng zhá wúfǎ zìbá<br>Wǒ céngjīng xiàng nǐ xiàng tā xiàng nà yěcǎo yěhuā<br>Juéwàngzhe yě kěwàngzhe<br>Yě kū yě xiào yě píngfánzhe",
     },
     {
       name: "Đúng Lúc Gặp Gỡ Người",
       singer: "Lý Ngọc Cương",
-      path: "https://play.imusicvn.com/stream/AUK8DXfIfxGQ",
-      image:
-        "https://avatar-ex-swe.nixcdn.com/song/2019/04/25/5/c/d/b/1556183057419_640.jpg",
+      path: "./assets/audio/dung_luc_gap_go_nguoi.mp3",
+      image: "./assets/img/dung_luc_gap_go_nguoi.jpg",
       lyrics:
         "Wǒmen kūle wǒmen xìaozhe<br>Wǒmen táitóu wàng tiānkōng<br>Xīngxīng hái lìangzhe jǐ kē<br>Wǒmen chàngzhe shíjiān de gē<br>Cái dǒngde xiānghù yǒngbào<br>Dàodǐ shì wèile shénme<br>Yīnwèi wǒ gānghǎo ỳujìan nǐ<br>Líu xìa zújì cái měilì<br>Fēng chuī huā lùo lèi rú yǔ<br>Yīn wéi bùxiǎng fēnlí<br>Yīnwèi gānghǎo ỳujìan nǐ<br>Líu xìa shí nían de qíxǔ<br>Rúguǒ zài xiāngỳu<br>Wǒ xiǎng wǒ hùi jìde nǐ<br>Yīnwèi gānghǎo ỳujìan nǐ<br>Líu xìa zújì cái měilì<br>Fēng chuī huā lùo lèi rú yǔ<br>Yīn wéi bùxiǎng fēnlí<br>Yīnwèi gānghǎo ỳujìan nǐ<br>Líu xìa shí nían de qíxǔ<br>Rúguǒ zài xiāngỳu<br>Wǒ xiǎng wǒ hùi jìde nǐ<br>Yīnwèi wǒ gānghǎo ỳujìan nǐ<br>Líu xìa zújì cái měilì<br>Fēng chuī huā lùo lèi rú yǔ<br>Yīn wéi bùxiǎng fēnlí<br>Yīnwèi gāng hǎo ỳujìan nǐ<br>Líu xìa shí nían de qíxǔ<br>Rúguǒ zài xiāngỳu<br>Wǒ xiǎng wǒ hùi jìde nǐ",
     },
     {
       name: "Wish You Were Gay",
       singer: "Billie Eilish",
-      path: "https://play.imusicvn.com/stream/0hy0Piu0j9z9",
-      image:
-        "https://billboardvn.vn/wp-content/uploads/2019/03/Billie-Eilish-press-by-Kenneth-Cappello-2019-billboard-1548-e1551776796620.jpg",
+      path: "./assets/audio/wish_you_were_gay.mp3",
+      image: "./assets/img/wish_you_were_gay.jpg",
       lyrics:
         "Baby, I don't feel so good<br>Six words you never understood<br>I'll never let you go<br>Five words you never say (Aww)<br>I laugh alone like nothing's wrong<br>Four days has never felt so long<br>If three's a crowd and two was us<br>One slipped away (Hahahahahahahaha)<br>I just wanna make you feel okay<br>But all you do is look the other way<br>I can't tell you how much I wish I didn't wanna stay<br>I just kinda wish you were gay<br>Is there a reason we're not through?<br>Is there a 12 step just for you?<br>Our conversation's all in blue<br>11 \"heys\" (Hey, hey, hey, hey)<br>Ten fingers tearing out my hair<br>Nine times you never made it there<br>I ate alone at 7, you were six minutes away (Yay)<br>How am I supposed to make you feel okay<br>When all you do is walk the other way?<br>I can't tell you how much I wish I didn't wanna stay<br>I just kinda wish you were gay<br>To spare my pride<br>To give your lack of interest an explanation<br>Don't say I'm not your type<br>Just say that I'm not your preferred sexual orientation<br>I'm so selfish<br>But you make me feel helpless, yeah<br>And I can't stand another day<br>Stand another day<br>I just wanna make you feel okay<br>But all you do is look the other way<br>I can't tell you how much I wish I didn't wanna stay<br>I just kinda wish you were gay<br>I just kinda wish you were gay<br>I just kinda wish you were gay",
     },
     {
       name: "I Love You 3000",
       singer: "Stephanie Poetri",
-      path: "https://play.imusicvn.com/stream/huj1DjYvp91w",
-      image: "http://genk.mediacdn.vn/2019/11/17/1-1573974092268574592380.jpg",
+      path: "./assets/audio/i_love_you_3000.mp3",
+      image: "./assets/img/i_love_you_3000.jpg",
       lyrics:
         "Baby, take my hand<br>I want you to be my husband<br>'Cause you're my Iron Man<br>And I love you 3000<br>Baby, take a chance<br>'Cause I want this to be something<br>Straight out of a Hollywood movie<br>I see you standing there<br>In your hulk outerwear<br>And all I can think<br>Is where is the ring<br>'Cause I know you wanna ask<br>Scared the moment will pass<br>I can see it in your eyes<br>Just take me by surprise<br>And all my friends they tell me they see<br>You planning to get on one knee<br>But I want it to be out of the blue<br>So make sure I have no clues<br>When you ask<br>Baby, take my hand<br>I want you to be my husband<br>'Cause you're my Iron Man<br>And I love you 3000<br>Baby, take a chance<br>'Cause I want this to be something<br>Straight out of a Hollywood movie<br>Now we're having dinner<br>And baby you're my winner<br>I see the way you smile<br>You're thinking about the aisle<br>You reach in your pocket<br>Emotion unlocking<br>And before you could ask<br>I answer too fast<br>And all my friends they tell me they see<br>You planing to get on one knee<br>So now I can't stop thinking about you<br>I figured out all the clues<br>So now I ask<br>Baby, take my hand<br>I want you to be my husband<br>'Cause you're my Iron Man<br>And I love you 3000<br>Baby, take a chance<br>'Cause I want this to be something<br>Straight out of a Hollywood movie<br>No spoilers please<br>No spoilers please<br>Baby, take my hand<br>I want you to be my husband<br>'Cause you're my Iron Man<br>And I love you 3000<br>Baby, take a chance<br>'Cause I want this to be something<br>Straight out of a Hollywood movie, Baby<br>No spoilers please<br>No spoilers please<br>No spoilers please<br>And I love you 3000",
     },
     {
       name: "All I Want",
       singer: "Alexandra Porat",
-      path: "https://play.imusicvn.com/stream/LVWbRCjrbHSC",
-      image:
-        "https://more-music-videos.icu/images/olivia-rodrigo-all-i-want_p6w9bv2r/67.jpg",
+      path: "./assets/audio/all_i_want.mp3",
+      image: "./assets/img/all_i_want.jpg",
       lyrics:
         "All I want is nothing more<br>To hear you knocking at my door<br>'Cause if I could see your face once more<br>I could die as a happy man I'm sure<br>When you said your last goodbye<br>I died a little bit inside<br>I lay in tears in bed all night<br>Alone without you by my side<br>But If you loved me<br>Why did you leave me<br>Take my body<br>Take my body<br>All I want is<br>All I need is<br>To find somebody<br>I'll find somebody<br>'Cause you brought out the best of me<br>A part of me I'd never seen<br>You took my soul wiped it clean<br>Our love was made for movie screens<br>But If you loved me<br>Why did you leave me<br>Take my body<br>Take my body<br>All I want is<br>All I need is<br>To find somebody<br>I'll find somebody",
     },
     {
       name: "Sài Gòn Hôm Nay Mưa",
       singer: "JSOL & Hoàng Duyên",
-      path: "https://play.imusicvn.com/stream/EZwfyBx9IT1N",
-      image:
-        "https://cdnmedia.thethaovanhoa.vn/Upload/qPf4BjfjvkrFearu8hrw/files/2021/05/MV%20SGHNM%202K00_03_25_10Still039.jpg",
+      path: "./assets/audio/sai_gon_hom_nay_mua.mp3",
+      image: "./assets/img/sai_gon_hom_nay_mua.jpg",
       lyrics:
         "Từ lâu ta chẳng cho nhau<br>Một câu hỏi chào<br>Ngày ngày em nhắn cho anh<br>Dạo này anh thế nào<br>Vài dòng tin nhắn đã lâu<br>Chẳng hồi đáp lại<br>Chờ anh đến mắt ướt nhòe<br>Mà sao anh im lặng đến thế<br>Mưa nắng của trời, ai lại oán trách<br>Ai hãy mách cho tôi cách chữa lành nỗi buồn này<br>Đi đến khắp nơi đâu cũng là đôi ta<br>Hạnh phúc đôi khi để lại thương đau<br>Sài Gòn hôm nay mưa<br>Dường như có ai bật khóc<br>Vì nhớ người nơi chốn nào<br>Chờ một ngày người ta<br>Trở về để nói lời hứa<br>Từ lâu mà ai nỡ quên<br>Chỉ cầu mong cho mưa ngừng rơi<br>Mưa ngừng rơi anh sẽ quay về<br>Mà dường như khi mưa ngừng rơi<br>Anh cũng tan mất<br>Ngày nắng, ngày mưa mà ta cùng nhau bước qua<br>Bây giờ không còn lại gì em à<br>Đành chôn vùi những tổn thương<br>Vào sâu tận đáy lòng<br>Chẳng muốn ai đào lên<br>Tự mình đào lên thôi, tự mình đào lên thôi<br>Những vết thương em tạo ra<br>Tự mình tạo ra thôi tự mình tạo ra thôi<br>Đau đớn chỉ mình em nhận<br>Nhắn ai kia nhớ ngủ sớm<br>Làm việc nhiều quá chẳng tốt đâu anh à<br>Nhớ ăn no nhớ mặc ấm<br>Đừng để đau ốm ai sẽ lo cho anh<br>Nếu mai đây không về nữa<br>Thì người phải nhớ hạnh phúc dẫu thế nào<br>Nhớ hay quên em tùy anh chỉ cần là anh bình yên<br>Sài Gòn hôm nay mưa<br>Dường như có ai bật khóc<br>Vì nhớ người nơi chốn nào<br>Chờ một ngày người ta<br>Trở về để nói lời hứa<br>Từ lâu mà ai nỡ quên<br>Chỉ cầu mong cho mưa ngừng rơi<br>Mưa ngừng rơi anh sẽ quay về<br>Mà dường như khi mưa ngừng rơi<br>Anh cũng tan mất<br>Sài Gòn hôm nay mưa<br>Dường như có ai bật khóc<br>Vì nhớ người nơi chốn nào<br>Chờ một ngày người ta<br>Trở về để nói lời hứa<br>Từ lâu mà ai nỡ quên<br>Chỉ cầu mong cho mưa ngừng rơi<br>Mưa ngừng rơi anh sẽ quay về<br>Mà dường như khi mưa ngừng rơi<br>Anh cũng tan mất",
     },
     {
       name: "To The Moon",
       singer: "hooligan",
-      path: "https://play.imusicvn.com/stream/zO62A4FQmH79",
-      image:
-        "https://games.mail.ru/hotbox/content_files/news/2021/10/25/4c46629369414e58930c2ea72a4810c7.jpg",
+      path: "./assets/audio/to_the_moon.mp3",
+      image: "./assets/img/to_the_moon.jpg",
       lyrics:
         "Wise man call me a crazy<br>Loving foolishly<br>Dream about you all the time<br>Everynight I fall asleep<br>Chasing and dreaming<br>Looking for your eyes Daisy!<br>I am the foolish Gatsby who's found drown in love<br>Can't you see my heart burning right through my hands?<br>Cos your smile lifts me above and beyond the blue sky<br>In the darkest moments here I still can see your eyes<br>Love you to the moon and back<br>I can't let you know this fact<br>Love you to the moon and back<br>I'm so freaking missing you<br>Aim for the moon yet so far<br>I can't land among the stars<br>Love you to the moon and back<br>I'm so freaking missing you<br>I'll never let my love get so close to you cos it hurts<br>Swear to God!<br>I wish I could<br>I am the foolish Gatsby who's found drown in love<br>Can't you see my heart burning right through my hands?<br>Cos your smile lifts me above and beyond the blue sky<br>In the darkest moments here I still can see your eyes<br>Love you to the moon and back<br>I can't let you know this fact<br>Love you to the moon and back<br>I'm so freaking missing you<br>Aim for the moon yet so far<br>I can't land among the stars<br>Love you to the moon and back<br>I'm so freaking missing you<br>Love you to the moon and back<br>I can't let you know this fact<br>Love you to the moon and back<br>I'm so freaking missing you<br>Aim for the moon yet so far<br>I can't land among the stars<br>Love you to the moon and back<br>I'm so freaking missing you",
     },
     {
       name: "Love Me Like You Do",
       singer: "Ellie Goulding",
-      path: "https://play.imusicvn.com/stream/M1DVLlecibs8",
-      image:
-        "https://linkstorage.linkfire.com/medialinks/images/8b27ba0e-911c-400e-89b4-4572bc024a87/artwork-440x440.jpg",
+      path: "./assets/audio/love_me_like_you_do.mp3",
+      image: "./assets/img/love_me_like_you_do.jpg",
       lyrics:
         "You're the light, you're the night<br>You're the colour of my blood<br>You're the cure, you're the pain<br>You're the only thing I wanna touch<br>Never knew that it could mean so much, so much<br>You're the fear, I don't care<br>'Cause I've never been so high<br>Follow me to the dark<br>Let me take you past our satellites<br>You can see the world you brought to life, to life<br>So love me like you do, la-la-love me like you do<br>Love me like you do, la-la-love me like you do<br>Touch me like you do, ta-ta-touch me like you do<br>What are you waiting for?<br>Fading in, fading out<br>On the edge of paradise<br>Every inch of your skin is a holy grail I've got to find<br>Only you can set my heart on fire, on fire<br>Yeah, I'll let you set the pace<br>'Cause I'm not thinking straight<br>My head's spinning around I can't see clear no more<br>What are you waiting for?<br>Love me like you do, la-la-love me like you do (like you do)<br>Love me like you do, la-la-love me like you do<br>Touch me like you do, ta-ta-touch me like you do<br>What are you waiting for?<br>Love me like you do, la-la-love me like you do (like you do)<br>Love me like you do, la-la-love me like you do (yeah)<br>Touch me like you do, ta-ta-touch me like you do<br>What are you waiting for?<br>I'll let you set the pace<br>'Cause I'm not thinking straight<br>My head's spinning around I can't see clear no more<br>What are you waiting for?<br>Love me like you do, la-la-love me like you do (like you do)<br>Love me like you do, la-la-love me like you do (yeah)<br>Touch me like you do, ta-ta-touch me like you do<br>What are you waiting for?<br>Love me like you do, la-la-love me like you do (like you do)<br>Love me like you do, la-la-love me like you do (oh)<br>Touch me like you do, ta-ta-touch me like you do<br>What are you waiting for?",
     },
     {
       name: "Học Mèo Kêu",
       singer: "Tiểu Phan Phan ft.Tiểu Phong Phong",
-      path: "https://play.imusicvn.com/stream/n0wP1Ge9poDY",
-      image: "https://i1.sndcdn.com/artworks-000401697837-wa12uy-t500x500.jpg",
+      path: "./assets/audio/hoc_meo_keu.mp3",
+      image: "./assets/img/hoc_meo_keu.jpg",
       lyrics:
         "Women yiqi xue mao xiao, yiqi miao miao miao miao miao<br>Zai ni mian qian sa ge jiao, ai you miao miao miao miao miao<br>Wo de xin zang peng peng tiao, mi lian shang ni de huai xiao<br>Ni bu shuo ai wo wo jiu miao miao miao<br>Mei tian du xu yao ni de yongbao<br>Zhenxi zai yiqi de mei fen mei miao<br>Ni dui wo duo chongyao, wo xiang ni bi wo geng zhidao<br>Ni jiu shi wo de nv zhujiao<br>You shihou wo lan de xiang zhi mao<br>Pi qi bu hao shi you zhang ya wu zhao<br>Ni zong shi wen rou de, neng ba wo de xin rong hua diao<br>Wo xiang yao dang ni de xiao mao mao<br>Women yiqi xue mao xiao, yiqi miao miao miao miao miao<br>Wo yao chuan ni de wai tao, wen ni shang shang de wei dao<br>Xiang yao bian cheng ni de mao, lai zai ni huai li shui de<br>Mei tian du tan lian zhe ni de hao",
     },
     {
       name: "Inner Demons",
       singer: "Julia Brennan",
-      path: "https://play.imusicvn.com/stream/feBuYFrUoaoo",
-      image: "https://i.scdn.co/image/ab67616d0000b2738a5944320cb971ccfc228d37",
+      path: "./assets/audio/inner_demons.mp3",
+      image: "./assets/img/inner_demons.jpg",
       lyrics:
         "They say don't let them in<br>Close your eyes and clear your thoughts again<br>When I'm all alone, they show up on their own<br>Cause inner demons fight their battles with fire<br>Inner demons don't play by the rules<br>They say \"Just push them down, just fight them harder<br>Why would you give up on it so soon?\"<br>So angels, angels please just keep on fightingAngels don't give up on me today<br>The demons they are there; they keep on fighting<br>Cause inner demons just won't go away<br>So angels please, hear my prayer<br>Life is pain, lifes not fair<br>So angels please; please stay here<br>Take the pain; take the fear<br>They say it won't be hard; they can't see the battles in my heartBut when I turn away<br>The demons seem to stay<br>Cause inner demons don't play well with angels<br>They cheat and lie and steal and break and bruise<br>Angels please protect me from these rebels<br>This is a battle I don't want to lose<br><br>So angels, angels please just keep on fightingAngels don't give up on me today<br>Cause the demons they are there; they keep on fighting<br>Cause inner demons just won't go away<br><br>Angels, angels please keep on fightingAngels don't give up on me today<br>Cause the demons; they are there<br>They keep on fighting<br>Inner demons just won't go away<br><br>So angels please, hear my prayerLife is pain; life's not fair<br>So angels please; please stay here<br>Take the pain; take the fear",
     },
     {
       name: "Querry",
       singer: "QNT x Trung Trần ft.MCK",
-      path: "https://play.imusicvn.com/stream/3cVHUeSeJM3l",
-      image:
-        "https://avatar-ex-swe.nixcdn.com/mv/2022/06/01/2/1/7/5/1654090711149_640.jpg",
+      path: "./assets/audio/querry.mp3",
+      image: "./assets/img/querry.jpg",
       lyrics:
         "Hàng ngày anh vẫn chọn cách dậy sớm, cùng một ly cafe bên đường<br>Lặng nhìn từng đàn chim đang sải cánh bay đi<br>Lựa chọn outfit ra đón ngày mới, tâm hồn ta như lạc vô chốn thiên đường<br>Và nụ cười của em đẹp như là hoa đó baby<br>Em đang dạo bước trên con đường dài<br>Anh không còn thấy ưu phiền trên vai<br>Em không còn giống trông như thường ngày<br>Không ưa lời nói mật ngọt bên tai<br>So, baby I love it !<br>Baby follow me, follow me....<br>Ngọt ngào vị cherry, đôi môi của em tỏa ra mùi hương thú vị<br>You sweet like berry nhưng anh vẫn luôn gọi em là baby Jully<br>Nàng đẹp tựa là Kathy anh vẫn thường hay được xem ở trên tivi<br>Như Playboy Carti khi bên cạnh anh thì em chẳng cần phải nghĩ suy<br>Anh không cần biết cho dù ngày hay là canh đêm, anh vẫn sống trọn vẹn đến từng giờ<br>Anh mong được viết cho bạn bè cho cả anh em, nhưng em khiến anh không thể ngừng mơ, về em<br>Nỗi nhớ cứ kéo đến hàng đêm<br>outside rollin with my gang<br>Nhưng trong tim anh vẫn hướng về em, em, em<br>I’m in love, love, love<br>baby skz skz skz<br>You leaving in my mind !<br>Ngoài trời rớt rơi mưa mưa<br>Nhẹ nhàng phất phơ lưa thưa<br>Baby gotta feel my vibe !!<br>Ngọt ngào vị cherry, đôi môi của em tỏa ra mùi hương thú vị<br>You sweet like berry nhưng anh vẫn luôn gọi em là baby Jully<br>Nàng đẹp tựa là Kathy anh vẫn thường hay được xem ở trên tivi<br>Như Playboy Carti khi bên cạnh anh thì em chẳng cần phải nghĩ suy<br>Vì sao nhờ ? Cứ tình hình này ôi thôi chết dở<br>Anh như chú cá mắc cạn trên bờ<br>Nghĩ về em lại tức khẩu thành thơ<br>Và điều đó giúp anh miệt mài hàng giờ<br>Và mỗi khi em buồn<br>Anh thức hết đêm muộn<br>Để kể cho em<br>Và vẽ thêm môi em cười<br>Như mùa xuân đến<br>Chiều nay em ghé chơi<br>Và đó là tất cả những điều anh muốn<br>Yeah đó là tất cả những gì anh muốn<br>Có lẽ anh sẽ cho anh thời gian, tận hưởng niềm vui bên em hàng ngày<br>Mặt trời ngủ quên, ánh chiều muộn màng chiếu xuống dưới những tán cây<br>Ngày mai dậy sớm với những giấc mộng tuyệt vời và lồng ngực em sẽ luôn tràn đầy<br>Hận thù khổ đau với ghen tuông gì tầm này !!<br>Ngọt ngào vị cherry đôi môi của em tại sao lại cong thế nhờ<br>yeah bọn họ tripping nghĩ đến em, nên là lòng dễ mơ<br>Chỉ cần biết là em ở đây, chẳng còn thêm nghi ngờ<br>Để vệt son đó nó sẽ đưa anh, tan vào trong từng ý thơ",
     },
     {
       name: "Bước Qua Nhau",
       singer: "Vũ",
-      path: "https://play.imusicvn.com/stream/EdENCgJm9dAa",
-      image:
-        "https://static2.yan.vn/YanNews/2167221/202112/screen-shot-20211204-at-102329-ed04bb62.jpg",
+      path: "./assets/audio/buoc_qua_nhau.mp3",
+      image: "./assets/img/buoc_qua_nhau.jpg",
       lyrics:
         "Cuộc đời cứ trôi<br>Ta nhìn lại ngày tháng còn bên nhau<br>Cùng những thăng trầm<br>Tại sao không vẫy tay chào nơi ta đứng bây giờ<br>Hai nơi hai người dưng<br>Đợi em bước qua<br>Để khiến anh nhận ra là đôi mắt em còn đang buồn<br>Màu hoa cài áo vẫn còn như lời hứa đã từng<br>Giờ đây còn như xưa<br>Dòng người vội vàng bước qua<br>Chợt như chiếc hôn thế thôi<br>Đôi môi chia làm đôi<br>Như ta đang mong vậy thôi<br>Người nghẹn ngào bước đi<br>Chợt như chúng ta quay về<br>Giấu trái tim mình và đừng thổn thức khi thấy nhau oh<br>Đoàn tàu kia dừng lại<br>Còn hai ta bước qua nhau<br>Cuộc đời cứ trôi<br>Ta nhìn lại ngày tháng còn bên nhau<br>Cùng những thăng trầm<br>Và tại sao không vẫy tay chào nơi ta đứng bây giờ<br>Hai nơi hai người dưng<br>Đợi em bước qua<br>Để khiến anh nhận ra là đôi mắt em còn đang buồn<br>Và màu hoa cài áo vẫn còn như lời hứa đã từng<br>Giờ đây còn như xưa<br>Dòng người vội vàng bước qua<br>Chợt như chiếc hôn thế thôi<br>Đôi môi chia làm đôi<br>Như ta đang mong vậy thôi<br>Người nghẹn ngào bước đi<br>Chợt như chúng ta quay về<br>Giấu trái tim mình và đừng thổn thức khi thấy nhau oh<br>Đoàn tàu kia dừng lại (đoàn tàu kia)<br>Còn hai ta trôi đi theo mây trời<br>Từng cảm xúc trong tim anh đang cô đơn cùng với ngàn lời<br>Viết riêng cho bài ca tình đầu<br>Chỉ còn lại một thói quen từ lâu woh<br>Dòng người vội vàng bước qua<br>Chợt như chiếc hôn thế thôi<br>Đôi môi chia làm đôi<br>Như ta đang mong vậy thôi oh oh",
     },
     {
       name: "Phi Tù",
       singer: "Hắc Tử Kỳ",
-      path: "https://play.imusicvn.com/stream/9vj4slVREPpE",
-      image: "https://i.ytimg.com/vi/PSGzy4IhOBA/maxresdefault.jpg",
+      path: "./assets/audio/phi_tu.mp3",
+      image: "./assets/img/phi_tu.jpg",
       lyrics:
         "Gǎnjué dào hǎo chìrè<br>Gānghǎo shì nǐ jīngguò<br>Yǎnshén biǎoxiàn sǎtuō<br>Shǒu què bù zìzhǔ dì<br>Dǎzhāohū gāi rúhé<br>Yīxià zi quán wàngle<br>Míngmíng dōu xiǎng hǎo de<br>Nǎodai quán kòngbáile<br>Jiē xiàlái gāi zěnme zuò<br>Shì yányǔ háishì màn dòngzuò<br>Hǎoxiàng dōu bù tài hǎo shuō<br>Gāngà zhèng gāi zěnme pò<br>Hái bùrú jiù zhíjiē zuò<br>Wèishéme yào xiǎng nàme duō<br>Duō zhìzào yīdiǎn qiǎohé<br>Bù suàn zuì huài de jiéguǒ<br>Rúguǒ tiān túrán xià qǐle yǔ<br>Wǒ bù huì bì duǒ<br>Yīnwèi wǒ zhīdào yǒuyī gèrén<br>Huì shǒuhùzhe wǒ<br>Jiùsuàn yǒuyītiān<br>Huìxīng túrán zhuàng xiàngle dìqiú<br>Méiguānxì zhǐyào yǒu nǐ wǒ de fēi qiú<br>Wǒ cónglái dōu méiyǒu zhè zhǒng shìhào<br>Jiùshì zhàogù nǎge nǚshēng<br>Yīzhí zhǐ màn man biàn lǎo<br>Zìcóng nǐ shuō wǒ zhège sǒng huò<br>Shì nǐ de yīkào<br>Wǒ de xīnqíng jiù kāishǐ màn man biàn hǎo<br>Nǐ shuō nǐ shì jiējiǎo shèngkāi de yěqiángwēi<br>Ér wǒ shǎ shǎ zhǐ dāng nǐ shì duǒ méiguī<br>Jiùsuàn nǐ bèi quán shìjiè de huàirén bāowéi<br>Kàn wǒ huàshēn chāorén<br>Yīyī bǎ tāmen jí tuì<br>Gǎnjué dào hǎo chìrè<br>Gānghǎo shì nǐ jīngguò<br>Yǎnshén biǎoxiàn sǎtuō<br>Shǒu què bù zìzhǔ dì<br>Dǎzhāohū gāi rúhé<br>Yīxià zi quán wàngle<br>Míngmíng dōu xiǎng hǎo de<br>Nǎodai quán kòngbáile<br>Jiē xiàlái gāi zěnme zuò<br>Shì yányǔ háishì màn dòngzuò<br>Hǎoxiàng dōu bù tài hǎo shuō<br>Gāngà zhèng gāi zěnme pò<br>Hái bùrú jiù zhíjiē zuò<br>Wèishéme yào xiǎng nàme duō<br>Duō zhìzào yīdiǎn qiǎohé<br>Bù suàn zuì huài de jiéguǒ<br>Rúguǒ tiān túrán xià qǐle yǔ<br>Wǒ bù huì bì duǒ<br>Yīnwèi wǒ zhīdào yǒu yī gèrén<br>Huì shǒuhùzhe wǒ<br>Jiùsuàn yǒu yītiān<br>Huìxīng túrán zhuàng xiàngle dìqiú<br>Méiguānxì zhǐyào yǒu nǐ<br>Wǒ de fēi qiú",
     },
     {
       name: "Câu Chuyện Rất Ngắn",
       singer: "Vu Đông Nhiên",
-      path: "https://play.imusicvn.com/stream/0ExEHyczM0DO",
-      image:
-        "https://cafebiz.cafebizcdn.vn/thumb_w/600/162123310254002176/2022/1/15/photo1642232763114-16422327637662105527342.jpg",
+      path: "./assets/audio/cau_chuyen_rat_ngan.mp3",
+      image: "./assets/img/cau_chuyen_rat_ngan.jpg",
       lyrics:
         "Wǒ hé tā bèi fàng zài tiānpíng liǎng duān<br>Nǐ màn man duìbǐzhe shéi gèng hǎokàn<br>Hòulái nǐ gēnghuànle zhàn<br>Wǒ bǐ tā gèng xīn shàn<br>Nánguò hé shīwàng gè zhànjù yībàn<br>Sīxù qiān wàn yě bèi bùgān tián mǎn<br>Duìyú nǐ wǒ zhēn yībān<br>Suǒyǐ cái suíbiàn gēnghuàn<br>Céng gěi zìjǐ dài de huángguàn diàole dàbàn<br>Yùjiàn nǐ hòu wǒ de làngmàn quándōu bù suàn<br>Wǒ màn man xíguànle bīnglěng de yèwǎn<br>Qǐnshí nán ān<br>Wǒmen de gùshì hěn duǎn yǒudiǎn shānggǎn<br>Nǐ zǒu dì nàme tǎnrán wúfǎ tánpàn<br>Wǒ hái xiào zìjǐ yǒnggǎn<br>Kěyǐ wú xiūzhǐ jiūchán<br>Dà kě bùbì tóngqíng xīn fànlàn<br>Wǒmen de jiéjú gèng luàn bù suàn jiǎndān<br>Quán shì fūyǎn hòu biàn dàn wúfǎ fānpán<br>Nǐ zǒu yuǎn hòu huítóu kàn<br>Wǒ hái zài qiáoshǒu yǐ pàn<br>Wúfǎ xīn'ān<br>Nánguò hé shīwàng gè zhànjù yībàn<br>Sīxù qiān wàn yě bèi bùgān tián mǎn<br>Duìyú nǐ wǒ zhēn yībān<br>Suǒyǐ cái suíbiàn gēnghuàn<br>Céng gěi zìjǐ dài de huángguàn diàole dàbàn<br>Yùjiàn nǐ hòu wǒ de làngmàn quándōu bù suàn<br>Wǒ màn man xíguànle bīnglěng de yèwǎn<br>Qǐnshí nán ān<br>Wǒmen de gùshì hěn duǎn yǒudiǎn shānggǎn<br>Nǐ zǒu dì nàme tǎnrán wúfǎ tánpàn<br>Wǒ hái xiào zìjǐ yǒnggǎn<br>Kěyǐ wú xiūzhǐ jiūchán<br>Dà kě bùbì tóngqíng xīn fànlàn<br>Wǒmen de jiéjú gèng luàn bù suàn jiǎndān<br>Quán shì fūyǎn hòu biàn dàn wúfǎ fānpán<br>Nǐ zǒu yuǎn hòu huítóu kàn<br>Wǒ hái zài qiáoshǒu yǐ pàn<br>Wúfǎ xīn'ān<br>Wǒmen de gùshì hěn duǎn yǒudiǎn shānggǎn<br>Nǐ zǒu dì nàme tǎnrán wúfǎ tánpàn<br>Wǒ hái xiào zìjǐ yǒnggǎn<br>Kěyǐ wú xiūzhǐ jiūchán<br>Dà kě bùbì tóngqíng xīn fànlàn<br>Wǒmen de jiéjú gèng luàn bù suàn jiǎndān<br>Quán shì fūyǎn hòu biàn dàn wúfǎ fānpán<br>Nǐ zǒu yuǎn hòu huítóu kàn<br>Wǒ hái zài qiáoshǒu yǐ pàn<br>Wú fǎ xīn'ān",
     },
     {
       name: "Thế Giới Này Nhiều Người Đến Vậy",
       singer: "Luân Tang",
-      path: "https://play.imusicvn.com/stream/xtHpIaYTwSDx",
-      image:
-        "https://i1.sndcdn.com/artworks-HKn001TLAZA3obgr-WfyLxA-t500x500.jpg",
+      path: "./assets/audio/the_gioi_nay_nhieu_nguoi_den_vay.mp3",
+      image: "./assets/img/the_gioi_nay_nhieu_nguoi_den_vay.jpg",
       lyrics:
         "Zhe shijie you name duo ren<br>renqun li changzhe yi shan men<br>wo mi meng de yanjing li chang cun<br>chu jian ni lan se qingchen<br>zhe shijie you name duo ren<br>duo xingyun wo you ge women<br>zhe youchang mingyun zhong de chenhun<br>chang rang wo wang yuanfang chushen<br>hui shuye piao zhuan zai chitang<br>kan feiji hong de yisheng qu yuan xiang<br>guangyin de chang lang jiaobu sheng jiaorang<br>deng yi liang wu ren de kong dang<br>wan feng zhong shanguo ji zheng congqian a<br>feichi zhong xuanzhuan yi bujianle ma<br>yuan guang zhong zou lai ni yishen qinglang<br>shen pang name duo ren keshijie bu sheng bu xiang<br>xiao sheng zhong fuguo ji zhang jiu muyang<br>liu zai meng tian li yongyuan bu sanchang<br>nuan guang zhong xing lai haoduo hua yao jiang<br>shijie name duo ren ke shi ta bu sheng bu xiang<br>zhe shijie you name geren<br>huo zai wo feiyang de qingchun<br>zai leishui li jin shiguo de chang wen<br>chang rang wo xiang a xiang chushen",
     },
     {
       name: "Yến Vô Hiết",
       singer: "Tưởng Tuyết Nhi",
-      path: "https://play.imusicvn.com/stream/mEAnCQtIg2NR",
-      image:
-        "https://i1.sndcdn.com/artworks-ZVNVu2TFBm2nwAzK-ONZfMg-t500x500.jpg",
+      path: "./assets/audio/yen_vo_hiet.mp3",
+      image: "./assets/img/yen_vo_hiet.jpg",
       lyrics:
         "Zhǐ tàn tā huímóu qiūshuǐ bèi yǐn qù<br>Zhǐ yì tā diǎnpò qù rì kǔ duō<br>Jiè sān liǎng kǔ jiǔ fāng zhī lì bùkě<br>Zhǐ tàn tā jiāng sīniàn yáo luò<br>Xīn duō qiáocuì ài fù yǔ dōng liú de shuǐ<br>Shěmìng fèngpéi dǐ bùguò tiāngōng bùzuò měi<br>Wǎngshì huíwèi bùguò shì tánzhǐ yīhuī<br>Rì fù rì wàngchuānqiūshuǐ shù wǒ yúmèi<br>Nǐ àizhe shuí xīn tú liú jǐ dào shāng<br>Wǒ suǒzhe méi zuì shì xiāngsī duàn rén cháng<br>Láoyànfēnfēi jìliáo de yèlǐ lèi liǎng háng<br>Zhú duǎn yíhàn zhǎng gùrén zì nánwàng<br>Nǐ àizhe shuí xīn tú liú jǐ dào shāng<br>Ài duō kěbēi hèn bǐcǐ tiānyá gè yīfāng<br>Lěng yuè kōng duì mǎnfù chóu wú chù huà qīliáng<br>Wǒ ài bù huǐ kě gūyǐng nán chéng shuāng<br>Xīn duō qiáocuì ài fù yǔ dōng liú de shuǐ<br>Shěmìng fèngpéi dǐ bùguò tiāngōng bùzuò měi<br>Wǎngshì huíwèi bùguò shì tánzhǐ yīhuī<br>Rì fù rì wàngchuānqiūshuǐ shù wǒ yúmèi<br>Nǐ àizhe shuí xīn tú liú jǐ dào shāng<br>Wǒ suǒzhe méi zuì shì xiāngsī duàn rén cháng<br>Láoyànfēnfēi jìliáo de yèlǐ lèi liǎng háng<br>Zhú duǎn yíhàn zhǎng gùrén zì nánwàng<br>Nǐ àizhe shuí xīn tú liú jǐ dào shāng<br>Ài duō kěbēi hèn bǐcǐ tiānyá gè yīfāng<br>Lěng yuè kōng duì mǎnfù chóu wú chù huà qīliáng<br>Wǒ ài bù huǐ kě gūyǐng nán chéng shuāng<br>Nǐ àizhe shuí xīn tú liú jǐ dào shāng<br>Wǒ suǒzhe méi zuì shì xiāngsī duàn rén cháng<br>Láoyànfēnfēi jìliáo de yèlǐ lèi liǎng háng<br>Zhú duǎn yíhàn zhǎng gùrén zì nánwàng",
     },
     {
       name: "Tâm Lặng Như Nước",
       singer: "Ice Paper",
-      path: "https://play.imusicvn.com/stream/3dOydr6x2UMp",
-      image: "https://i.ytimg.com/vi/i_O9ZezOB74/maxresdefault.jpg",
+      path: "./assets/audio/tam_lang_nhu_nuoc.mp3",
+      image: "./assets/img/tam_lang_nhu_nuoc.jpg",
       lyrics:
         "Talking to the moon fàng bùxià de lǐyóu<br>Shì bùshì huì dānxīn biàn chéng yī zhǐ yěshòu<br>Walking on the roof wéi xīntiào de jiézòu<br>Shì bùshì huì zàntíng zài shìjiè de jìntóu<br>Jìnpào zài shí gōngshēng de píng lǐ<br>Dānchún xiǎng yào hūxī tǎoyàn yún lǐ wù lǐ<br>Chūmò zài bèi yíwàng de chōutì<br>Nǐ céngjīng de shǒubǐ xiězhe xīnkǒu bù yī<br>Xiànzài shì hēiyè báizhòu wǒ dū suíbiàn<br>Xiàng mílù de tiān'é yóu shī zài shuǐmiàn<br>Jìnlì qù bǔzhuō è mèng lǐ de suìpiàn<br>Bù xūyào nǐ de gē lái bāng wǒ cuīmián<br>Talking to the moon fàng bùxià de lǐyóu<br>Shì bùshì huì dānxīn biàn chéng yī zhǐ yěshòu<br>Walking on the roof wéi xīntiào de jiézòu<br>Shì bùshì huì zàntíng zài shíjiān de jìntóu<br>Shuō bu wán dehuà zhǎo bù wán de jièkǒu<br>Shì bùshì huì hěnxīn bǎ wǒ jiāo'ào jiěpōu<br>Àizhe shéi de tā néng fǒu jiāng nǐ jiēshòu<br>Shì bùshì huì shàngyǐn bàituō màn xiē jiàngluò<br>Huálì de hóng fángjiān fāméi de jiù chàngpiàn<br>Méi bìyào tīng gè biàn diàole qī de bòfàng jiàn<br>Nǐ qíngyuàn màozhe xiǎn shuì zài tā de shēnbiān<br>Méi nàixīn qù fēnbiàn shéi hé shéi nénggòu zǒu duō yuǎn<br>Chuānguò jǐ tiáo jiē jiù néng zhǎodào guānjiàn<br>Jiě kāi wǒ de wèntí méishénme xuánniàn<br>Zhuǎnle jǐ gè wān háishì huí dào yuándiǎn<br>Wǒ gāi rúhé chūxiàn zài nǐ de miànqián<br>Talking to the moon fàng bùxià de lǐyóu<br>Shì bùshì huì dānxīn biàn chéng yī zhǐ yěshòu<br>Walking on the roof wéi xīntiào de jiézòu<br>Shì bùshì huì zàntíng zài shíjiān de jìntóu<br>Shuō bu wán dehuà zhǎo bù wán de jièkǒu<br>Shì bùshì huì hěnxīn bǎ wǒ jiāo'ào jiěpōu<br>Àizhe shéi de tā néng fǒu jiāng nǐ jiēshòu<br>Shì bùshì huì shàngyǐn bàituō màn xiē jiàngluò<br>Talking to the moon fàng bùxià de lǐyóu<br>Shì bùshì huì dānxīn biàn chéng yī zhǐ yěshòu<br>Walking on the roof wéi xīntiào de jiézòu<br>Shì bùshì huì zàntíng zài shíjiān de jìntóu<br>Shuō bu wán dehuà zhǎo bù wán de jièkǒu<br>Shì bùshì huì hěnxīn bǎ wǒ jiāo'ào jiěpōu<br>Àizhe shéi de tā néng fǒu jiāng nǐ jiēshòu<br>Shì bùshì huì shàngyǐn bàituō màn xiē jiàngluò",
     },
     {
-      name: "Yummy",
-      singer: "Justin Bieber",
-      path: "https://play.imusicvn.com/stream/1zgnYKyUyp44",
-      image:
-        "https://i1.sndcdn.com/artworks-gCP0PahTVFtNdG86-HoB0Rw-t500x500.jpg",
+      name: "Little Do You Know",
+      singer: "Alex & Sierra",
+      path: "./assets/audio/little_do_you_know.mp3",
+      image: "./assets/img/little_do_you_know.jpg",
       lyrics:
-        "Yeah, you got that yummy-yum<br>That yummy-yum, that yummy-yummy<br>Yeah, you got that yummy-yum<br>That yummy-yum, that yummy-yummy<br>Say the word, on my way<br>Yeah babe, yeah babe, yeah babe<br>Any night, any day<br>Say the word, on my way<br>Yeah babe, yeah babe, yeah babe<br>In the mornin' or the late<br>Say the word, on my way<br>Bonafide stallion<br>It ain't no stable, no, you stay on the run<br>Ain't on the side, you're number one<br>Yeah, every time I come around, you get it done (You get it done)<br>Fifty-fifty, love the way you split it<br>Hundred racks, help me spend it, babe<br>Light a match, get litty, babe<br>That jet set, watch the sunset kinda, yeah, yeah<br>Rollin' eyes back in my head, make my toes curl, yeah, yeah<br>Yeah, you got that yummy-yum<br>That yummy-yum, that yummy-yummy<br>Yeah, you got that yummy-yum<br>That yummy-yum, that yummy-yummy<br>Say the word, on my way<br>Yeah babe, yeah babe, yeah babe<br>Any night, any day<br>Say the word, on my way<br>Yeah babe, yeah babe, yeah babe<br>In the mornin' or the late<br>Say the word, on my way<br>Standin' up, keep me on the rise<br>Lost control of myself, I'm compromised<br>You're incriminating, no disguise (No disguise)<br>And you ain't never runnin' low on supplies<br>Fifty-fifty, love the way you split it<br>Hundred racks, help me spend it, babe<br>Light a match, get litty, babe<br>That jet set, watch the sunset kinda, yeah, yeah<br>Rollin' eyes back in my head, make my toes curl, yeah, yeah<br>Yeah, you got that yummy-yum<br>That yummy-yum, that yummy-yummy (You stay flexin' on me)<br>Yeah, you got that yummy-yum (Yeah, yeah)<br>That yummy-yum, that yummy-yummy<br>Say the word, on my way<br>Yeah babe, yeah babe, yeah babe (Yeah, babe)<br>Any night, any day<br>Say the word, on my way<br>Yeah babe, yeah babe, yeah babe (Yeah, babe)<br>In the mornin' or the late<br>Say the word, on my way<br>Hop in the Lambo', I'm on my way<br>Drew House slippers on with a smile on my face<br>I'm elated that you are my lady<br>You got the yum, yum, yum, yum<br>You got the yum, yum-yum, woah<br>Woah-ooh<br>Yeah, you got that yummy-yum<br>That yummy-yum, that yummy-yummy<br>Yeah, you got that yummy-yum<br>That yummy-yum, that yummy-yummy<br>Say the word, on my way<br>Yeah babe, yeah babe, yeah babe (Yeah, babe)<br>Any night, any day<br>Say the word, on my way<br>Yeah babe, yeah babe, yeah babe (Yeah, babe)<br>In the mornin' or the late<br>Say the word, on my way",
+        "Little do you know<br>How I'm breaking while you fall asleep<br>Little do you know<br>I'm still haunted by the memory<br>Little do you know<br>I'm trying to pick myself up piece by piece<br>Little do you know<br>I need a little more time<br>Underneath it all I'm held captive by the hole inside<br>I've been holding back for the fear that you might change your mind<br>I'm ready to forgive you but forgetting is a harder fight<br>Little do you know<br>I need a little more time<br>I'll wait, I'll wait<br>I love you like you've never felt the pain, I'll wait<br>I promise you don't have to be afraid, I'll wait<br>The love is here and here to stay so lay your head on me<br>Little do you know<br>I know you're hurting while I'm sounding asleep<br>Little do you know<br>All my mistakes are slowly drowning me<br>Little do you know<br>I'm trying to make it better piece by piece<br>Little do you know<br>I love you till the sun dies<br>I'll wait, just wait<br>I love you like I've never felt the pain, just wait<br>I love you like I've never been afraid, just wait<br>Our love is here and here to stay so lay your head on me<br>I'll wait, I'll wait<br>I love you like you've never felt the pain, I'll wait<br>I promise you don't have to be afraid, I'll wait<br>The love is here and here to stay so lay your head on me<br>Lay your head on me<br>So lay your head on me<br>'Cause little do you know<br>I love you till the sun dies",
     },
     {
       name: "See You Again",
       singer: "Wiz Khalifa & Charlie Puth",
-      path: "https://play.imusicvn.com/stream/AzjZDm1KtHT9",
-      image: "https://nld.mediacdn.vn/2017/2-153359-1501912799729.jpg",
+      path: "./assets/audio/see_you_again.mp3",
+      image: "./assets/img/see_you_again.jpg",
       lyrics:
         "It's been a long day without you my friendAnd I'll tell you all about it when I see you again<br>We've come a long way from where we began<br>Oh I'll tell you all about it when I see you again<br>When I see you again<br>Damn who knew all the planes we flew<br>Good things we've been through<br>That I'll be standing right here<br>Talking to you about another path I<br>Know we loved to hit the road and laugh<br>But something told me that it wouldn't last<br>Had to switch up look at things different see the bigger picture<br>Those were the days hard work forever pays now I see you in a better place<br>How could we not talk about family when family's all that we got?<br>Everything I went through you were standing there by my side<br>And now you gonna be with me for the last ride<br>It's been a long day without you my friend<br>And I'll tell you all about it when I see you again<br>We've come a long way from where we began<br>Oh I'll tell you all about it when I see you again<br>when I see you again<br>First you both go out your way<br>And the vibe is feeling strong and what's<br>Small turn to a friendship a friendship<br>Turn into a bond and that bond will never<br>Be broke and the love will never get lost<br>And when brotherhood come first then the line<br>Will never be crossed established it on our own<br>When that line had to be drawn and that line is what<br>We reach so remember me when I'm gone<br>How could we not talk about family when family's all that we got?<br>Everything I went through you were standing there by my side<br>And now you gonna be with me for the last ride<br>So let the light guide your way hold every memory<br>As you go and every road you take will always lead you home<br>It's been a long day without you my friend<br>And I'll tell you all about it when I see you again<br>We've come a long way from where we began<br>Oh I'll tell you all about it when I see you again<br>When I see you again",
     },
     {
       name: "One Call Away",
       singer: "Charlie Puth",
-      path: "https://play.imusicvn.com/stream/50omvZRB4ptf",
-      image: "https://i1.sndcdn.com/artworks-000550863207-vpvy0f-t500x500.jpg",
+      path: "./assets/audio/one_call_away.mp3",
+      image: "./assets/img/one_call_away.jpg",
       lyrics:
         "I'm only one call awayI'll be there to save the day<br>Superman got nothing on me<br>I'm only one call away<br>Call me, baby, if you need a friend<br>I just wanna give you love<br>C'mon, c'mon, c'mon<br>Reaching out to you, so take a chance<br>No matter where you go<br>You know you're not alone<br>I'm only one call away<br>I'll be there to save the day<br>Superman got nothing on me<br>I'm only one call away<br>Come along with me and don't be scared<br>I just wanna set you free<br>C'mon, c'mon, c'mon<br>You and me can make it anywhere<br>For now, we can stay here for a while<br>'Cause you know, I just wanna see you smile<br>No matter where you go<br>You know you're not alone<br>I'm only one call away<br>I'll be there to save the day<br>Superman got nothing on me<br>I'm only one call away<br>And when you're weak I'll be strong<br>I'm gonna keep holding on<br>Now don't you worry, it won't be long<br>Darling, and when you feel like hope is gone<br>Just run into my arms<br>I'm only one call away<br>I'll be there to save the day<br>Superman got nothing on me<br>I'm only one, I'm only one call away<br>I'll be there to save the day<br>Superman got nothing on me<br>I'm only one call away<br>I'm only one call away",
     },
     {
       name: "Trạm Khí Tượng",
       singer: "Uu",
-      path: "https://play.imusicvn.com/stream/CeVa5rTsfc32",
-      image: "https://i.ytimg.com/vi/etMidypYut0/maxresdefault.jpg",
+      path: "./assets/audio/tram_khi_tuong.mp3",
+      image: "./assets/img/tram_khi_tuong.jpg",
       lyrics:
         "Dang tiankong turan duanle ceng gua qile feng<br>Dang ni bu zai deng yige ren zai yuzhong<br>Ni shuo mei ci xia yu hou<br>Ni dou xiang yao tai qitou<br>Shu shu yanse<br>Kan kan quele tao de na yige<br>Wo wen yu hou taiyang ne<br>Ni shuo keneng tai mangle<br>Tiantian kaigong<br>Anshi an zhong jiu dang fangjiale<br>Suoyi wo bu yuan<br>Toutou ba ni shijian dou zhanle<br>Hai jide ni shuoguo de<br>Dou shi jia de wo fen bu qing dui cuo<br>Dang tiankong turan duanle ceng gua qile feng<br>Dang ni bu zai deng yige ren zai yuzhong<br>Que turan xiangqi wei ni chengguo san de ren<br>Xiang yong zai lukou zhi weile caihong<br>Neng buneng bang wo ting ting ta de xinli hua<br>Bie zai zhuang yaba bie rang shangkou fangda<br>Neng buneng bang wo tou zou ta de xingfu a<br>Likai shui de yu hai neng hui dao dahai ma<br>Wo wen yu hou taiyang ne<br>Ni shuo keneng tai mangle<br>Tiantian kaigong<br>Anshi an zhong jiu dang fangjiale<br>Suoyi wo bu yuan<br>Toutou ba ni shijian dou zhanle<br>Hai jide ni shuoguo de<br>Dou shi jia de wo fen bu qing dui cuo<br>Dang tiankong turan duanle ceng gua qile feng<br>Dang ni bu zai deng yige ren zai yuzhong<br>Que turan xiangqi wei ni chengguo san de ren<br>Xiang yong zai lukou zhi weile caihong<br>Neng buneng bang wo ting ting ta de xinli hua<br>Bie zai zhuang yaba bie rang shangkou fangda<br>Neng buneng bang wo tou zou ta de xingfu a<br>Likai shui de yu hai neng hui dao dahai ma<br>Dang tiankong turan duanle ceng gua qile feng<br>Dang ni bu zai deng yige ren zai yuzhong<br>Que turan xiangqi wei ni chengguo san de ren<br>Xiang yong zai lukou zhi weile caihong<br>Neng buneng bang wo ting ting ta de xinli hua<br>Bie zai zhuang yaba bie rang shangkou fangda<br>Neng buneng bang wo tou zou ta de xingfu a<br>Likai shui de yu hai neng hui dao dahai ma",
     },
