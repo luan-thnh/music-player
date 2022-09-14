@@ -33,6 +33,7 @@ body {
 }
 
 .btn,
+.song-group,
 input,
 textarea,
 button,
@@ -269,9 +270,15 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  transition: all 0.3s;
 }
 
 /* Song */
+
+.song-group {
+  transition: all 0.3s;
+}
+
 .song {
   align-items: center;
   background-color: var(--opacity-color);
