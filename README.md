@@ -1,3 +1,3 @@
 # music-player
 
-https://luan-thanhh.github.io/music-player/
+https://luan-thnh.github.io/music-player/
