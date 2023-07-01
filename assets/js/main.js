@@ -112,6 +112,16 @@ const app = {
       const newCdWidth = cdWidth - scrollTop;
       cd.style.width = newCdWidth > 0 ? newCdWidth + 'px' : 0;
       cd.style.opacity = newCdWidth / cdWidth;
+
+      // const cdBgElements = document.querySelectorAll('.cd-bg');
+      // cdBgElements.forEach(function (cdBg) {
+      //   document.documentElement.style.setProperty('--scroll-top', scrollTop + 'px');
+
+      //   console.log(newCdWidth);
+      //   if (newCdWidth > 0) {
+      //     cdBg.classList.add('change-size');
+      //   }
+      // });
     };
 
     // Handle Play
