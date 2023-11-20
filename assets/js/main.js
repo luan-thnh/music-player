@@ -153,7 +153,7 @@ const app = {
 
     audio.ontimeupdate = function () {
       if (audio.duration) {
-        const progressPercent = Math.floor((audio.currentTime / audio.duration) * 100);
+        const progressPercent = ((audio.currentTime / audio.duration) * 100).toFixed(1);
         progress.value = progressPercent;
 
         const color = 'linear-gradient(90deg, rgb(245, 135, 10)' + progress.value + '%, rgba(255, 255, 255, 0.2)' + progress.value + '%)';
@@ -164,7 +164,7 @@ const app = {
 
     // Tua audio
     progress.oninput = function (e) {
-      const seekTime = Math.floor((audio.duration / 100) * e.target.value);
+      const seekTime = (audio.duration / 100) * e.target.value;
       audio.currentTime = seekTime;
     };
 
