@@ -45,8 +45,8 @@ export default function songs() {
     {
       name: 'Hit Me Up',
       singer: 'Binz',
-      path: './assets/audio/your-smile.mp3',
-      image: './assets/img/your-smile.jpg',
+      path: './assets/audio/hit-me-up.mp3',
+      image: './assets/img/hit-me-up.jpg',
       lyrics: 'Đang update...',
     },
     {
