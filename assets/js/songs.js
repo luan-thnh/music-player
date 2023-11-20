@@ -1,6 +1,13 @@
 export default function songs() {
   return [
     {
+      name: 'Nàng',
+      singer: 'NGHI',
+      path: './assets/audio/nang.mp3',
+      image: './assets/img/nang.webp',
+      lyrics: 'Đang update...',
+    },
+    {
       name: 'Đủ trải sẽ thấm',
       singer: 'Mikelodic x Chiennhatlang',
       path: './assets/audio/a-loi.mp3',
