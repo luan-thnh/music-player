@@ -140,6 +140,23 @@ const app = {
 
       cdThumbAnimete.play();
       cdBgsAnimete.play();
+
+      const song = _this.songs[_this.currentIndex];
+
+      if ('mediaSession' in navigator) {
+        navigator.mediaSession.metadata = new MediaMetadata({
+          title: song.name,
+          artist: song.singer,
+          artwork: [{ src: song.image }],
+        });
+
+        navigator.mediaSession.setActionHandler('previoustrack', function () {
+          prevBtn.onclick();
+        });
+        navigator.mediaSession.setActionHandler('nexttrack', function () {
+          nextBtn.onclick();
+        });
+      }
     };
 
     // Pause
@@ -156,7 +173,12 @@ const app = {
         const progressPercent = ((audio.currentTime / audio.duration) * 100).toFixed(1);
         progress.value = progressPercent;
 
-        const color = 'linear-gradient(90deg, rgb(245, 135, 10)' + progress.value + '%, rgba(255, 255, 255, 0.2)' + progress.value + '%)';
+        const color =
+          'linear-gradient(90deg, rgb(245, 135, 10)' +
+          progress.value +
+          '%, rgba(255, 255, 255, 0.2)' +
+          progress.value +
+          '%)';
 
         progress.style.background = color;
       }
@@ -178,6 +200,9 @@ const app = {
       audio.play();
       _this.render();
       _this.scrollToActiveSong();
+
+      currentSongIndex = (currentSongIndex + 1) % songs.length;
+      playSong();
     };
 
     // Prev audio
