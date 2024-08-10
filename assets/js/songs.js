@@ -43,6 +43,20 @@ export default function songs() {
       lyrics: 'Đang update...',
     },
     {
+      name: '2002',
+      singer: 'Anne Marie',
+      path: './assets/audio/2002.mp3',
+      image: './assets/img/2002.jpg',
+      lyrics: 'Đang update...',
+    },
+    {
+      name: 'Love story',
+      singer: 'Taylor Swift',
+      path: './assets/audio/love-story.mp3',
+      image: './assets/img/love-story.jpg',
+      lyrics: 'Đang update...',
+    },
+    {
       name: 'Yêu anh đi mẹ anh bán bánh mì',
       singer: 'Phúc Du',
       path: './assets/audio/yeu-anh-di-me-anh-ban-banh-mi.mp3',
