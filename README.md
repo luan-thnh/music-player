@@ -13,6 +13,77 @@ Sonoria is a music player application built using vanilla JavaScript. This web a
 - **Keyboard Navigation**: Press a key to scroll to the song whose title starts with that key.
 - **Scrolling CD Animation**: Enjoy an animated CD graphic that scales with the scroll position.
 
+## Play list
+1. 2002
+2. À Lôi
+3. A Thousand Years
+4. All I Want
+5. ANH LUÔN NHƯ VẬY
+6. Anh Luôn Như Vậy
+7. Another Love
+8. At My Worst
+9. Bạch Nguyệt Quang Và Nốt Chu Sa
+10. Bad Liar
+11. Bài Ca Đảo Thiên Đường
+12. Bạn đời
+13. Bring Me Back
+14. Bước Qua Nhau
+15. Cắt Đôi Nỗi Sầu
+16. Câu Chuyện Rất Ngắn
+17. Cô Gái Gu Chì
+18. Cô Nương Xinh Đẹp Phải Đi Lấy Chồng Rồi
+19. Công Tử Đi Hướng Bắc
+20. Đâu Cần Một Bài Ca Tình Yêu
+21. Đi Về Nhà
+22. Don't Watch Me Cry
+23. Đủ trải sẽ thấm
+24. Đúng Lúc Gặp Gỡ Người
+25. Đường Nhân
+26. Dynasty
+27. Head In The Clouds
+28. Hikaru Nara Shigatsu Wa Kimi No Uso OP
+29. Hit Me Up
+30. Hôm Nay Cuối Tuần
+31. I Love You 3000
+32. I Miss You
+33. Inner Demons
+34. Inochi ni Kirawarete iru
+35. Lemon Tree
+36. Let Her Go
+37. Lift Me Up
+38. Listen Before I Go
+39. Little Do You Know
+40. Love Is Gone
+41. Love Me Like You Do
+42. Love story
+43. Love Yourself
+44. Nàng
+45. Nhất Lộ Sinh Hoa
+46. One Call Away
+47. Perfect
+48. Phi Tù
+49. Querry
+50. See You Again
+51. Shinunoga E-Wa
+52. Six Feet Under
+53. Someone To You
+54. TẠI VÌ SAO
+55. Tâm Lặng Như Nước
+56. Thế Giới Này Nhiều Người Đến Vậy
+57. The Nights
+58. The One That Got Away
+59. To The Moon
+60. Trạm Khí Tượng
+61. True Love Is Violent
+62. W/n - id 072019
+63. Waiting For Love
+64. Wish You Were Gay
+65. Yến Vô Hiết
+66. Yêu anh đi mẹ anh bán bánh mì
+67. You Are The Reason
+68. You Said You"d Grow Old With Me
+69. Your Smile
+
 ## Getting Started
 
 To get started with Sonoria, follow these instructions:
