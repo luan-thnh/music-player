@@ -210,9 +210,6 @@ const app = {
       audio.play();
       _this.render();
       _this.scrollToActiveSong();
-
-      currentSongIndex = (currentSongIndex + 1) % songs.length;
-      playSong();
     };
 
     // Prev audio
@@ -244,8 +241,8 @@ const app = {
 
     // Auto chuyển tiếp music
     audio.onended = function () {
-      // nextBtn.click();
-      _this.nextSong();
+      nextBtn.click();
+      // _this.nextSong();
     };
 
     playList.onclick = function (e) {
