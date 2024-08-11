@@ -244,7 +244,8 @@ const app = {
 
     // Auto chuyển tiếp music
     audio.onended = function () {
-      nextBtn.click();
+      // nextBtn.click();
+      _this.nextSong();
     };
 
     playList.onclick = function (e) {
