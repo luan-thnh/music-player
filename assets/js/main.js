@@ -1,4 +1,5 @@
 import songs from './songs.js';
+import { normalizeVietnamese } from './utils.js';
 
 const $ = document.querySelector.bind(document);
 
@@ -80,7 +81,14 @@ const app = {
     const _this = this;
     const cdWidth = cd.offsetWidth;
 
-    const cdThumbAnimete = cdThumb.animate(
+    // Save playback time periodically
+    setInterval(function () {
+      if (_this.isPlaying) {
+        _this.setConfig('currentTime', audio.currentTime);
+      }
+    }, 1000);
+
+    const cdThumbAnimate = cdThumb.animate(
       [
         {
           transform: 'rotate(360deg)',
@@ -92,7 +100,7 @@ const app = {
       }
     );
 
-    const cdBgsAnimete = cdBgs.animate(
+    const cdBgsAnimate = cdBgs.animate(
       [
         {
           transform: 'rotate(-360deg)',
@@ -103,8 +111,8 @@ const app = {
         iterations: Infinity,
       }
     );
-    cdThumbAnimete.pause();
-    cdBgsAnimete.pause();
+    cdThumbAnimate.pause();
+    cdBgsAnimate.pause();
 
     // Handle Scroll CD
     document.onscroll = function () {
@@ -138,8 +146,8 @@ const app = {
       _this.isPlaying = true;
       player.classList.add('playing');
 
-      cdThumbAnimete.play();
-      cdBgsAnimete.play();
+      cdThumbAnimate.play();
+      cdBgsAnimate.play();
 
       const song = _this.songs[_this.currentIndex];
 
@@ -164,8 +172,8 @@ const app = {
       _this.isPlaying = false;
       player.classList.remove('playing');
 
-      cdThumbAnimete.pause();
-      cdBgsAnimete.pause();
+      cdThumbAnimate.pause();
+      cdBgsAnimate.pause();
     };
 
     audio.ontimeupdate = function () {
@@ -188,6 +196,8 @@ const app = {
     progress.oninput = function (e) {
       const seekTime = (audio.duration / 100) * e.target.value;
       audio.currentTime = seekTime;
+
+      _this.setConfig('currentTime', audio.currentTime);
     };
 
     // Next audio
@@ -220,14 +230,14 @@ const app = {
     // Random audio
     randomBtn.onclick = function () {
       _this.isRandom = !_this.isRandom;
-      // _this.setConfig("isRandom", _this.isRandom);
+      _this.setConfig('isRandom', _this.isRandom);
       randomBtn.classList.toggle('active', _this.isRandom); // Nếu true thì add class còn false thì remove class
     };
 
     // Repeat audio
     repeatBtn.onclick = function () {
       _this.isRepeat = !_this.isRepeat;
-      // _this.setConfig("isRepeat", _this.isRepeat);
+      _this.setConfig('isRepeat', _this.isRepeat);
       repeatBtn.classList.toggle('active', _this.isRepeat);
       audio.loop = _this.isRepeat;
     };
@@ -277,6 +287,29 @@ const app = {
       }
     };
 
+    // Search music
+    document.onkeydown = function (e) {
+      const key = normalizeVietnamese(e.key).toUpperCase();
+
+      // Check if the key is an alphabet character
+      if (key >= 'A' && key <= 'Z') {
+        const songElements = document.querySelectorAll('.song');
+        for (const songElement of songElements) {
+          const songTitle = normalizeVietnamese(
+            songElement.querySelector('.song-title').textContent.trim()
+          ).toUpperCase();
+          if (songTitle.startsWith(key)) {
+            songElement.scrollIntoView({
+              behavior: 'smooth',
+              block: 'center',
+              inline: 'nearest',
+            });
+            break;
+          }
+        }
+      }
+    };
+
     this.sort(this.songs);
   },
 
@@ -285,11 +318,22 @@ const app = {
     titleSinger.textContent = this.currentSong.singer;
     cdThumb.style.backgroundImage = `url("${this.currentSong.image}")`;
     audio.src = this.currentSong.path;
+
+    randomBtn.classList.toggle('active', this.isRandom);
+    repeatBtn.classList.toggle('active', this.isRepeat);
+
+    this.setConfig('currentIndex', this.currentIndex);
+
+    // Restore saved playback time
+    const savedTime = this.config.currentTime || 0;
+    audio.currentTime = savedTime;
   },
 
   loadConfig: function () {
     this.isRandom = this.config.isRandom;
     this.isRepeat = this.config.isRepeat;
+    this.currentIndex = this.config.currentIndex || 0;
+    this.currentTime = this.config.currentTime || 0;
   },
 
   nextSong: function () {
@@ -336,8 +380,9 @@ const app = {
   sort: function (obj) {
     obj.sort((a, b) => a.name.localeCompare(b.name));
   },
+
   start: function () {
-    // this.loadConfig();
+    this.loadConfig();
 
     this.defineProperties();
 

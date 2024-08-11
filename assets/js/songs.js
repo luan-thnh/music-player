@@ -1,6 +1,13 @@
 export default function songs() {
   return [
     {
+      name: 'Bring Me Back',
+      singer: 'Miles Away, ft. Claire Ridgely',
+      path: './assets/audio/miles-away.mp3',
+      image: './assets/img/miles-away.jpg',
+      lyrics: 'Đang update...',
+    },
+    {
       name: 'Nàng',
       singer: 'NGHI',
       path: './assets/audio/nang.mp3',
@@ -8,10 +15,31 @@ export default function songs() {
       lyrics: 'Đang update...',
     },
     {
+      name: 'Dynasty',
+      singer: 'MIIA',
+      path: './assets/audio/dynasty.mp3',
+      image: './assets/img/dynasty.jpg',
+      lyrics: 'Đang update...',
+    },
+    {
+      name: 'The Nights',
+      singer: 'Avicii',
+      path: './assets/audio/the-nights.mp3',
+      image: './assets/img/the-nights.jpg',
+      lyrics: 'Đang update...',
+    },
+    {
+      name: 'Let Her Go',
+      singer: 'Passenger',
+      path: './assets/audio/let-her-go.mp3',
+      image: './assets/img/let-her-go.jpg',
+      lyrics: 'Đang update...',
+    },
+    {
       name: 'Đủ trải sẽ thấm',
       singer: 'Mikelodic x Chiennhatlang',
-      path: './assets/audio/a-loi.mp3',
-      image: './assets/img/a-loi.jpg',
+      path: './assets/audio/du-trai-se-tham.mp3',
+      image: './assets/img/du-trai-se-tham.jpg',
       lyrics: 'Đang update...',
     },
     {
