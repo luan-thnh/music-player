@@ -320,8 +320,8 @@ const app = {
     cdThumb.style.backgroundImage = `url("${this.currentSong.image}")`;
     audio.src = this.currentSong.path;
 
-    randomBtn.classList.toggle('active', this.isRandom);
-    repeatBtn.classList.toggle('active', this.isRepeat);
+    randomBtn.classList.toggle('active', this.isRandom || false);
+    repeatBtn.classList.toggle('active', this.isRepeat || false);
 
     this.setConfig('currentIndex', this.currentIndex);
 
