@@ -259,6 +259,7 @@ const app = {
         // Handle click song
         if (songClick) {
           _this.currentIndex = Number(songClick.getAttribute('data-song')); // Chuyển chuỗi thành number
+          _this.config.currentTime  = 0;
           _this.loadCurrentSong();
           _this.render();
           audio.play();
@@ -340,6 +341,7 @@ const app = {
     this.currentIndex++;
     if (this.currentIndex >= this.songs.length) {
       this.currentIndex = 0;
+      this.config.currentTime = 0;
     }
     this.loadCurrentSong();
   },
@@ -348,6 +350,7 @@ const app = {
     this.currentIndex--;
     if (this.currentIndex < 0) {
       this.currentIndex = this.songs.length - 1;
+      this.config.currentTime = 0;
     }
     this.loadCurrentSong();
   },
