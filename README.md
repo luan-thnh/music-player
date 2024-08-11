@@ -14,6 +14,7 @@ Sonoria is a music player application built using vanilla JavaScript. This web a
 - **Scrolling CD Animation**: Enjoy an animated CD graphic that scales with the scroll position.
 
 ## Play list
+
 1. 2002
 2. À Lôi
 3. A Thousand Years
@@ -57,32 +58,33 @@ Sonoria is a music player application built using vanilla JavaScript. This web a
 41. Love Me Like You Do
 42. Love story
 43. Love Yourself
-44. Nàng
-45. Nhất Lộ Sinh Hoa
-46. One Call Away
-47. Perfect
-48. Phi Tù
-49. Querry
-50. See You Again
-51. Shinunoga E-Wa
-52. Six Feet Under
-53. Someone To You
-54. TẠI VÌ SAO
-55. Tâm Lặng Như Nước
-56. Thế Giới Này Nhiều Người Đến Vậy
-57. The Nights
-58. The One That Got Away
-59. To The Moon
-60. Trạm Khí Tượng
-61. True Love Is Violent
-62. W/n - id 072019
-63. Waiting For Love
-64. Wish You Were Gay
-65. Yến Vô Hiết
-66. Yêu anh đi mẹ anh bán bánh mì
-67. You Are The Reason
-68. You Said You"d Grow Old With Me
-69. Your Smile
+44. Mẹ Hiểu Con Không
+45. Nàng
+46. Nhất Lộ Sinh Hoa
+47. One Call Away
+48. Perfect
+49. Phi Tù
+50. Querry
+51. See You Again
+52. Shinunoga E-Wa
+53. Six Feet Under
+54. Someone To You
+55. TẠI VÌ SAO
+56. Tâm Lặng Như Nước
+57. Thế Giới Này Nhiều Người Đến Vậy
+58. The Nights
+59. The One That Got Away
+60. To The Moon
+61. Trạm Khí Tượng
+62. True Love Is Violent
+63. W/n - id 072019
+64. Waiting For Love
+65. Wish You Were Gay
+66. Yến Vô Hiết
+67. Yêu anh đi mẹ anh bán bánh mì
+68. You Are The Reason
+69. You Said You"d Grow Old With Me
+70. Your Smile
 
 ## Getting Started
 

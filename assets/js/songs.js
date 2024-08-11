@@ -99,6 +99,13 @@ export default function songs() {
       lyrics: 'Đang update...',
     },
     {
+      name: 'Mẹ Hiểu Con Không',
+      singer: 'Mr.Siro',
+      path: './assets/audio/me-hieu-con-khong.mp3',
+      image: './assets/img/me-hieu-con-khong.jpg',
+      lyrics: 'Đang update...',
+    },
+    {
       name: 'Cắt Đôi Nỗi Sầu',
       singer: 'Tăng Duy Tân',
       path: './assets/audio/cat-doi-noi-sau.mp3',

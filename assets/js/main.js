@@ -259,7 +259,7 @@ const app = {
         // Handle click song
         if (songClick) {
           _this.currentIndex = Number(songClick.getAttribute('data-song')); // Chuyển chuỗi thành number
-          _this.config.currentTime  = 0;
+          _this.config.currentTime = 0;
           _this.loadCurrentSong();
           _this.render();
           audio.play();
@@ -337,22 +337,28 @@ const app = {
     this.currentTime = this.config.currentTime || 0;
   },
 
+  updateAndPlayCurrentSong: function () {
+    this.loadCurrentSong();
+    audio.currentTime = 0; 
+    audio.play();
+    this.render();
+    this.scrollToActiveSong();
+  },
+
   nextSong: function () {
     this.currentIndex++;
     if (this.currentIndex >= this.songs.length) {
       this.currentIndex = 0;
-      this.config.currentTime = 0;
     }
-    this.loadCurrentSong();
+    this.updateAndPlayCurrentSong();
   },
 
   prevSong: function () {
     this.currentIndex--;
     if (this.currentIndex < 0) {
       this.currentIndex = this.songs.length - 1;
-      this.config.currentTime = 0;
     }
-    this.loadCurrentSong();
+    this.updateAndPlayCurrentSong();
   },
 
   randomSong: function () {
