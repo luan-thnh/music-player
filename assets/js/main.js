@@ -337,7 +337,8 @@ const app = {
 
   updateAndPlayCurrentSong: function () {
     this.loadCurrentSong();
-    audio.currentTime = 0; 
+     audio.currentTime = 0; 
+    this.setConfig('currentTime', 0);
     audio.play();
     this.render();
     this.scrollToActiveSong();
@@ -367,6 +368,8 @@ const app = {
 
     this.currentIndex = newIndex;
     this.loadCurrentSong();
+audio.currentTime = 0; 
+    this.setConfig('currentTime', 0);
   },
 
   scrollToActiveSong: function () {
