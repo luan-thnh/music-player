@@ -367,10 +367,8 @@ const app = {
     } while (newIndex === this.currentIndex);
 
     this.currentIndex = newIndex;
-    this.loadCurrentSong();
-audio.currentTime = 0; 
-    this.setConfig('currentTime', 0);
-  },
+    this.updateAndPlayCurrentSong();
+}, 
 
   scrollToActiveSong: function () {
     // const songActive = $(".song.active");
