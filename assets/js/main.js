@@ -313,6 +313,8 @@ const app = {
   },
 
   loadCurrentSong: function () {
+    document.title = `${this.currentSong.name} - Sonoria`
+
     titleName.textContent = this.currentSong.name;
     titleSinger.textContent = this.currentSong.singer;
     cdThumb.style.backgroundImage = `url("${this.currentSong.image}")`;
