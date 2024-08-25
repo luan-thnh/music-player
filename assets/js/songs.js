@@ -1,6 +1,14 @@
 export default function songs() {
   return [
     {
+      name: 'DANCING IN THE DARK',
+      singer: 'SOOBIN',
+      path: './assets/audio/dancing-in-the-dark.mp3',
+      image: './assets/img/dancing-in-the-dark.png',
+      lyrics: 'Đang update...',
+      blocked: false,
+    },
+    {
       name: 'giá như',
       singer: 'SOOBIN',
       path: './assets/audio/gia-nhu.mp3',
