@@ -1,6 +1,14 @@
 export default function songs() {
   return [
     {
+      name: 'NHẬT KÝ VÀO ĐỜI',
+      singer: 'KARIK FEAT. THAI VG',
+      path: './assets/audio/nhat-ky-vao-doi.mp3',
+      image: './assets/img/nhat-ky-vao-doi.jpg',
+      lyrics: 'Đang update...',
+      blocked: false,
+    },
+    {
       name: 'Bring Me Back',
       singer: 'Miles Away, ft. Claire Ridgely',
       path: './assets/audio/miles-away.mp3',
