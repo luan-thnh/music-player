@@ -1,6 +1,14 @@
 export default function songs() {
   return [
     {
+      name: 'giá như',
+      singer: 'SOOBIN',
+      path: './assets/audio/gia-nhu.mp3',
+      image: './assets/img/gia-nhu.jpg',
+      lyrics: 'Đang update...',
+      blocked: false,
+    },
+    {
       name: 'NHẬT KÝ VÀO ĐỜI',
       singer: 'KARIK FEAT. THAI VG',
       path: './assets/audio/nhat-ky-vao-doi.mp3',
