@@ -17,6 +17,14 @@ export default function songs() {
       blocked: false,
     },
     {
+      name: 'QUA TỪNG KHUNG HÌNH',
+      singer: 'Robber, Ngắn',
+      path: './assets/audio/qua_tung_khung_hinh.mp3',
+      image: './assets/img/qua_tung_khung_hinh.jpg',
+      lyrics: 'Đang update...',
+      blocked: false,
+    },
+    {
       name: 'Không Yêu Em Thì Yêu Ai?',
       singer: 'Vũ. ft. Low G',
       path: './assets/audio/khong_yeu_em_thi_yeu_ai.mp3',
