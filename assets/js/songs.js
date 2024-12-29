@@ -1,6 +1,38 @@
 export default function songs() {
   return [
     {
+      name: 'RƯỢU ĐỘC (ft. TRIPLE D)',
+      singer: 'BINZ',
+      path: './assets/audio/ruou_doc.mp3',
+      image: './assets/img/ruou_doc.jpg',
+      lyrics: 'Đang update...',
+      blocked: false,
+    },
+    {
+      name: 'ĐÊM VŨ TRƯỜNG (ft. TRIPLE D)',
+      singer: 'BINZ',
+      path: './assets/audio/dem_vu_truong.mp3',
+      image: './assets/img/dem_vu_truong.jpg',
+      lyrics: 'Đang update...',
+      blocked: false,
+    },
+    {
+      name: 'CHƯA YÊU LẦN NAO (ft. KRISS NGO)',
+      singer: 'BINZ',
+      path: './assets/audio/chua_yeu_lan_nao.mp3',
+      image: './assets/img/chua_yeu_lan_nao.jpg',
+      lyrics: 'Đang update...',
+      blocked: false,
+    },
+    {
+      name: 'HỒN LỠ SA VÀO (ft. TRIPLE D)',
+      singer: 'BINZ',
+      path: './assets/audio/ho_lo_xa_vao.mp3',
+      image: './assets/img/ho_lo_xa_vao.jpg',
+      lyrics: 'Đang update...',
+      blocked: false,
+    },
+    {
       name: 'LẶNG (Mùa Thu Đi Qua)',
       singer: 'Rhymastic',
       path: './assets/audio/lang.mp3',
