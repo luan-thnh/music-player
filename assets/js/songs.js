@@ -27,8 +27,8 @@ export default function songs() {
     {
       name: 'HỒN LỠ SA VÀO (ft. TRIPLE D)',
       singer: 'BINZ',
-      path: './assets/audio/ho_lo_xa_vao.mp3',
-      image: './assets/img/ho_lo_xa_vao.jpg',
+      path: './assets/audio/hon_lo_xa_vao.mp3',
+      image: './assets/img/hon_lo_xa_vao.jpg',
       lyrics: 'Đang update...',
       blocked: false,
     },
