@@ -379,8 +379,6 @@ const app = {
     this.playedSongs.add(newIndex);
     this.currentIndex = newIndex;
     this.updateAndPlayCurrentSong();
-
-    console.log({ playedSongs: this.playedSongs });
   },
 
   scrollToActiveSong: function () {
