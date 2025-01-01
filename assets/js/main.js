@@ -313,7 +313,7 @@ const app = {
   },
 
   loadCurrentSong: function () {
-    document.title = `${this.currentSong.name} - Sonoria`;
+    document.title = `${this.currentSong.name} - Sono`;
 
     titleName.textContent = this.currentSong.name;
     titleSinger.textContent = this.currentSong.singer;
@@ -379,6 +379,8 @@ const app = {
     this.playedSongs.add(newIndex);
     this.currentIndex = newIndex;
     this.updateAndPlayCurrentSong();
+
+    console.log({ playedSongs: this.playedSongs });
   },
 
   scrollToActiveSong: function () {

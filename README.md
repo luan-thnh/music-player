@@ -1,6 +1,6 @@
-# Sonoria Music Player
+# Sono Music Player
 
-Sonoria is a music player application built using vanilla JavaScript. This web application allows users to listen to their favorite songs, navigate through their playlist, and manage playback with a variety of features.
+Sono is a music player application built using vanilla JavaScript. This web application allows users to listen to their favorite songs, navigate through their playlist, and manage playback with a variety of features.
 
 ## Features
 
@@ -88,7 +88,7 @@ Sonoria is a music player application built using vanilla JavaScript. This web a
 
 ## Getting Started
 
-To get started with Sonoria, follow these instructions:
+To get started with Sono, follow these instructions:
 
 1. **Clone the Repository**
 
@@ -127,7 +127,7 @@ The application uses local storage to save user preferences:
 
 ## Contributing
 
-If you would like to contribute to the development of Sonoria, please fork the repository and submit a pull request with your changes. Your contributions are welcome!
+If you would like to contribute to the development of Sono, please fork the repository and submit a pull request with your changes. Your contributions are welcome!
 
 ## License
 
