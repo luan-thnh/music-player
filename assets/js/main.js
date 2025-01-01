@@ -313,7 +313,7 @@ const app = {
   },
 
   loadCurrentSong: function () {
-    document.title = `${this.currentSong.name} - Sonoria`
+    document.title = `${this.currentSong.name} - Sonoria`;
 
     titleName.textContent = this.currentSong.name;
     titleSinger.textContent = this.currentSong.singer;
@@ -339,7 +339,7 @@ const app = {
 
   updateAndPlayCurrentSong: function () {
     this.loadCurrentSong();
-     audio.currentTime = 0; 
+    audio.currentTime = 0;
     this.setConfig('currentTime', 0);
     audio.play();
     this.render();
@@ -363,14 +363,23 @@ const app = {
   },
 
   randomSong: function () {
+    if (!this.playedSongs) {
+      this.playedSongs = new Set();
+    }
+
+    if (this.playedSongs.size === this.songs.length) {
+      this.playedSongs.clear();
+    }
+
     let newIndex;
     do {
       newIndex = Math.floor(Math.random() * this.songs.length);
-    } while (newIndex === this.currentIndex);
+    } while (this.playedSongs.has(newIndex));
 
+    this.playedSongs.add(newIndex);
     this.currentIndex = newIndex;
     this.updateAndPlayCurrentSong();
-}, 
+  },
 
   scrollToActiveSong: function () {
     // const songActive = $(".song.active");
