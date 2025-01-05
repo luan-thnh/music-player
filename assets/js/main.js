@@ -400,6 +400,64 @@ const app = {
     obj.sort((a, b) => a.name.localeCompare(b.name));
   },
 
+  visualizer: function () {
+    const audioContext = new AudioContext();
+    const analyser = audioContext.createAnalyser();
+    const source = audioContext.createMediaElementSource(audio);
+
+    // Kết nối audio source với analyser và destination
+    source.connect(analyser);
+    analyser.connect(audioContext.destination);
+
+    // Cấu hình analyser
+    analyser.fftSize = 256;
+    const bufferLength = analyser.frequencyBinCount;
+    const dataArray = new Uint8Array(bufferLength);
+
+    // Tạo canvas để vẽ
+    const canvas = document.createElement('canvas');
+    canvas.classList.add('visualizer');
+    canvas.width = 300;
+    canvas.height = 150;
+    document.querySelector('.cd').appendChild(canvas);
+
+    const ctx = canvas.getContext('2d');
+
+    // Hàm vẽ visualizer
+    const draw = () => {
+      requestAnimationFrame(draw);
+
+      // Lấy dữ liệu tần số
+      analyser.getByteFrequencyData(dataArray);
+
+      // Xóa canvas
+      ctx.fillStyle = 'rgb(0, 0, 0)';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      // Tính toán độ rộng của mỗi thanh
+      const barWidth = (canvas.width / bufferLength) * 2.5;
+      let barHeight;
+      let x = 0;
+
+      // Vẽ từng thanh theo tần số
+      for (let i = 0; i < bufferLength; i++) {
+        barHeight = dataArray[i] / 2;
+
+        // Tạo gradient màu
+        const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
+        gradient.addColorStop(0, '#f58710');
+        gradient.addColorStop(1, '#ff0000');
+
+        ctx.fillStyle = gradient;
+        ctx.fillRect(x, canvas.height - barHeight, barWidth, barHeight);
+
+        x += barWidth + 1;
+      }
+    };
+
+    draw();
+  },
+
   start: function () {
     this.loadConfig();
 
@@ -410,6 +468,8 @@ const app = {
     this.loadCurrentSong();
 
     this.render();
+
+    this.visualizer();
   },
 };
 
