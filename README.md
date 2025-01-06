@@ -137,4 +137,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 https://luan-thnh.github.io/music-player/
 
-## [Download for Android] (https://www.upload-apk.com/en/6bbEVDKDISibfqe)
+## [Download for Android](https://www.upload-apk.com/en/6bbEVDKDISibfqe)
