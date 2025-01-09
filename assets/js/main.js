@@ -410,8 +410,6 @@ const app = {
     this.loadCurrentSong();
 
     this.render();
-
-    this.visualizer();
   },
 };
 
