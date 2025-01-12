@@ -200,6 +200,116 @@ const app = {
       _this.setConfig('currentTime', audio.currentTime);
     };
 
+    document.addEventListener('keydown', function (e) {
+      if (e.target.matches('input')) return;
+
+      const VOLUME_STEP = 0.1;
+
+      switch (e.key) {
+        case ' ':
+          e.preventDefault();
+          if (_this.isPlaying) {
+            audio.pause();
+          } else {
+            audio.play();
+          }
+          break;
+
+        case 'ArrowUp':
+          e.preventDefault();
+
+          if (audio.volume + VOLUME_STEP <= 1) {
+            audio.volume = Math.min(1, audio.volume + VOLUME_STEP);
+          } else {
+            audio.volume = 1;
+          }
+          _this.setConfig('volume', audio.volume);
+
+          _this.showVolumeToast(Math.round(audio.volume * 100));
+          break;
+
+        case 'ArrowDown':
+          e.preventDefault();
+
+          if (audio.volume - VOLUME_STEP >= 0) {
+            audio.volume = Math.max(0, audio.volume - VOLUME_STEP);
+          } else {
+            audio.volume = 0;
+          }
+          _this.setConfig('volume', audio.volume);
+
+          _this.showVolumeToast(Math.round(audio.volume * 100));
+          break;
+
+        case 'ArrowRight':
+          e.preventDefault();
+          if (audio.currentTime + 10 < audio.duration) {
+            audio.currentTime += 10;
+          } else {
+            if (_this.isRandom) {
+              _this.randomSong();
+            } else {
+              _this.nextSong();
+            }
+          }
+          _this.setConfig('currentTime', audio.currentTime);
+          break;
+
+        case 'ArrowLeft':
+          e.preventDefault();
+          if (audio.currentTime - 10 > 0) {
+            audio.currentTime -= 10;
+          } else {
+            if (_this.isRandom) {
+              _this.randomSong();
+            } else {
+              _this.prevSong();
+            }
+          }
+          _this.setConfig('currentTime', audio.currentTime);
+          break;
+      }
+    });
+
+    this.showVolumeToast = function (volumePercent) {
+      let toast = document.querySelector('.volume-toast');
+      if (!toast) {
+        toast = document.createElement('div');
+        toast.className = 'volume-toast';
+        document.body.appendChild(toast);
+
+        const style = document.createElement('style');
+        style.textContent = `
+              .volume-toast {
+                  position: fixed;
+                  top: 20px;
+                  right: 20px;
+                  background: rgba(195, 178, 253, 0.2);
+                  color: white;
+                  padding: 8px 15px;
+                  border-radius: 8px;
+                  z-index: 9999;
+                  transition: opacity 0.3s;
+                  opacity: 0;
+              }
+              .volume-toast.show {
+                  opacity: 1;
+              }
+          `;
+        document.head.appendChild(style);
+      }
+
+      toast.textContent = `Volumn: ${volumePercent}%`;
+      toast.classList.add('show');
+
+      clearTimeout(this.volumeToastTimeout);
+      this.volumeToastTimeout = setTimeout(() => {
+        toast.classList.remove('show');
+      }, 1500);
+    };
+
+    audio.volume = this.config.volume !== undefined ? this.config.volume : 1;
+
     // Next audio
     nextBtn.onclick = function () {
       if (_this.isRandom) {
@@ -363,22 +473,23 @@ const app = {
   },
 
   randomSong: function () {
-    if (!this.playedSongs) {
-      this.playedSongs = new Set();
+    if (!this.playedSongs || this.playedSongs.size === this.songs.length) {
+      this.playedSongs = new Set([this.currentIndex]);
     }
 
-    if (this.playedSongs.size === this.songs.length) {
-      this.playedSongs.clear();
-    }
+    const remainingIndexes = Array.from(Array(this.songs.length).keys()).filter(
+      (index) => !this.playedSongs.has(index)
+    );
 
-    let newIndex;
-    do {
-      newIndex = Math.floor(Math.random() * this.songs.length);
-    } while (this.playedSongs.has(newIndex));
+    const randomIndex = Math.floor(Math.random() * remainingIndexes.length);
+    const newIndex = remainingIndexes[randomIndex];
 
     this.playedSongs.add(newIndex);
     this.currentIndex = newIndex;
+
     this.updateAndPlayCurrentSong();
+
+    console.log({ random: this.playedSongs });
   },
 
   scrollToActiveSong: function () {
