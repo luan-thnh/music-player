@@ -1,6 +1,14 @@
 export default function songs() {
   return [
     {
+      name: '踊り子 (Odoriko)',
+      singer: 'Vaundy',
+      path: './assets/audio/odoriko.mp3',
+      image: './assets/img/odoriko.jpg',
+      lyrics: 'Đang update...',
+      blocked: false,
+    },
+    {
       name: 'Photograph',
       singer: 'Ed Sheeran',
       path: './assets/audio/photograph.mp3',
