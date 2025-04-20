@@ -1,6 +1,14 @@
 export default function songs() {
   return [
     {
+      name: 'CAY',
+      singer: 'Khắc Hưng, Jimmii Nguyễn',
+      path: './assets/audio/cay.mp3',
+      image: './assets/img/cay.jpg',
+      lyrics: 'Đang update...',
+      blocked: false,
+    },
+    {
       name: '踊り子 (Odoriko)',
       singer: 'Vaundy',
       path: './assets/audio/odoriko.mp3',
