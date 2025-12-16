@@ -1,6 +1,14 @@
 export default function songs() {
   return [
     {
+      name: 'Playlist #4 | Ngay từ phút đầu em đã nói rồi mà, suy nghĩ kĩ chưa mà chọn em?!',
+      singer: 'N/A',
+      path: './assets/audio/playlist4.mp3',
+      image: './assets/img/playlist4.jpg',
+      lyrics: 'Đang update...',
+      blocked: false,
+    },
+    {
       name: 'CAY',
       singer: 'Khắc Hưng, Jimmii Nguyễn',
       path: './assets/audio/cay.mp3',
