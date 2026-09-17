@@ -1,6 +1,62 @@
 export default function songs() {
   return [
     {
+      name: 'Nhức Tiềm Thức',
+      singer: 'Hà An Huy',
+      path: './assets/audio/nhuc_tiem_thuc.mp3',
+      image: './assets/img/nhuc_tiem_thuc.jpg',
+      lyrics: 'Đang update...',
+      blocked: false,
+    },
+    {
+      name: 'Vẽ',
+      singer: 'Quanh',
+      path: './assets/audio/ve.mp3',
+      image: './assets/img/ve.jpg',
+      lyrics: 'Đang update...',
+      blocked: false,
+    },
+    {
+      name: 'Thắc Mắc',
+      singer: 'Thịnh Suy',
+      path: './assets/audio/thac_mac.mp3',
+      image: './assets/img/thac_mac.jpg',
+      lyrics: 'Đang update...',
+      blocked: false,
+    },
+    {
+      name: 'Em',
+      singer: 'Binz (feat. SOOBIN)',
+      path: './assets/audio/em.mp3',
+      image: './assets/img/em.jpg',
+      lyrics: 'Đang update...',
+      blocked: false,
+    },
+    {
+      name: 'Thêm Bao Nhiêu Lâu',
+      singer: 'Đạt G',
+      path: './assets/audio/them_bao_nhieu_lau.mp3',
+      image: './assets/img/them_bao_nhieu_lau.jpg',
+      lyrics: 'Đang update...',
+      blocked: false,
+    },
+    {
+      name: 'Anh Tự Do Nhưng Cô Đơn',
+      singer: 'Đạt G',
+      path: './assets/audio/anh_tu_do_nhung_co_don.mp3',
+      image: './assets/img/anh_tu_do_nhung_co_don.jpg',
+      lyrics: 'Đang update...',
+      blocked: false,
+    },
+    {
+      name: 'Ác Mộng Đẹp',
+      singer: 'Đạt G',
+      path: './assets/audio/ac_mong_dep.mp3',
+      image: './assets/img/ac_mong_dep.jpg',
+      lyrics: 'Đang update...',
+      blocked: false,
+    },
+    {
       name: 'Playlist #4 | Ngay từ phút đầu em đã nói rồi mà, suy nghĩ kĩ chưa mà chọn em?!',
       singer: 'N/A',
       path: './assets/audio/playlist4.mp3',
@@ -645,15 +701,15 @@ export default function songs() {
       lyrics: 'Lười Gõ Lyric!!',
       blocked: false,
     },
-    {
-      name: 'Bài Ca Đảo Thiên Đường',
-      singer: 'Châu Thâm',
-      path: './assets/audio/bai_ca_dao_thien_duong.mp3',
-      image: './assets/img/bai_ca_dao_thien_duong.jpg',
-      lyrics:
-        'Dīng dōng wǒ yǒu yīgè mìmì<br>Qiāoqiāo gàosù nǐ<br>Huānyíng nǐ lái dào tiāntáng rùkǒu<br>Dīng dōng yǒurén zài àn ménlíng<br>Shì shuí zài wàimiàn<br>Bǎ èzuòjù dāng yīzhǒng yóuxì<br>Tīng a shuí zài kūqì<br>Kàn a shuí zài qièqiè sīyǔ<br>Chuāngwài yǒu shuāng yǎnjīng<br>Tā zài shíkè zhùshìzhe nǐ<br>Dīng dōng wǒ zài zhèlǐ děng nǐ<br>Nǐ zài děng wǒ ma<br>Shì shénme yuányīn ràng nǐ hàipà<br>Dīng dōng nǐ huì cáng zài nǎlǐ<br>Bié xiǎng yào táolí<br>Xiǎng táo chū shǒuxīn yǐ láibují<br>Bèi yíwàng de jìyì<br>Bèi nǐ cáng qǐlái de mìmì<br>Bùyào dà shēng hūxī<br>Nǐ yǐ bàolùle nǐ zìjǐ<br>Knock knock wàimiàn xià qǐle yǔ<br>Fàngqì zhēngzhá ba<br>Huǎngyán shuō duōle jiù huì fāxiàn<br>Knock knock shì shuí zài zuò huàishì jiǎzhuāng chéng xìngyùn<br>Wǒ zǒng huì zhǎodào nǐ zài chuáng dǐ<br>Tīng a nǐ zài kǒngjù<br>Kàn a nǐ zài xiēsīdǐlǐ<br>Chuāngwài yǒu shuāng yǎnjīng<br>Tā zài shíkè zhùshìzhe nǐ<br>Dīng dōng yǒurén zài kàn nǐ de guòqù<br>Dīng dōng yǒurén zài kàn nǐ de mìmì<br>Dīng dōng yǒurén zài kàn nǐ de guòqù<br>(Dīng dōng) wǒ táo bù chūqù',
-      blocked: false,
-    },
+    // {
+    //   name: 'Bài Ca Đảo Thiên Đường',
+    //   singer: 'Châu Thâm',
+    //   path: './assets/audio/bai_ca_dao_thien_duong.mp3',
+    //   image: './assets/img/bai_ca_dao_thien_duong.jpg',
+    //   lyrics:
+    //     'Dīng dōng wǒ yǒu yīgè mìmì<br>Qiāoqiāo gàosù nǐ<br>Huānyíng nǐ lái dào tiāntáng rùkǒu<br>Dīng dōng yǒurén zài àn ménlíng<br>Shì shuí zài wàimiàn<br>Bǎ èzuòjù dāng yīzhǒng yóuxì<br>Tīng a shuí zài kūqì<br>Kàn a shuí zài qièqiè sīyǔ<br>Chuāngwài yǒu shuāng yǎnjīng<br>Tā zài shíkè zhùshìzhe nǐ<br>Dīng dōng wǒ zài zhèlǐ děng nǐ<br>Nǐ zài děng wǒ ma<br>Shì shénme yuányīn ràng nǐ hàipà<br>Dīng dōng nǐ huì cáng zài nǎlǐ<br>Bié xiǎng yào táolí<br>Xiǎng táo chū shǒuxīn yǐ láibují<br>Bèi yíwàng de jìyì<br>Bèi nǐ cáng qǐlái de mìmì<br>Bùyào dà shēng hūxī<br>Nǐ yǐ bàolùle nǐ zìjǐ<br>Knock knock wàimiàn xià qǐle yǔ<br>Fàngqì zhēngzhá ba<br>Huǎngyán shuō duōle jiù huì fāxiàn<br>Knock knock shì shuí zài zuò huàishì jiǎzhuāng chéng xìngyùn<br>Wǒ zǒng huì zhǎodào nǐ zài chuáng dǐ<br>Tīng a nǐ zài kǒngjù<br>Kàn a nǐ zài xiēsīdǐlǐ<br>Chuāngwài yǒu shuāng yǎnjīng<br>Tā zài shíkè zhùshìzhe nǐ<br>Dīng dōng yǒurén zài kàn nǐ de guòqù<br>Dīng dōng yǒurén zài kàn nǐ de mìmì<br>Dīng dōng yǒurén zài kàn nǐ de guòqù<br>(Dīng dōng) wǒ táo bù chūqù',
+    //   blocked: false,
+    // },
     {
       name: 'Waiting For Love',
       singer: 'Avicii',
@@ -761,15 +817,15 @@ export default function songs() {
         'Cuộc đời cứ trôi<br>Ta nhìn lại ngày tháng còn bên nhau<br>Cùng những thăng trầm<br>Tại sao không vẫy tay chào nơi ta đứng bây giờ<br>Hai nơi hai người dưng<br>Đợi em bước qua<br>Để khiến anh nhận ra là đôi mắt em còn đang buồn<br>Màu hoa cài áo vẫn còn như lời hứa đã từng<br>Giờ đây còn như xưa<br>Dòng người vội vàng bước qua<br>Chợt như chiếc hôn thế thôi<br>Đôi môi chia làm đôi<br>Như ta đang mong vậy thôi<br>Người nghẹn ngào bước đi<br>Chợt như chúng ta quay về<br>Giấu trái tim mình và đừng thổn thức khi thấy nhau oh<br>Đoàn tàu kia dừng lại<br>Còn hai ta bước qua nhau<br>Cuộc đời cứ trôi<br>Ta nhìn lại ngày tháng còn bên nhau<br>Cùng những thăng trầm<br>Và tại sao không vẫy tay chào nơi ta đứng bây giờ<br>Hai nơi hai người dưng<br>Đợi em bước qua<br>Để khiến anh nhận ra là đôi mắt em còn đang buồn<br>Và màu hoa cài áo vẫn còn như lời hứa đã từng<br>Giờ đây còn như xưa<br>Dòng người vội vàng bước qua<br>Chợt như chiếc hôn thế thôi<br>Đôi môi chia làm đôi<br>Như ta đang mong vậy thôi<br>Người nghẹn ngào bước đi<br>Chợt như chúng ta quay về<br>Giấu trái tim mình và đừng thổn thức khi thấy nhau oh<br>Đoàn tàu kia dừng lại (đoàn tàu kia)<br>Còn hai ta trôi đi theo mây trời<br>Từng cảm xúc trong tim anh đang cô đơn cùng với ngàn lời<br>Viết riêng cho bài ca tình đầu<br>Chỉ còn lại một thói quen từ lâu woh<br>Dòng người vội vàng bước qua<br>Chợt như chiếc hôn thế thôi<br>Đôi môi chia làm đôi<br>Như ta đang mong vậy thôi oh oh',
       blocked: false,
     },
-    {
-      name: 'Phi Tù',
-      singer: 'Hắc Tử Kỳ',
-      path: './assets/audio/phi_tu.mp3',
-      image: './assets/img/phi_tu.jpg',
-      lyrics:
-        'Gǎnjué dào hǎo chìrè<br>Gānghǎo shì nǐ jīngguò<br>Yǎnshén biǎoxiàn sǎtuō<br>Shǒu què bù zìzhǔ dì<br>Dǎzhāohū gāi rúhé<br>Yīxià zi quán wàngle<br>Míngmíng dōu xiǎng hǎo de<br>Nǎodai quán kòngbáile<br>Jiē xiàlái gāi zěnme zuò<br>Shì yányǔ háishì màn dòngzuò<br>Hǎoxiàng dōu bù tài hǎo shuō<br>Gāngà zhèng gāi zěnme pò<br>Hái bùrú jiù zhíjiē zuò<br>Wèishéme yào xiǎng nàme duō<br>Duō zhìzào yīdiǎn qiǎohé<br>Bù suàn zuì huài de jiéguǒ<br>Rúguǒ tiān túrán xià qǐle yǔ<br>Wǒ bù huì bì duǒ<br>Yīnwèi wǒ zhīdào yǒuyī gèrén<br>Huì shǒuhùzhe wǒ<br>Jiùsuàn yǒuyītiān<br>Huìxīng túrán zhuàng xiàngle dìqiú<br>Méiguānxì zhǐyào yǒu nǐ wǒ de fēi qiú<br>Wǒ cónglái dōu méiyǒu zhè zhǒng shìhào<br>Jiùshì zhàogù nǎge nǚshēng<br>Yīzhí zhǐ màn man biàn lǎo<br>Zìcóng nǐ shuō wǒ zhège sǒng huò<br>Shì nǐ de yīkào<br>Wǒ de xīnqíng jiù kāishǐ màn man biàn hǎo<br>Nǐ shuō nǐ shì jiējiǎo shèngkāi de yěqiángwēi<br>Ér wǒ shǎ shǎ zhǐ dāng nǐ shì duǒ méiguī<br>Jiùsuàn nǐ bèi quán shìjiè de huàirén bāowéi<br>Kàn wǒ huàshēn chāorén<br>Yīyī bǎ tāmen jí tuì<br>Gǎnjué dào hǎo chìrè<br>Gānghǎo shì nǐ jīngguò<br>Yǎnshén biǎoxiàn sǎtuō<br>Shǒu què bù zìzhǔ dì<br>Dǎzhāohū gāi rúhé<br>Yīxià zi quán wàngle<br>Míngmíng dōu xiǎng hǎo de<br>Nǎodai quán kòngbáile<br>Jiē xiàlái gāi zěnme zuò<br>Shì yányǔ háishì màn dòngzuò<br>Hǎoxiàng dōu bù tài hǎo shuō<br>Gāngà zhèng gāi zěnme pò<br>Hái bùrú jiù zhíjiē zuò<br>Wèishéme yào xiǎng nàme duō<br>Duō zhìzào yīdiǎn qiǎohé<br>Bù suàn zuì huài de jiéguǒ<br>Rúguǒ tiān túrán xià qǐle yǔ<br>Wǒ bù huì bì duǒ<br>Yīnwèi wǒ zhīdào yǒu yī gèrén<br>Huì shǒuhùzhe wǒ<br>Jiùsuàn yǒu yītiān<br>Huìxīng túrán zhuàng xiàngle dìqiú<br>Méiguānxì zhǐyào yǒu nǐ<br>Wǒ de fēi qiú',
-      blocked: false,
-    },
+    // {
+    //   name: 'Phi Tù',
+    //   singer: 'Hắc Tử Kỳ',
+    //   path: './assets/audio/phi_tu.mp3',
+    //   image: './assets/img/phi_tu.jpg',
+    //   lyrics:
+    //     'Gǎnjué dào hǎo chìrè<br>Gānghǎo shì nǐ jīngguò<br>Yǎnshén biǎoxiàn sǎtuō<br>Shǒu què bù zìzhǔ dì<br>Dǎzhāohū gāi rúhé<br>Yīxià zi quán wàngle<br>Míngmíng dōu xiǎng hǎo de<br>Nǎodai quán kòngbáile<br>Jiē xiàlái gāi zěnme zuò<br>Shì yányǔ háishì màn dòngzuò<br>Hǎoxiàng dōu bù tài hǎo shuō<br>Gāngà zhèng gāi zěnme pò<br>Hái bùrú jiù zhíjiē zuò<br>Wèishéme yào xiǎng nàme duō<br>Duō zhìzào yīdiǎn qiǎohé<br>Bù suàn zuì huài de jiéguǒ<br>Rúguǒ tiān túrán xià qǐle yǔ<br>Wǒ bù huì bì duǒ<br>Yīnwèi wǒ zhīdào yǒuyī gèrén<br>Huì shǒuhùzhe wǒ<br>Jiùsuàn yǒuyītiān<br>Huìxīng túrán zhuàng xiàngle dìqiú<br>Méiguānxì zhǐyào yǒu nǐ wǒ de fēi qiú<br>Wǒ cónglái dōu méiyǒu zhè zhǒng shìhào<br>Jiùshì zhàogù nǎge nǚshēng<br>Yīzhí zhǐ màn man biàn lǎo<br>Zìcóng nǐ shuō wǒ zhège sǒng huò<br>Shì nǐ de yīkào<br>Wǒ de xīnqíng jiù kāishǐ màn man biàn hǎo<br>Nǐ shuō nǐ shì jiējiǎo shèngkāi de yěqiángwēi<br>Ér wǒ shǎ shǎ zhǐ dāng nǐ shì duǒ méiguī<br>Jiùsuàn nǐ bèi quán shìjiè de huàirén bāowéi<br>Kàn wǒ huàshēn chāorén<br>Yīyī bǎ tāmen jí tuì<br>Gǎnjué dào hǎo chìrè<br>Gānghǎo shì nǐ jīngguò<br>Yǎnshén biǎoxiàn sǎtuō<br>Shǒu què bù zìzhǔ dì<br>Dǎzhāohū gāi rúhé<br>Yīxià zi quán wàngle<br>Míngmíng dōu xiǎng hǎo de<br>Nǎodai quán kòngbáile<br>Jiē xiàlái gāi zěnme zuò<br>Shì yányǔ háishì màn dòngzuò<br>Hǎoxiàng dōu bù tài hǎo shuō<br>Gāngà zhèng gāi zěnme pò<br>Hái bùrú jiù zhíjiē zuò<br>Wèishéme yào xiǎng nàme duō<br>Duō zhìzào yīdiǎn qiǎohé<br>Bù suàn zuì huài de jiéguǒ<br>Rúguǒ tiān túrán xià qǐle yǔ<br>Wǒ bù huì bì duǒ<br>Yīnwèi wǒ zhīdào yǒu yī gèrén<br>Huì shǒuhùzhe wǒ<br>Jiùsuàn yǒu yītiān<br>Huìxīng túrán zhuàng xiàngle dìqiú<br>Méiguānxì zhǐyào yǒu nǐ<br>Wǒ de fēi qiú',
+    //   blocked: false,
+    // },
     {
       name: 'Câu Chuyện Rất Ngắn',
       singer: 'Vu Đông Nhiên',

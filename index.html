@@ -71,6 +71,26 @@
       <div class="playlist"></div>
     </div>
 
+    <button class="blocked-fab" type="button" aria-label="Mở danh sách bài hát đã chặn">
+      <i class="fa-solid fa-ban"></i>
+      <span class="blocked-count">0</span>
+    </button>
+
+    <div class="blocked-modal" aria-hidden="true">
+      <section class="blocked-panel" role="dialog" aria-modal="true" aria-labelledby="blocked-title">
+        <div class="blocked-header">
+          <div>
+            <p class="blocked-eyebrow">Quản lý playlist</p>
+            <h2 id="blocked-title">Bài hát đã chặn</h2>
+          </div>
+          <button class="blocked-close" type="button" aria-label="Đóng danh sách bài hát đã chặn">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="blocked-list"></div>
+      </section>
+    </div>
+
     <script type="module" src="./assets/js/main.js"></script>
   </body>
 </html>

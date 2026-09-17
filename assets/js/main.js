@@ -19,6 +19,29 @@ const nextBtn = $('.btn-next');
 const prevBtn = $('.btn-prev');
 const repeatBtn = $('.btn-repeat');
 const randomBtn = $('.btn-random');
+const blockedFab = $('.blocked-fab');
+const blockedCount = $('.blocked-count');
+const blockedModal = $('.blocked-modal');
+const blockedClose = $('.blocked-close');
+const blockedList = $('.blocked-list');
+
+function getStoredConfig() {
+  try {
+    return JSON.parse(localStorage.getItem(PLAYER_STORAGE_KEY)) || {};
+  } catch (error) {
+    console.warn('Không thể đọc cấu hình đã lưu:', error);
+    return {};
+  }
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#039;');
+}
 
 const app = {
   currentIndex: 0,
@@ -26,8 +49,10 @@ const app = {
   isRandom: false,
   isRepeat: false,
   isSong: false,
-  config: JSON.parse(localStorage.getItem(PLAYER_STORAGE_KEY)) || {},
-  songs: songs(),
+  config: getStoredConfig(),
+  allSongs: songs(),
+  songs: [],
+  blockedSongIds: new Set(),
 
   setConfig: function (key, value) {
     this.config[key] = value;
@@ -35,6 +60,17 @@ const app = {
   },
 
   render: function () {
+    if (!this.songs.length) {
+      playList.innerHTML = `
+        <div class="playlist-empty">
+          <i class="fa-solid fa-music"></i>
+          <p>Không còn bài hát để phát.</p>
+          <button type="button" class="open-blocked-list">Xem danh sách chặn</button>
+        </div>
+      `;
+      return;
+    }
+
     const htmls = this.songs.map((song, index) => {
       return `
       <div class="song-group"> 
@@ -42,16 +78,32 @@ const app = {
         <div class="thumb" style="background-image: url('${song.image}')">
         </div>
         <div class="body">
-          <h3 class="song-title">${song.name}</h3>
-          <p class="song-author">${song.singer}</p>
+          <h3 class="song-title">${escapeHtml(song.name)}</h3>
+          <p class="song-author">${escapeHtml(song.singer)}</p>
         </div>
-        <div class="option">
-          <i class="fa-solid fa-ellipsis-vertical"></i>
+        <div class="option-wrap">
+          <button class="option" type="button" aria-label="Tùy chọn cho ${escapeHtml(
+            song.name
+          )}" aria-expanded="false">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+          <div class="song-menu" role="menu">
+            <button type="button" data-action="lyrics" role="menuitem">
+              <i class="fa-solid fa-align-left"></i>
+              Xem lời bài hát
+            </button>
+            <button type="button" data-action="block" role="menuitem" class="danger">
+              <i class="fa-solid fa-ban"></i>
+              Không nghe bài này
+            </button>
+          </div>
         </div>
         </div>
-        <div id="lyrics" class="lyrics">
+        <div class="lyrics" role="dialog" aria-modal="true" aria-label="Lời bài hát ${escapeHtml(
+          song.name
+        )}">
           <p class="lyrics-title">Lời Bài Hát</p>
-          <h3 class="lyrics-name">${song.name}</h3>
+          <h3 class="lyrics-name">${escapeHtml(song.name)}</h3>
           <div class="lyrics-text">
           <p>${song.lyrics}</p>
         </div>
@@ -67,6 +119,152 @@ const app = {
     });
 
     playList.innerHTML = htmls.join('');
+  },
+
+  renderBlockedSongs: function () {
+    const blockedSongs = this.allSongs.filter((song) =>
+      this.blockedSongIds.has(this.getSongId(song))
+    );
+
+    blockedCount.textContent = blockedSongs.length;
+    blockedCount.hidden = blockedSongs.length === 0;
+
+    if (!blockedSongs.length) {
+      blockedList.innerHTML = `
+        <div class="blocked-empty">
+          <i class="fa-regular fa-circle-check"></i>
+          <p>Chưa có bài hát nào bị chặn.</p>
+        </div>
+      `;
+      return;
+    }
+
+    blockedList.innerHTML = blockedSongs
+      .map((song) => {
+        const songIndex = this.allSongs.indexOf(song);
+        return `
+          <article class="blocked-item">
+            <div class="blocked-thumb" style="background-image: url('${song.image}')"></div>
+            <div class="blocked-info">
+              <h3>${escapeHtml(song.name)}</h3>
+              <p>${escapeHtml(song.singer)}</p>
+            </div>
+            <button type="button" class="unblock-song" data-song="${songIndex}">
+              <i class="fa-solid fa-rotate-left"></i>
+              <span>Bỏ chặn</span>
+            </button>
+          </article>
+        `;
+      })
+      .join('');
+  },
+
+  getSongId: function (song) {
+    return song.path;
+  },
+
+  saveBlockedSongs: function () {
+    this.setConfig('blockedSongs', Array.from(this.blockedSongIds));
+  },
+
+  refreshSongs: function (preferredSongId, fallbackIndex = 0) {
+    this.songs = this.allSongs.filter(
+      (song) => !this.blockedSongIds.has(this.getSongId(song))
+    );
+
+    if (!this.songs.length) {
+      this.currentIndex = -1;
+      return;
+    }
+
+    const preferredIndex = this.songs.findIndex(
+      (song) => this.getSongId(song) === preferredSongId
+    );
+    this.currentIndex =
+      preferredIndex >= 0
+        ? preferredIndex
+        : Math.min(Math.max(fallbackIndex, 0), this.songs.length - 1);
+  },
+
+  openBlockedModal: function () {
+    this.renderBlockedSongs();
+    blockedModal.classList.add('active');
+    blockedModal.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('modal-open');
+    blockedClose.focus();
+  },
+
+  closeBlockedModal: function () {
+    blockedModal.classList.remove('active');
+    blockedModal.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('modal-open');
+  },
+
+  closeSongMenus: function () {
+    document.querySelectorAll('.option-wrap.open').forEach((optionWrap) => {
+      optionWrap.classList.remove('open');
+      optionWrap.querySelector('.option').setAttribute('aria-expanded', 'false');
+    });
+  },
+
+  clearPlayer: function () {
+    audio.pause();
+    audio.removeAttribute('src');
+    audio.load();
+    document.title = 'Sono';
+    titleName.textContent = 'Không còn bài hát';
+    titleSinger.textContent = 'Mở danh sách chặn để khôi phục';
+    cdThumb.style.backgroundImage = '';
+    this.setConfig('currentIndex', 0);
+    this.setConfig('currentSongPath', null);
+    this.setConfig('currentTime', 0);
+  },
+
+  blockSong: function (songIndex) {
+    const song = this.songs[songIndex];
+    if (!song) return;
+
+    const currentSongId = this.currentSong ? this.getSongId(this.currentSong) : null;
+    const blockedSongId = this.getSongId(song);
+    const isCurrentSong = blockedSongId === currentSongId;
+    const shouldResume = isCurrentSong && this.isPlaying;
+
+    this.blockedSongIds.add(blockedSongId);
+    this.saveBlockedSongs();
+    this.refreshSongs(isCurrentSong ? null : currentSongId, songIndex);
+    this.playedSongs = new Set();
+
+    if (!this.songs.length) {
+      this.clearPlayer();
+    } else if (isCurrentSong) {
+      this.setConfig('currentTime', 0);
+      this.loadCurrentSong();
+      if (shouldResume) audio.play();
+    } else {
+      this.setConfig('currentIndex', this.currentIndex);
+    }
+
+    this.render();
+    this.renderBlockedSongs();
+  },
+
+  unblockSong: function (songIndex) {
+    const song = this.allSongs[songIndex];
+    if (!song) return;
+
+    const currentSongId = this.currentSong ? this.getSongId(this.currentSong) : null;
+    this.blockedSongIds.delete(this.getSongId(song));
+    this.saveBlockedSongs();
+    this.refreshSongs(currentSongId, 0);
+
+    if (!currentSongId && this.songs.length) {
+      this.loadCurrentSong();
+    } else {
+      this.setConfig('currentIndex', this.currentIndex);
+    }
+
+    this.render();
+    this.renderBlockedSongs();
   },
 
   defineProperties: function () {
@@ -134,6 +332,10 @@ const app = {
 
     // Handle Play
     playBtn.onclick = function () {
+      if (!_this.songs.length) {
+        _this.openBlockedModal();
+        return;
+      }
       if (_this.isPlaying) {
         audio.pause();
       } else {
@@ -208,6 +410,10 @@ const app = {
       switch (e.key) {
         case ' ':
           e.preventDefault();
+          if (!_this.songs.length) {
+            _this.openBlockedModal();
+            break;
+          }
           if (_this.isPlaying) {
             audio.pause();
           } else {
@@ -312,26 +518,22 @@ const app = {
 
     // Next audio
     nextBtn.onclick = function () {
+      if (!_this.songs.length) return;
       if (_this.isRandom) {
         _this.randomSong();
       } else {
         _this.nextSong();
       }
-      audio.play();
-      _this.render();
-      _this.scrollToActiveSong();
     };
 
     // Prev audio
     prevBtn.onclick = function () {
+      if (!_this.songs.length) return;
       if (_this.isRandom) {
         _this.randomSong();
       } else {
         _this.prevSong();
       }
-      audio.play();
-      _this.render();
-      _this.scrollToActiveSong();
     };
 
     // Random audio
@@ -357,36 +559,57 @@ const app = {
 
     playList.onclick = function (e) {
       const songGroupClick = e.target.closest('.song-group');
-      const songClick = e.target.closest('.song:not(.active)');
       const optionClick = e.target.closest('.option');
+      const menuAction = e.target.closest('[data-action]');
+      const songClick = e.target.closest('.song:not(.active)');
       const lyricsClick = e.target.closest('.lyrics');
       const lyricsClickClose = e.target.closest('.lyrics-close');
       const lyricsClickScreen = e.target.closest('.lyrics-screen');
+      const openBlockedList = e.target.closest('.open-blocked-list');
 
-      if (songClick || optionClick) {
-        // Handle click song
-        if (songClick) {
-          _this.currentIndex = Number(songClick.getAttribute('data-song')); // Chuyển chuỗi thành number
-          _this.config.currentTime = 0;
-          _this.loadCurrentSong();
-          _this.render();
-          audio.play();
+      if (openBlockedList) {
+        _this.openBlockedModal();
+        return;
+      }
+
+      if (menuAction) {
+        const songElement = menuAction.closest('.song');
+        const songIndex = Number(songElement.dataset.song);
+
+        if (menuAction.dataset.action === 'lyrics') {
+          songGroupClick.querySelector('.lyrics').classList.add('active');
+          _this.closeSongMenus();
         }
 
-        // Handle click option display lyrics
-        if (optionClick) {
-          optionClick.classList.toggle('active');
+        if (menuAction.dataset.action === 'block') {
+          _this.blockSong(songIndex);
         }
 
-        if (songGroupClick) {
-          songGroupClick.children[1].classList.toggle('active');
-        }
+        return;
+      }
+
+      if (optionClick) {
+        const optionWrap = optionClick.closest('.option-wrap');
+        const shouldOpen = !optionWrap.classList.contains('open');
+        _this.closeSongMenus();
+        optionWrap.classList.toggle('open', shouldOpen);
+        optionClick.setAttribute('aria-expanded', String(shouldOpen));
+        return;
+      }
+
+      if (songClick) {
+        _this.currentIndex = Number(songClick.dataset.song);
+        _this.setConfig('currentTime', 0);
+        _this.loadCurrentSong();
+        _this.render();
+        audio.play();
+        return;
       }
 
       if (lyricsClickClose) {
-        lyricsClick.children[3].offsetParent.classList.remove('active');
-
-        songGroupClick.firstElementChild.lastElementChild.classList.remove('active');
+        lyricsClick.classList.remove('active', 'fullscreen');
+        lyricsClick.querySelector('.lyrics-screen').classList.remove('active');
+        return;
       }
 
       if (lyricsClickScreen) {
@@ -395,6 +618,41 @@ const app = {
         lyricsActiveScreen.offsetParent.classList.toggle('fullscreen');
       }
     };
+
+    blockedFab.onclick = function () {
+      _this.openBlockedModal();
+    };
+
+    blockedClose.onclick = function () {
+      _this.closeBlockedModal();
+    };
+
+    blockedModal.onclick = function (e) {
+      if (e.target === blockedModal) {
+        _this.closeBlockedModal();
+      }
+    };
+
+    blockedList.onclick = function (e) {
+      const unblockButton = e.target.closest('.unblock-song');
+      if (!unblockButton) return;
+      _this.unblockSong(Number(unblockButton.dataset.song));
+    };
+
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest('.option-wrap')) {
+        _this.closeSongMenus();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key !== 'Escape') return;
+      _this.closeSongMenus();
+      _this.closeBlockedModal();
+      document.querySelectorAll('.lyrics.active').forEach((lyrics) => {
+        lyrics.classList.remove('active', 'fullscreen');
+      });
+    });
 
     // Search music
     document.onkeydown = function (e) {
@@ -419,21 +677,27 @@ const app = {
       }
     };
 
-    this.sort(this.songs);
   },
 
   loadCurrentSong: function () {
+    if (!this.currentSong) {
+      this.clearPlayer();
+      return;
+    }
+
     document.title = `${this.currentSong.name} - Sono`;
 
     titleName.textContent = this.currentSong.name;
     titleSinger.textContent = this.currentSong.singer;
     cdThumb.style.backgroundImage = `url("${this.currentSong.image}")`;
     audio.src = this.currentSong.path;
+    audio.loop = this.isRepeat;
 
     randomBtn.classList.toggle('active', this.isRandom || false);
     repeatBtn.classList.toggle('active', this.isRepeat || false);
 
     this.setConfig('currentIndex', this.currentIndex);
+    this.setConfig('currentSongPath', this.getSongId(this.currentSong));
 
     // Restore saved playback time
     const savedTime = this.config.currentTime || 0;
@@ -441,13 +705,24 @@ const app = {
   },
 
   loadConfig: function () {
-    this.isRandom = this.config.isRandom;
-    this.isRepeat = this.config.isRepeat;
-    this.currentIndex = this.config.currentIndex || 0;
+    this.isRandom = Boolean(this.config.isRandom);
+    this.isRepeat = Boolean(this.config.isRepeat);
     this.currentTime = this.config.currentTime || 0;
+
+    const savedBlockedSongs = Array.isArray(this.config.blockedSongs)
+      ? this.config.blockedSongs
+      : [];
+    const defaultBlockedSongs = this.allSongs
+      .filter((song) => song.blocked)
+      .map((song) => this.getSongId(song));
+    this.blockedSongIds = new Set([...defaultBlockedSongs, ...savedBlockedSongs]);
+
+    this.sort(this.allSongs);
+    this.refreshSongs(this.config.currentSongPath, this.config.currentIndex || 0);
   },
 
   updateAndPlayCurrentSong: function () {
+    if (!this.currentSong) return;
     this.loadCurrentSong();
     audio.currentTime = 0;
     this.setConfig('currentTime', 0);
@@ -457,6 +732,7 @@ const app = {
   },
 
   nextSong: function () {
+    if (!this.songs.length) return;
     this.currentIndex++;
     if (this.currentIndex >= this.songs.length) {
       this.currentIndex = 0;
@@ -465,6 +741,7 @@ const app = {
   },
 
   prevSong: function () {
+    if (!this.songs.length) return;
     this.currentIndex--;
     if (this.currentIndex < 0) {
       this.currentIndex = this.songs.length - 1;
@@ -473,6 +750,11 @@ const app = {
   },
 
   randomSong: function () {
+    if (this.songs.length <= 1) {
+      if (this.songs.length === 1) this.updateAndPlayCurrentSong();
+      return;
+    }
+
     if (!this.playedSongs || this.playedSongs.size === this.songs.length) {
       this.playedSongs = new Set([this.currentIndex]);
     }
@@ -493,9 +775,10 @@ const app = {
   },
 
   scrollToActiveSong: function () {
-    // const songActive = $(".song.active");
     setTimeout(() => {
-      $('.song.active').scrollIntoView({
+      const activeSong = $('.song.active');
+      if (!activeSong) return;
+      activeSong.scrollIntoView({
         behavior: 'smooth',
         block: 'end',
         inline: 'nearest',
@@ -518,9 +801,14 @@ const app = {
 
     this.handleEvent();
 
-    this.loadCurrentSong();
+    if (this.songs.length) {
+      this.loadCurrentSong();
+    } else {
+      this.clearPlayer();
+    }
 
     this.render();
+    this.renderBlockedSongs();
   },
 };
 

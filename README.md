@@ -106,6 +106,27 @@ To get started with Sono, follow these instructions:
 
    Simply open the `index.html` file in your favorite web browser to start using the music player.
 
+## Add a song from YouTube
+
+Install the downloader dependency (the `ffmpeg` and `ffprobe` commands must also be available):
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
+Run the interactive importer:
+
+```bash
+python tools/download_song.py
+```
+
+Enter the YouTube URL, song name, artist, and optional lyrics. For multi-line lyrics,
+enter `END` on its own line when finished. The script downloads MP3 audio and a JPG
+thumbnail into the matching asset folders, then adds the song to the top of
+`assets/js/songs.js`.
+
 ## Configuration
 
 The application uses local storage to save user preferences:
